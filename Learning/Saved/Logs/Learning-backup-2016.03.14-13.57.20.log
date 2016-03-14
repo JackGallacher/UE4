@@ -1,0 +1,450 @@
+﻿Log file open, 03/14/16 13:54:35
+LogInit:Display: Running engine for game: Learning
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-1838498205) SRandInit(-1838498202).
+LogInit: Using version manifest at CL 0 with build ID '2bc44f07-fb9e-4168-a670-a705550e6d86'
+LogTaskGraph: Started task graph with 4 named threads and 5 total threads.
+LogStats: Stats thread started at 0.147828
+OCULUS: Info: 03/14/16 13:54:35: [CAPI] LibOVR module is located at C:\Windows\SYSTEM32\LibOVRRT64_0_8.dll
+
+OCULUS: Info: 03/14/16 13:54:35: [IPC] Call Stats for SetInitialState : x1: C2S=14.8184, S2C=5.10978, Runtime=70.2595 (microseconds) C2Ssize=80, S2Csize=81 (bytes)
+
+OCULUS: Info: 03/14/16 13:54:35: [IPC] Call Stats for IsLatencyTesterAvailable : x1: C2S=5.10978, S2C=2.04391, Runtime=1.02196 (microseconds) C2Ssize=33, S2Csize=18 (bytes)
+
+LogInit: Version: 4.11.0-0+UE4
+LogInit: API Version: 0
+LogInit: Compiled (64-bit): Mar 14 2016 12:24:20
+LogInit: Compiled with Visual C++: 19.00.23506.00
+LogInit: Build Configuration: Debug
+LogInit: Branch Name: UE4
+LogInit: Command line:  -debug
+LogInit: Base directory: C:/Users/Jack/Documents/GitHub/UnrealEngine/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 0
+LogInit: Using libcurl 7.41.0
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with WinSSL
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2016.03.14-13.54.35:953][  0]LogInit: Selected Device Profile: [Windows]
+[2016.03.14-13.54.35:953][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.03.14-13.54.35:965][  0]LogInit: Computer: JACK
+[2016.03.14-13.54.35:965][  0]LogInit: User: Jack
+[2016.03.14-13.54.35:965][  0]LogInit: CPU Page size=65536, Cores=2
+[2016.03.14-13.54.35:966][  0]LogInit: High frequency timer resolution =3.914062 MHz
+[2016.03.14-13.54.35:966][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2016.03.14-13.54.35:966][  0]LogMemory: Platform Memory Stats for Windows
+[2016.03.14-13.54.35:966][  0]LogMemory: Process Physical Memory: 322.48 MB used, 322.48 MB peak
+[2016.03.14-13.54.35:966][  0]LogMemory: Process Virtual Memory: 313.55 MB used, 313.55 MB peak
+[2016.03.14-13.54.35:966][  0]LogMemory: Physical Memory: 6824.39 MB used, 16304.48 MB total
+[2016.03.14-13.54.35:966][  0]LogMemory: Virtual Memory: 772.42 MB used, 134217728.00 MB total
+[2016.03.14-13.54.36:072][  0]LogPhysics:Warning: PHYSX: ..\..\module\clothing\src\ModuleClothing.cpp (386) 2 : physx::apex::clothing::ModuleClothing::ModuleClothing: Failed to load the GPU dll 'APEX_ClothingGPUPROFILE_x64.dll'
+[2016.03.14-13.54.36:076][  0]LogTextLocalizationManager: No specific translations for ('en-GB') exist, so ('en') translations will be used.
+[2016.03.14-13.54.36:661][  0]LogD3D11RHI: D3D11 adapters:
+[2016.03.14-13.54.36:726][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 980 Ti' (Feature Level 11_0)
+[2016.03.14-13.54.36:726][  0]LogD3D11RHI:       6047MB of dedicated video memory, 0MB of dedicated system memory, and 8152MB of shared system memory, 1 output[s]
+[2016.03.14-13.54.36:730][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2016.03.14-13.54.36:730][  0]LogD3D11RHI:       0MB of dedicated video memory, 0MB of dedicated system memory, and 8152MB of shared system memory, 0 output[s]
+[2016.03.14-13.54.36:730][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2016.03.14-13.54.36:733][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2016.03.14-13.54.36:733][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 980 Ti
+[2016.03.14-13.54.36:733][  0]LogD3D11RHI:   Driver Version: Unknown (internal Unknown)
+[2016.03.14-13.54.36:733][  0]LogD3D11RHI:      Driver Date: Unknown
+[2016.03.14-13.54.36:733][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.03.14-13.54.36:748][  0]LogD3D11RHI: Async texture creation enabled
+[2016.03.14-13.54.36:761][  0]LogShaderCompilers: Guid format shader working directory is 20 characters bigger than the processId version (../../../../UE4/Learning/Intermediate/Shaders/WorkingDirectory/11408/).
+[2016.03.14-13.54.36:762][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Jack/AppData/Local/Temp/UnrealShaderWorkingDir/B3777E6D42488A6AE120CBBD641FACCA/'.
+[2016.03.14-13.54.36:762][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.03.14-13.54.37:817][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.03.14-13.54.37:835][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.03.14-13.54.37:855][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.03.14-13.54.37:875][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.03.14-13.54.37:895][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.03.14-13.54.37:908][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.03.14-13.54.37:929][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.03.14-13.54.37:942][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.03.14-13.54.37:954][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.03.14-13.54.37:965][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.03.14-13.54.37:975][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.03.14-13.54.37:986][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.03.14-13.54.37:997][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.03.14-13.54.38:003][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.03.14-13.54.38:038][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.03.14-13.54.38:048][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2016.03.14-13.54.38:048][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.03.14-13.54.38:384][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.03.14-13.54.38:432][  0]LogDerivedDataCache: Loaded boot cache 0.05s 47MB ../../../../UE4/Learning/DerivedDataCache/Boot.ddc.
+[2016.03.14-13.54.38:433][  0]LogDerivedDataCache:Display: Loaded Boot cache: ../../../../UE4/Learning/DerivedDataCache/Boot.ddc
+[2016.03.14-13.54.38:433][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../UE4/Learning/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.03.14-13.54.38:433][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.03.14-13.54.38:433][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnginePak pak cache file ../../../Engine/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.03.14-13.54.38:433][  0]LogDerivedDataCache: Unable to find inner node EnginePak for hierarchical cache Hierarchy.
+[2016.03.14-13.54.38:448][  0]LogDerivedDataCache: Using Local data cache path ../../../Engine/DerivedDataCache: Writable
+[2016.03.14-13.54.38:448][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2016.03.14-13.54.38:448][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2016.03.14-13.54.39:175][  0]LogInit: Selected Device Profile: [Windows]
+[2016.03.14-13.54.39:177][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2016.03.14-13.54.39:284][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2016.03.14-13.54.39:629][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.03.14-13.54.39:629][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.03.14-13.54.39:629][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2016.03.14-13.54.40:032][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.03.14-13.54.40:383][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.03.14-13.54.40:383][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.03.14-13.54.40:459][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2016.03.14-13.54.40:459][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2016.03.14-13.54.40:459][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2016.03.14-13.54.40:459][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2016.03.14-13.54.40:459][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2016.03.14-13.54.40:459][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2016.03.14-13.54.41:045][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.03.14-13.54.41:213][  0]LogAssetRegistry: FAssetRegistry took 0.0265 seconds to start up
+[2016.03.14-13.54.41:639][  0]SourceControl: Info Source control is disabled
+[2016.03.14-13.54.41:640][  0]SourceControl: Info Source control is disabled
+[2016.03.14-13.54.41:664][  0]SourceControl: Info Source control is disabled
+[2016.03.14-13.54.41:703][  0]SourceControl: Info Source control is disabled
+[2016.03.14-13.54.42:435][  0]LogUObjectArray: 30021 objects as part of root set at end of initial load.
+[2016.03.14-13.54.42:435][  0]LogUObjectAllocator: 6411800 out of 0 bytes used by permanent object pool.
+[2016.03.14-13.54.42:435][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2016.03.14-13.54.42:614][  0]LogEngine: Initializing Engine...
+[2016.03.14-13.54.43:399][  0]LogHMD: SteamVR failed to initialize.  Err: 108
+[2016.03.14-13.54.43:721][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.03.14-13.54.43:734][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.03.14-13.54.43:798][  0]LogInit: FAudioDevice initialized.
+[2016.03.14-13.54.43:817][  0]LogDerivedDataCache: Saved boot cache 0.02s 47MB ../../../../UE4/Learning/DerivedDataCache/Boot.ddc.
+[2016.03.14-13.54.43:819][  0]LogInit: Texture streaming: Enabled
+[2016.03.14-13.54.43:876][  0]LogInit: Transaction tracking system initialized
+[2016.03.14-13.54.43:942][  0]BlueprintLog: New page: Editor Load
+[2016.03.14-13.54.44:186][  0]LocalizationService: Info Localization service is disabled
+[2016.03.14-13.54.44:359][  0]LogConsoleResponse:Display: 
+[2016.03.14-13.54.44:545][  0]LogCook:Display: Max memory allowance for cook 8192mb
+[2016.03.14-13.54.44:545][  0]LogCook:Display: Mobile HDR setting 1
+[2016.03.14-13.54.44:545][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.03.14-13.54.44:676][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Jack/Documents/GitHub/UE4/Learning/Content/' took 0.01s
+[2016.03.14-13.54.44:676][  0]SourceControl: Info Source control is disabled
+[2016.03.14-13.54.44:676][  0]Cmd: MAP LOAD FILE="../../../../UE4/Learning/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.03.14-13.54.44:676][  0]LightingResults: New page: Lighting Build
+[2016.03.14-13.54.44:682][  0]MapCheck: New page: Map Check
+[2016.03.14-13.54.44:682][  0]LightingResults: New page: Lighting Build
+[2016.03.14-13.54.45:453][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2016.03.14-13.54.45:466][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.03.14-13.54.45:467][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.03.14-13.54.45:509][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 41.673ms to complete.
+[2016.03.14-13.54.45:509][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.833
+[2016.03.14-13.54.45:667][  0]LogCollectionManager: Loaded 0 collections in 0.002737 seconds
+[2016.03.14-13.54.45:716][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Jack/Documents/GitHub/UE4/Learning/Saved/Collections/' took 0.01s
+[2016.03.14-13.54.45:716][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Jack/Documents/GitHub/UE4/Learning/Content/Developers/Jack/Collections/' took 0.01s
+[2016.03.14-13.54.45:716][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Jack/Documents/GitHub/UE4/Learning/Content/Collections/' took 0.01s
+[2016.03.14-13.54.45:716][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2016.03.14-13.54.45:737][  0]LogContentBrowser: Native class hierarchy populated in 0.0206 seconds. Added 1986 classes and 346 folders.
+[2016.03.14-13.54.45:743][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2016.03.14-13.54.45:743][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2016.03.14-13.54.45:745][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0015 seconds. Added 12 classes and 0 folders.
+[2016.03.14-13.54.45:753][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0012 seconds. Added 0 classes and 0 folders.
+[2016.03.14-13.54.45:804][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0012 seconds. Added 0 classes and 0 folders.
+[2016.03.14-13.54.45:819][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0014 seconds. Added 1 classes and 2 folders.
+[2016.03.14-13.54.45:855][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.03.14-13.54.45:928][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0015 seconds. Added 1 classes and 2 folders.
+[2016.03.14-13.54.45:928][  0]LogLoad: Full Startup: 11.71 seconds (BP compile: 0.10 seconds)
+[2016.03.14-13.54.45:928][  0]LogExternalProfiler:Warning: No registered external profiler was matched with a command-line switch (or the DLL could not be loaded).  External profiling features will not be available.
+[2016.03.14-13.54.46:268][  0]LogOcInput: OculusInput is initialized. Init status 0. Runtime version: 0.8.0.0
+[2016.03.14-13.54.46:316][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.03.14-13.54.46:539][  0]LogRenderer: Reallocating scene render targets to support 1616x808 (Frame:2).
+[2016.03.14-13.54.46:957][  2]LogAssetRegistry: Asset discovery search completed in 5.7700 seconds
+[2016.03.14-13.54.46:957][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2016.03.14-13.54.46:957][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000102 seconds (updated 0 objects)
+[2016.03.14-13.55.15:153][225]Recompiling Learning...
+[2016.03.14-13.55.15:153][225]Building UnrealBuildTool...
+[2016.03.14-13.55.15:153][225]Building UnrealBuildTool in C:/Users/Jack/Documents/GitHub/UnrealEngine/...
+[2016.03.14-13.55.15:154][225]Running: C:\Windows\system32\cmd.exe /c "C:\Users\Jack\Documents\GitHub\UnrealEngine\Engine\Intermediate\Build\UnrealBuildTool\BuildUBT.bat"
+[2016.03.14-13.55.16:721][225]Launching UnrealBuildTool... [C:/Users/Jack/Documents/GitHub/UnrealEngine/Engine/Binaries/DotNET/UnrealBuildTool.exe Learning -ModuleWithSuffix Learning 752 Win64 Debug -editorrecompile -canskiplink "C:/Users/Jack/Documents/GitHub/UE4/Learning/Learning.uproject"  -2015]
+[2016.03.14-13.55.16:734][225]Warning: Starting HotReload took  1.6s.
+[2016.03.14-13.55.26:829][782]CompilerResultsLog: New page: Compilation - 14 Mar 2016 13:55:26
+[2016.03.14-13.55.26:829][782]CompilerResultsLog: Info Creating makefile for hot reloading Learning (working set of source files changed)
+[2016.03.14-13.55.26:829][782]CompilerResultsLog: Info Compiling game modules for hot reload
+[2016.03.14-13.55.26:829][782]CompilerResultsLog: Info Building UnrealHeaderTool...
+[2016.03.14-13.55.26:829][782]CompilerResultsLog: Info Target is up to date
+[2016.03.14-13.55.26:829][782]CompilerResultsLog: Info Parsing headers for LearningEditor
+[2016.03.14-13.55.26:829][782]CompilerResultsLog: Info   Running UnrealHeaderTool "C:\Users\Jack\Documents\GitHub\UE4\Learning\Learning.uproject" "C:\Users\Jack\Documents\GitHub\UE4\Learning\Intermediate\Build\Win64\LearningEditor\Debug\UnrealHeaderTool.manifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors
+[2016.03.14-13.55.26:830][782]CompilerResultsLog: Info Reflection code generated for LearningEditor in 3.1575452 seconds
+[2016.03.14-13.55.26:830][782]CompilerResultsLog: Info Performing 2 actions (2 in parallel)
+[2016.03.14-13.55.26:830][782]CompilerResultsLog: Info FloatingActor.cpp
+[2016.03.14-13.55.26:830][782]CompilerResultsLog: Info [2/2] Link UE4Editor-Learning-752-Win64-Debug.dll
+[2016.03.14-13.55.26:830][782]CompilerResultsLog: Info    Creating library C:\Users\Jack\Documents\GitHub\UE4\Learning\Intermediate\Build\Win64\UE4Editor\Debug\UE4Editor-Learning-752-Win64-Debug.lib and object C:\Users\Jack\Documents\GitHub\UE4\Learning\Intermediate\Build\Win64\UE4Editor\Debug\UE4Editor-Learning-752-Win64-Debug.exp
+[2016.03.14-13.55.26:830][782]CompilerResultsLog: Info -------- End Detailed Actions Stats -----------------------------------------------------------
+[2016.03.14-13.55.26:830][782]CompilerResultsLog: Info Total build time: 10.02 seconds
+[2016.03.14-13.55.26:830][782]LogMainFrame: MainFrame: Module compiling took 11.682 seconds
+[2016.03.14-13.55.26:946][782]LogContentBrowser: Native class hierarchy updated for 'Learning' in 0.0016 seconds. Added 2 classes and 2 folders.
+[2016.03.14-13.55.26:949][782]Warning: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2016.03.14-13.55.27:139][782]LogContentBrowser: Native class hierarchy populated in 0.0264 seconds. Added 1988 classes and 350 folders.
+[2016.03.14-13.55.27:139][782]Warning: HotReload took 12.0s.
+[2016.03.14-13.55.28:601][862]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.03.14-13.55.28:601][862]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.14-13.55.28:602][862]PIE: New page: PIE session: Minimal_Default (14 Mar 2016 13:55:28)
+[2016.03.14-13.55.28:602][862]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2016.03.14-13.55.28:613][862]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011133s)
+[2016.03.14-13.55.28:614][862]LogAIModule: Creating AISystem for world Minimal_Default
+[2016.03.14-13.55.28:614][862]LogPlayLevel: PIE: World Init took: (0.001037s)
+[2016.03.14-13.55.28:614][862]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.012790s)
+[2016.03.14-13.55.28:684][862]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.03.14-13.55.28:712][862]LogInit: FAudioDevice initialized.
+[2016.03.14-13.55.28:774][862]LogWorld: Game class is 'LearningGameMode'
+[2016.03.14-13.55.28:778][862]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2016.03.14-13.55.28
+[2016.03.14-13.55.28:780][862]LogWorld: Bringing up level for play took: 0.004064
+[2016.03.14-13.55.28:799][862]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0013 seconds. Added 9 classes and 0 folders.
+[2016.03.14-13.55.28:801][862]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.598
+[2016.03.14-13.55.28:802][862]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.03.14-13.55.28:803][862]LogTemp:Warning: Your message
+[2016.03.14-13.55.28:866][863]LogTemp:Warning: Your message
+[2016.03.14-13.55.28:888][864]LogTemp:Warning: Your message
+[2016.03.14-13.55.28:903][865]LogTemp:Warning: Your message
+[2016.03.14-13.55.28:918][866]LogTemp:Warning: Your message
+[2016.03.14-13.55.28:934][867]LogTemp:Warning: Your message
+[2016.03.14-13.55.28:949][868]LogTemp:Warning: Your message
+[2016.03.14-13.55.28:963][869]LogTemp:Warning: Your message
+[2016.03.14-13.55.28:977][870]LogTemp:Warning: Your message
+[2016.03.14-13.55.28:992][871]LogTemp:Warning: Your message
+[2016.03.14-13.55.29:005][872]LogTemp:Warning: Your message
+[2016.03.14-13.55.29:020][873]LogTemp:Warning: Your message
+[2016.03.14-13.55.29:034][874]LogTemp:Warning: Your message
+[2016.03.14-13.55.29:048][875]LogTemp:Warning: Your message
+[2016.03.14-13.55.29:062][876]LogTemp:Warning: Your message
+[2016.03.14-13.55.29:076][877]LogTemp:Warning: Your message
+[2016.03.14-13.55.29:091][878]LogTemp:Warning: Your message
+[2016.03.14-13.55.29:105][879]LogTemp:Warning: Your message
+[2016.03.14-13.55.29:118][880]LogTemp:Warning: Your message
+[2016.03.14-13.55.29:132][881]LogTemp:Warning: Your message
+[2016.03.14-13.55.29:148][882]LogTemp:Warning: Your message
+[2016.03.14-13.55.29:163][883]LogTemp:Warning: Your message
+[2016.03.14-13.55.29:178][884]LogTemp:Warning: Your message
+[2016.03.14-13.55.29:192][885]LogTemp:Warning: Your message
+[2016.03.14-13.55.29:206][886]LogTemp:Warning: Your message
+[2016.03.14-13.55.29:222][887]LogTemp:Warning: Your message
+[2016.03.14-13.55.29:237][888]LogTemp:Warning: Your message
+[2016.03.14-13.55.29:251][889]LogTemp:Warning: Your message
+[2016.03.14-13.55.29:265][890]LogTemp:Warning: Your message
+[2016.03.14-13.55.29:279][891]LogTemp:Warning: Your message
+[2016.03.14-13.55.29:295][892]LogTemp:Warning: Your message
+[2016.03.14-13.55.29:309][893]LogTemp:Warning: Your message
+[2016.03.14-13.55.29:323][894]LogTemp:Warning: Your message
+[2016.03.14-13.55.29:337][895]LogTemp:Warning: Your message
+[2016.03.14-13.55.29:353][896]LogTemp:Warning: Your message
+[2016.03.14-13.55.29:369][897]LogTemp:Warning: Your message
+[2016.03.14-13.55.29:383][898]LogTemp:Warning: Your message
+[2016.03.14-13.55.29:398][899]LogTemp:Warning: Your message
+[2016.03.14-13.55.29:412][900]LogTemp:Warning: Your message
+[2016.03.14-13.55.29:426][901]LogTemp:Warning: Your message
+[2016.03.14-13.55.29:440][902]LogTemp:Warning: Your message
+[2016.03.14-13.55.29:454][903]LogTemp:Warning: Your message
+[2016.03.14-13.55.29:469][904]LogTemp:Warning: Your message
+[2016.03.14-13.55.29:484][905]LogTemp:Warning: Your message
+[2016.03.14-13.55.29:498][906]LogTemp:Warning: Your message
+[2016.03.14-13.55.29:512][907]LogTemp:Warning: Your message
+[2016.03.14-13.55.29:527][908]LogTemp:Warning: Your message
+[2016.03.14-13.55.29:541][909]LogTemp:Warning: Your message
+[2016.03.14-13.55.29:555][910]LogTemp:Warning: Your message
+[2016.03.14-13.55.29:570][911]LogTemp:Warning: Your message
+[2016.03.14-13.55.29:585][912]LogTemp:Warning: Your message
+[2016.03.14-13.55.29:599][913]LogTemp:Warning: Your message
+[2016.03.14-13.55.29:613][914]LogTemp:Warning: Your message
+[2016.03.14-13.55.29:628][915]LogTemp:Warning: Your message
+[2016.03.14-13.55.29:642][916]LogTemp:Warning: Your message
+[2016.03.14-13.55.29:656][917]LogTemp:Warning: Your message
+[2016.03.14-13.55.29:670][918]LogTemp:Warning: Your message
+[2016.03.14-13.55.29:684][919]LogTemp:Warning: Your message
+[2016.03.14-13.55.29:699][920]LogTemp:Warning: Your message
+[2016.03.14-13.55.29:713][921]LogTemp:Warning: Your message
+[2016.03.14-13.55.29:726][922]LogTemp:Warning: Your message
+[2016.03.14-13.55.29:741][923]LogTemp:Warning: Your message
+[2016.03.14-13.55.29:755][924]LogTemp:Warning: Your message
+[2016.03.14-13.55.29:770][925]LogTemp:Warning: Your message
+[2016.03.14-13.55.29:784][926]LogTemp:Warning: Your message
+[2016.03.14-13.55.29:798][927]LogTemp:Warning: Your message
+[2016.03.14-13.55.29:812][928]LogTemp:Warning: Your message
+[2016.03.14-13.55.29:826][929]LogTemp:Warning: Your message
+[2016.03.14-13.55.29:841][930]LogTemp:Warning: Your message
+[2016.03.14-13.55.29:855][931]LogTemp:Warning: Your message
+[2016.03.14-13.55.29:869][932]LogTemp:Warning: Your message
+[2016.03.14-13.55.29:882][933]LogTemp:Warning: Your message
+[2016.03.14-13.55.29:897][934]LogTemp:Warning: Your message
+[2016.03.14-13.55.29:911][935]LogTemp:Warning: Your message
+[2016.03.14-13.55.29:925][936]LogTemp:Warning: Your message
+[2016.03.14-13.55.29:940][937]LogTemp:Warning: Your message
+[2016.03.14-13.55.29:954][938]LogTemp:Warning: Your message
+[2016.03.14-13.55.29:968][939]LogTemp:Warning: Your message
+[2016.03.14-13.55.29:985][940]LogTemp:Warning: Your message
+[2016.03.14-13.55.30:002][941]LogTemp:Warning: Your message
+[2016.03.14-13.55.30:016][942]LogTemp:Warning: Your message
+[2016.03.14-13.55.30:031][943]LogTemp:Warning: Your message
+[2016.03.14-13.55.30:045][944]LogTemp:Warning: Your message
+[2016.03.14-13.55.30:058][945]LogTemp:Warning: Your message
+[2016.03.14-13.55.30:073][946]LogTemp:Warning: Your message
+[2016.03.14-13.55.30:086][947]LogTemp:Warning: Your message
+[2016.03.14-13.55.30:100][948]LogTemp:Warning: Your message
+[2016.03.14-13.55.30:114][949]LogTemp:Warning: Your message
+[2016.03.14-13.55.30:129][950]LogTemp:Warning: Your message
+[2016.03.14-13.55.30:142][951]LogTemp:Warning: Your message
+[2016.03.14-13.55.30:156][952]LogTemp:Warning: Your message
+[2016.03.14-13.55.30:170][953]LogTemp:Warning: Your message
+[2016.03.14-13.55.30:184][954]LogTemp:Warning: Your message
+[2016.03.14-13.55.30:199][955]LogTemp:Warning: Your message
+[2016.03.14-13.55.30:213][956]LogTemp:Warning: Your message
+[2016.03.14-13.55.30:228][957]LogTemp:Warning: Your message
+[2016.03.14-13.55.30:244][958]LogTemp:Warning: Your message
+[2016.03.14-13.55.30:258][959]LogTemp:Warning: Your message
+[2016.03.14-13.55.30:271][960]LogTemp:Warning: Your message
+[2016.03.14-13.55.30:285][961]LogTemp:Warning: Your message
+[2016.03.14-13.55.30:298][962]LogTemp:Warning: Your message
+[2016.03.14-13.55.30:312][963]LogTemp:Warning: Your message
+[2016.03.14-13.55.30:326][964]LogTemp:Warning: Your message
+[2016.03.14-13.55.30:339][965]LogTemp:Warning: Your message
+[2016.03.14-13.55.30:353][966]LogTemp:Warning: Your message
+[2016.03.14-13.55.30:367][967]LogTemp:Warning: Your message
+[2016.03.14-13.55.30:381][968]LogTemp:Warning: Your message
+[2016.03.14-13.55.30:394][969]LogTemp:Warning: Your message
+[2016.03.14-13.55.30:409][970]LogTemp:Warning: Your message
+[2016.03.14-13.55.30:424][971]LogTemp:Warning: Your message
+[2016.03.14-13.55.30:440][972]LogTemp:Warning: Your message
+[2016.03.14-13.55.30:454][973]LogTemp:Warning: Your message
+[2016.03.14-13.55.30:468][974]LogTemp:Warning: Your message
+[2016.03.14-13.55.30:482][975]LogTemp:Warning: Your message
+[2016.03.14-13.55.30:498][976]LogTemp:Warning: Your message
+[2016.03.14-13.55.30:513][977]LogTemp:Warning: Your message
+[2016.03.14-13.55.30:527][978]LogTemp:Warning: Your message
+[2016.03.14-13.55.30:542][979]LogTemp:Warning: Your message
+[2016.03.14-13.55.30:556][980]LogTemp:Warning: Your message
+[2016.03.14-13.55.30:569][981]LogTemp:Warning: Your message
+[2016.03.14-13.55.30:583][982]LogTemp:Warning: Your message
+[2016.03.14-13.55.30:597][983]LogTemp:Warning: Your message
+[2016.03.14-13.55.30:611][984]LogTemp:Warning: Your message
+[2016.03.14-13.55.30:626][985]LogTemp:Warning: Your message
+[2016.03.14-13.55.30:641][986]LogTemp:Warning: Your message
+[2016.03.14-13.55.30:655][987]LogTemp:Warning: Your message
+[2016.03.14-13.55.30:670][988]LogTemp:Warning: Your message
+[2016.03.14-13.55.30:685][989]LogTemp:Warning: Your message
+[2016.03.14-13.55.30:700][990]LogTemp:Warning: Your message
+[2016.03.14-13.55.30:715][991]LogTemp:Warning: Your message
+[2016.03.14-13.55.30:731][992]LogTemp:Warning: Your message
+[2016.03.14-13.55.30:750][993]LogTemp:Warning: Your message
+[2016.03.14-13.55.30:764][994]LogTemp:Warning: Your message
+[2016.03.14-13.55.30:779][995]LogTemp:Warning: Your message
+[2016.03.14-13.55.30:794][996]LogTemp:Warning: Your message
+[2016.03.14-13.55.30:809][997]LogTemp:Warning: Your message
+[2016.03.14-13.55.30:825][998]LogTemp:Warning: Your message
+[2016.03.14-13.55.30:841][999]LogTemp:Warning: Your message
+[2016.03.14-13.55.30:856][  0]LogTemp:Warning: Your message
+[2016.03.14-13.55.30:872][  1]LogTemp:Warning: Your message
+[2016.03.14-13.55.30:887][  2]LogTemp:Warning: Your message
+[2016.03.14-13.55.30:901][  3]LogTemp:Warning: Your message
+[2016.03.14-13.55.30:915][  4]LogTemp:Warning: Your message
+[2016.03.14-13.55.30:929][  5]LogTemp:Warning: Your message
+[2016.03.14-13.55.30:943][  6]LogTemp:Warning: Your message
+[2016.03.14-13.55.30:958][  7]LogTemp:Warning: Your message
+[2016.03.14-13.55.30:972][  8]LogTemp:Warning: Your message
+[2016.03.14-13.55.30:986][  9]LogTemp:Warning: Your message
+[2016.03.14-13.55.31:002][ 10]LogTemp:Warning: Your message
+[2016.03.14-13.55.31:017][ 11]LogTemp:Warning: Your message
+[2016.03.14-13.55.31:031][ 12]LogTemp:Warning: Your message
+[2016.03.14-13.55.31:047][ 13]LogTemp:Warning: Your message
+[2016.03.14-13.55.31:062][ 14]LogTemp:Warning: Your message
+[2016.03.14-13.55.31:076][ 15]LogTemp:Warning: Your message
+[2016.03.14-13.55.31:090][ 16]LogTemp:Warning: Your message
+[2016.03.14-13.55.31:104][ 17]LogTemp:Warning: Your message
+[2016.03.14-13.55.31:119][ 18]LogTemp:Warning: Your message
+[2016.03.14-13.55.31:133][ 19]LogTemp:Warning: Your message
+[2016.03.14-13.55.31:148][ 20]LogTemp:Warning: Your message
+[2016.03.14-13.55.31:163][ 21]LogTemp:Warning: Your message
+[2016.03.14-13.55.31:178][ 22]LogTemp:Warning: Your message
+[2016.03.14-13.55.31:191][ 23]LogTemp:Warning: Your message
+[2016.03.14-13.55.31:207][ 24]LogTemp:Warning: Your message
+[2016.03.14-13.55.31:223][ 25]LogTemp:Warning: Your message
+[2016.03.14-13.55.31:238][ 26]LogTemp:Warning: Your message
+[2016.03.14-13.55.31:254][ 27]LogTemp:Warning: Your message
+[2016.03.14-13.55.31:270][ 28]LogTemp:Warning: Your message
+[2016.03.14-13.55.31:283][ 29]LogTemp:Warning: Your message
+[2016.03.14-13.55.31:297][ 30]LogTemp:Warning: Your message
+[2016.03.14-13.55.31:310][ 31]LogTemp:Warning: Your message
+[2016.03.14-13.55.31:324][ 32]LogTemp:Warning: Your message
+[2016.03.14-13.55.31:337][ 33]LogTemp:Warning: Your message
+[2016.03.14-13.55.31:352][ 34]LogTemp:Warning: Your message
+[2016.03.14-13.55.31:366][ 35]LogTemp:Warning: Your message
+[2016.03.14-13.55.31:381][ 36]LogTemp:Warning: Your message
+[2016.03.14-13.55.31:394][ 37]LogTemp:Warning: Your message
+[2016.03.14-13.55.31:409][ 38]LogTemp:Warning: Your message
+[2016.03.14-13.55.31:424][ 39]LogTemp:Warning: Your message
+[2016.03.14-13.55.31:438][ 40]LogTemp:Warning: Your message
+[2016.03.14-13.55.31:452][ 41]LogTemp:Warning: Your message
+[2016.03.14-13.55.31:467][ 42]LogTemp:Warning: Your message
+[2016.03.14-13.55.31:483][ 43]LogTemp:Warning: Your message
+[2016.03.14-13.55.31:498][ 44]LogTemp:Warning: Your message
+[2016.03.14-13.55.31:511][ 45]LogTemp:Warning: Your message
+[2016.03.14-13.55.31:525][ 46]LogTemp:Warning: Your message
+[2016.03.14-13.55.31:540][ 47]LogTemp:Warning: Your message
+[2016.03.14-13.55.31:554][ 48]LogTemp:Warning: Your message
+[2016.03.14-13.55.31:567][ 49]LogTemp:Warning: Your message
+[2016.03.14-13.55.31:581][ 50]LogTemp:Warning: Your message
+[2016.03.14-13.55.31:595][ 51]LogTemp:Warning: Your message
+[2016.03.14-13.55.31:608][ 52]LogTemp:Warning: Your message
+[2016.03.14-13.55.31:622][ 53]LogTemp:Warning: Your message
+[2016.03.14-13.55.31:636][ 54]LogTemp:Warning: Your message
+[2016.03.14-13.55.31:650][ 55]LogTemp:Warning: Your message
+[2016.03.14-13.55.31:663][ 56]LogTemp:Warning: Your message
+[2016.03.14-13.55.31:677][ 57]LogTemp:Warning: Your message
+[2016.03.14-13.55.31:692][ 58]LogTemp:Warning: Your message
+[2016.03.14-13.55.31:708][ 59]LogTemp:Warning: Your message
+[2016.03.14-13.55.31:723][ 60]LogTemp:Warning: Your message
+[2016.03.14-13.55.31:737][ 61]LogTemp:Warning: Your message
+[2016.03.14-13.55.31:751][ 62]LogTemp:Warning: Your message
+[2016.03.14-13.55.31:765][ 63]LogTemp:Warning: Your message
+[2016.03.14-13.55.31:778][ 64]LogTemp:Warning: Your message
+[2016.03.14-13.55.31:793][ 65]LogTemp:Warning: Your message
+[2016.03.14-13.55.31:806][ 66]LogTemp:Warning: Your message
+[2016.03.14-13.55.31:820][ 67]LogTemp:Warning: Your message
+[2016.03.14-13.55.31:834][ 68]LogTemp:Warning: Your message
+[2016.03.14-13.55.31:847][ 69]LogTemp:Warning: Your message
+[2016.03.14-13.55.31:861][ 70]LogTemp:Warning: Your message
+[2016.03.14-13.55.31:875][ 71]LogTemp:Warning: Your message
+[2016.03.14-13.55.31:891][ 72]LogTemp:Warning: Your message
+[2016.03.14-13.55.31:907][ 73]LogTemp:Warning: Your message
+[2016.03.14-13.55.31:921][ 74]LogTemp:Warning: Your message
+[2016.03.14-13.55.31:936][ 75]LogTemp:Warning: Your message
+[2016.03.14-13.55.31:949][ 76]LogTemp:Warning: Your message
+[2016.03.14-13.55.31:964][ 77]LogTemp:Warning: Your message
+[2016.03.14-13.55.31:978][ 78]LogTemp:Warning: Your message
+[2016.03.14-13.55.31:992][ 79]LogTemp:Warning: Your message
+[2016.03.14-13.55.32:007][ 80]LogTemp:Warning: Your message
+[2016.03.14-13.55.32:021][ 81]LogTemp:Warning: Your message
+[2016.03.14-13.55.32:035][ 82]LogTemp:Warning: Your message
+[2016.03.14-13.55.32:049][ 83]LogTemp:Warning: Your message
+[2016.03.14-13.55.32:063][ 84]LogTemp:Warning: Your message
+[2016.03.14-13.55.32:076][ 85]LogTemp:Warning: Your message
+[2016.03.14-13.55.32:091][ 86]LogTemp:Warning: Your message
+[2016.03.14-13.55.32:104][ 87]LogTemp:Warning: Your message
+[2016.03.14-13.55.32:121][ 88]LogTemp:Warning: Your message
+[2016.03.14-13.55.32:135][ 89]LogTemp:Warning: Your message
+[2016.03.14-13.55.32:149][ 90]LogTemp:Warning: Your message
+[2016.03.14-13.55.32:166][ 91]LogTemp:Warning: Your message
+[2016.03.14-13.55.32:181][ 92]LogTemp:Warning: Your message
+[2016.03.14-13.55.32:196][ 93]LogTemp:Warning: Your message
+[2016.03.14-13.55.32:215][ 94]LogTemp:Warning: Your message
+[2016.03.14-13.55.32:230][ 95]LogTemp:Warning: Your message
+[2016.03.14-13.55.32:246][ 96]LogTemp:Warning: Your message
+[2016.03.14-13.55.32:261][ 97]LogTemp:Warning: Your message
+[2016.03.14-13.55.32:274][ 98]LogTemp:Warning: Your message
+[2016.03.14-13.55.32:289][ 99]LogTemp:Warning: Your message
+[2016.03.14-13.55.32:303][100]LogTemp:Warning: Your message
+[2016.03.14-13.55.32:319][101]LogTemp:Warning: Your message
+[2016.03.14-13.55.32:334][102]LogTemp:Warning: Your message
+[2016.03.14-13.55.32:348][103]LogTemp:Warning: Your message
+[2016.03.14-13.55.32:363][104]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.03.14-13.55.32:408][104]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterCon

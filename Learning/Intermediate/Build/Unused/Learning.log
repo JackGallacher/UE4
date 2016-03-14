@@ -1,0 +1,13 @@
+﻿  Creating makefile for LearningEditor (working set of source files changed)
+  Building UnrealHeaderTool...
+  Target is up to date
+  Parsing headers for LearningEditor
+    Running UnrealHeaderTool "C:\Users\Jack\Documents\GitHub\UE4\Learning\Learning.uproject" "C:\Users\Jack\Documents\GitHub\UE4\Learning\Intermediate\Build\Win64\LearningEditor\Debug\UnrealHeaderTool.manifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors
+  Reflection code generated for LearningEditor in 5.9124881 seconds
+  Performing 3 actions (2 in parallel)
+  FloatingActor.cpp
+  Learning.generated.cpp
+  [3/3] Link UE4Editor-Learning-Win64-Debug.dll
+     Creating library C:\Users\Jack\Documents\GitHub\UE4\Learning\Intermediate\Build\Win64\UE4Editor\Debug\UE4Editor-Learning-Win64-Debug.lib and object C:\Users\Jack\Documents\GitHub\UE4\Learning\Intermediate\Build\Win64\UE4Editor\Debug\UE4Editor-Learning-Win64-Debug.exp
+  -------- End Detailed Actions Stats -----------------------------------------------------------
+  Total build time: 18.54 seconds

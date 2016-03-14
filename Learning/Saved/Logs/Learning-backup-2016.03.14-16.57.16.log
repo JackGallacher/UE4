@@ -1,0 +1,55 @@
+﻿Log file open, 03/14/16 16:56:44
+LogInit:Display: Running engine for game: Learning
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-2009708805) SRandInit(-2009708803).
+LogTaskGraph: Started task graph with 4 named threads and 5 total threads.
+LogStats: Stats thread started at 0.046734
+LogInit:Warning: Incompatible or missing module: UE4Editor-Learning.dll
+Running C:/Users/Jack/Documents/GitHub/UnrealEngine/Engine/Binaries/DotNET/UnrealBuildTool.exe Learning Development Win64 -project="C:/Users/Jack/Documents/GitHub/UE4/Learning/Learning.uproject" -editorrecompile -progress -noubtmakefiles -NoHotReloadFromIDE -2015
+@progress push 5%
+Building UnrealHeaderTool...
+Target is up to date
+Parsing headers for LearningEditor
+  Running UnrealHeaderTool "C:\Users\Jack\Documents\GitHub\UE4\Learning\Learning.uproject" "C:\Users\Jack\Documents\GitHub\UE4\Learning\Intermediate\Build\Win64\LearningEditor\Development\UnrealHeaderTool.manifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors
+Reflection code generated for LearningEditor in 4.5907923 seconds
+@progress pop
+Performing 314 actions (2 in parallel)
+[1/314] Link UE4Editor-Core.dll
+LINK : fatal error LNK1104: cannot open file 'C:\Users\Jack\Documents\GitHub\UnrealEngine\Engine\Binaries\Win64\UE4Editor-Core.dll'
+FloatingActor.cpp
+-------- End Detailed Actions Stats -----------------------------------------------------------
+ERROR: UBT ERROR: Failed to produce item: C:\Users\Jack\Documents\GitHub\UnrealEngine\Engine\Binaries\Win64\UE4Editor-Core.pdb
+Total build time: 16.09 seconds
+LogInit:Warning: Still incompatible or missing module: UE4Editor-Learning.dll
+LogExit: Preparing to exit.
+LogDerivedDataCache:Display: Max Cache Size: 512 MB
+LogDerivedDataCache: Loaded boot cache 0.04s 47MB ../../../../UE4/Learning/DerivedDataCache/Boot.ddc.
+LogDerivedDataCache:Display: Loaded Boot cache: ../../../../UE4/Learning/DerivedDataCache/Boot.ddc
+LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../UE4/Learning/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+LogDerivedDataCache: FDerivedDataBackendGraph:  EnginePak pak cache file ../../../Engine/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+LogDerivedDataCache: Unable to find inner node EnginePak for hierarchical cache Hierarchy.
+LogDerivedDataCache: Using Local data cache path ../../../Engine/DerivedDataCache: Writable
+LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+LogDerivedDataCache: Shutdown
+LogModuleManager: Shutting down and abandoning module CookingStats (17)
+LogModuleManager: Shutting down and abandoning module DerivedDataCache (16)
+LogDerivedDataCache: Shutdown
+LogModuleManager: Shutting down and abandoning module DesktopPlatform (15)
+LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+LogModuleManager: Shutting down and abandoning module Landscape (12)
+LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+LogModuleManager: Shutting down and abandoning module Renderer (7)
+LogModuleManager: Shutting down and abandoning module Engine (6)
+LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+LogModuleManager: Shutting down and abandoning module PakFile (1)
+LogExit: Exiting.
+Log file closed, 03/14/16 16:57:04

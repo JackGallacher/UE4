@@ -1,0 +1,1264 @@
+﻿Log file open, 03/14/16 17:37:11
+LogInit:Display: Running engine for game: Learning
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-1102866361) SRandInit(-1102866360).
+LogTaskGraph: Started task graph with 4 named threads and 5 total threads.
+LogStats: Stats thread started at 0.070610
+LogInit:Warning: Incompatible or missing module: UE4Editor-Learning.dll
+Running C:/Users/Jack/Documents/GitHub/UnrealEngine/Engine/Binaries/DotNET/UnrealBuildTool.exe Learning Development Win64 -project="C:/Users/Jack/Documents/GitHub/UE4/Learning/Learning.uproject" -editorrecompile -progress -noubtmakefiles -NoHotReloadFromIDE -2015
+@progress push 5%
+Building UnrealHeaderTool...
+Target is up to date
+Parsing headers for LearningEditor
+  Running UnrealHeaderTool "C:\Users\Jack\Documents\GitHub\UE4\Learning\Learning.uproject" "C:\Users\Jack\Documents\GitHub\UE4\Learning\Intermediate\Build\Win64\LearningEditor\Development\UnrealHeaderTool.manifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors
+Reflection code generated for LearningEditor in 6.5598955 seconds
+@progress pop
+Performing 1501 actions (2 in parallel)
+PCH.Core.h.cpp
+PCH.UnrealEd.h.cpp
+PCH.Engine.h.cpp
+PCH.CoreUObject.h.cpp
+PCH.CorePrivatePCH.h.cpp
+[6/1501] Resource ModuleVersionResource.rc.inl
+Module.Core.2_of_8.cpp
+Module.Core.1_of_8.cpp
+Module.Core.4_of_8.cpp
+Module.Core.7_of_8.cpp
+Module.Core.5_of_8.cpp
+Module.Core.3_of_8.cpp
+Module.Core.6_of_8.cpp
+Module.Core.8_of_8.cpp
+[15/1501] Resource PCLaunch.rc
+Module.Json.cpp
+[17/1501] Resource ModuleVersionResource.rc.inl
+[18/1501] Resource PCLaunch.rc
+Module.Projects.cpp
+[20/1501] Resource PCLaunch.rc
+[21/1501] Resource ModuleVersionResource.rc.inl
+Module.CoreUObject.1_of_4.cpp
+[23/1501] Link UE4Editor-Core.dll
+LINK : fatal error LNK1104: cannot open file 'C:\Users\Jack\Documents\GitHub\UnrealEngine\Engine\Binaries\Win64\UE4Editor-Core.dll'
+Module.CoreUObject.3_of_4.cpp
+Module.CoreUObject.2_of_4.cpp
+Module.CoreUObject.4_of_4.cpp
+CoreUObject.generated.cpp
+[28/1501] Resource ModuleVersionResource.rc.inl
+[29/1501] Resource PCLaunch.rc
+PCH.SlateBasics.h.cpp
+PCH.EnginePrivate.h.cpp
+Module.InputCore.cpp
+InputCore.generated.cpp
+[34/1501] Resource ModuleVersionResource.rc.inl
+[35/1501] Resource PCLaunch.rc
+Module.SlateCore.cpp
+SlateCore.generated.cpp
+[38/1501] Resource ModuleVersionResource.rc.inl
+[39/1501] Resource PCLaunch.rc
+Module.Slate.2_of_5.cpp
+Module.Slate.3_of_5.cpp
+Module.Slate.4_of_5.cpp
+Module.Slate.1_of_5.cpp
+Slate.generated.cpp
+Module.Slate.5_of_5.cpp
+[46/1501] Resource ModuleVersionResource.rc.inl
+[47/1501] Resource PCLaunch.rc
+PCH.UnrealEd.h.cpp
+Module.RHI.cpp
+[50/1501] Resource PCLaunch.rc
+[51/1501] Resource ModuleVersionResource.rc.inl
+Module.RenderCore.cpp
+Module.SandboxFile.cpp
+[54/1501] Resource PCLaunch.rc
+[55/1501] Resource ModuleVersionResource.rc.inl
+[56/1501] Resource PCLaunch.rc
+[57/1501] Resource ModuleVersionResource.rc.inl
+Module.Sockets.cpp
+[59/1501] Resource ModuleVersionResource.rc.inl
+[60/1501] Resource PCLaunch.rc
+Module.ImageCore.cpp
+[62/1501] Resource ModuleVersionResource.rc.inl
+[63/1501] Resource PCLaunch.rc
+Module.ShaderCore.cpp
+[65/1501] Resource ModuleVersionResource.rc.inl
+[66/1501] Resource PCLaunch.rc
+Module.MessagingRpc.cpp
+MessagingRpc.generated.cpp
+[69/1501] Resource PCLaunch.rc
+[70/1501] Resource ModuleVersionResource.rc.inl
+[71/1501] Resource ModuleVersionResource.rc.inl
+[72/1501] Resource PCLaunch.rc
+PortalServices.generated.cpp
+Module.PortalServices.cpp
+Module.HTTP.cpp
+Module.Networking.cpp
+Module.ReliabilityHandlerComponent.cpp
+[78/1501] Resource ModuleVersionResource.rc.inl
+[79/1501] Resource ModuleVersionResource.rc.inl
+[80/1501] Resource PCLaunch.rc
+[81/1501] Resource ModuleVersionResource.rc.inl
+[82/1501] Resource PCLaunch.rc
+[83/1501] Resource ModuleVersionResource.rc.inl
+[84/1501] Resource PCLaunch.rc
+[85/1501] Resource PCLaunch.rc
+Module.MaterialShaderQualitySettings.cpp
+Module.UnrealEd.19_of_20.cpp
+Module.UnrealEd.17_of_20.cpp
+Module.UnrealEd.14_of_20.cpp
+Module.UnrealEd.11_of_20.cpp
+Module.UnrealEd.1_of_20.cpp
+Module.UnrealEd.5_of_20.cpp
+Module.UnrealEd.12_of_20.cpp
+Module.UnrealEd.16_of_20.cpp
+Module.UnrealEd.18_of_20.cpp
+Module.UnrealEd.6_of_20.cpp
+Module.UnrealEd.8_of_20.cpp
+Module.UnrealEd.15_of_20.cpp
+Module.UnrealEd.9_of_20.cpp
+Module.UnrealEd.13_of_20.cpp
+Module.UnrealEd.2_of_20.cpp
+Module.UnrealEd.7_of_20.cpp
+Module.UnrealEd.4_of_20.cpp
+Module.UnrealEd.10_of_20.cpp
+Module.UnrealEd.3_of_20.cpp
+UnrealEd.generated.cpp
+Module.UnrealEd.20_of_20.cpp
+Module.AppFramework.cpp
+[109/1501] Link UE4Editor-UnrealEd.lib
+   Creating library C:\Users\Jack\Documents\GitHub\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UnrealEd.lib and object C:\Users\Jack\Documents\GitHub\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UnrealEd.exp
+MaterialShaderQualitySettings.generated.cpp
+EngineMessages.generated.cpp
+Module.EngineMessages.cpp
+Module.CookingStats.cpp
+Module.PacketHandler.cpp
+[115/1501] Resource PCLaunch.rc
+[116/1501] Resource PCLaunch.rc
+[117/1501] Resource ModuleVersionResource.rc.inl
+[118/1501] Resource ModuleVersionResource.rc.inl
+[119/1501] Resource ModuleVersionResource.rc.inl
+[120/1501] Resource PCLaunch.rc
+[121/1501] Resource ModuleVersionResource.rc.inl
+[122/1501] Resource ModuleVersionResource.rc.inl
+[123/1501] Resource PCLaunch.rc
+[124/1501] Resource PCLaunch.rc
+[125/1501] Link UE4Editor-ReliabilityHandlerComponent.lib
+   Creating library C:\Users\Jack\Documents\GitHub\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ReliabilityHandlerComponent.lib and object C:\Users\Jack\Documents\GitHub\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ReliabilityHandlerComponent.exp
+Module.AIModule.2_of_3.cpp
+Module.Kismet.1_of_5.cpp
+Module.Kismet.3_of_5.cpp
+Module.Kismet.2_of_5.cpp
+Module.Kismet.4_of_5.cpp
+Module.AIModule.1_of_3.cpp
+Module.AIModule.3_of_3.cpp
+Module.Kismet.5_of_5.cpp
+Kismet.generated.cpp
+Module.LogVisualizer.cpp
+Module.UMG.cpp
+AIModule.generated.cpp
+UMG.generated.cpp
+Module.Landscape.2_of_3.cpp
+Module.Landscape.1_of_3.cpp
+Module.Niagara.cpp
+LogVisualizer.generated.cpp
+Module.Landscape.3_of_3.cpp
+Niagara.generated.cpp
+Module.CollisionAnalyzer.cpp
+Landscape.generated.cpp
+Module.PerfCounters.cpp
+Module.PortalRpc.cpp
+Module.AssetRegistry.cpp
+Module.Messaging.cpp
+EngineSettings.generated.cpp
+Module.EngineSettings.cpp
+PortalRpc.generated.cpp
+Module.RawMesh.cpp
+Module.Navmesh.2_of_3.cpp
+Module.Navmesh.1_of_3.cpp
+Module.Internationalization.cpp
+Module.SynthBenchmark.cpp
+Module.DatabaseSupport.cpp
+Module.Navmesh.3_of_3.cpp
+[161/1501] Resource ModuleVersionResource.rc.inl
+[162/1501] Resource PCLaunch.rc
+[163/1501] Resource ModuleVersionResource.rc.inl
+[164/1501] Resource PCLaunch.rc
+[165/1501] Resource ModuleVersionResource.rc.inl
+[166/1501] Resource PCLaunch.rc
+[167/1501] Resource ModuleVersionResource.rc.inl
+[168/1501] Resource ModuleVersionResource.rc.inl
+[169/1501] Resource ModuleVersionResource.rc.inl
+[170/1501] Resource ModuleVersionResource.rc.inl
+[171/1501] Resource PCLaunch.rc
+[172/1501] Resource ModuleVersionResource.rc.inl
+[173/1501] Resource PCLaunch.rc
+[174/1501] Resource ModuleVersionResource.rc.inl
+[175/1501] Resource PCLaunch.rc
+[176/1501] Resource PCLaunch.rc
+[177/1501] Resource PCLaunch.rc
+[178/1501] Resource PCLaunch.rc
+[179/1501] Resource ModuleVersionResource.rc.inl
+[180/1501] Resource PCLaunch.rc
+[181/1501] Resource PCLaunch.rc
+[182/1501] Resource ModuleVersionResource.rc.inl
+[183/1501] Resource PCLaunch.rc
+[184/1501] Resource PCLaunch.rc
+[185/1501] Resource ModuleVersionResource.rc.inl
+[186/1501] Resource ModuleVersionResource.rc.inl
+[187/1501] Resource PCLaunch.rc
+[188/1501] Resource PCLaunch.rc
+[189/1501] Resource PCLaunch.rc
+[190/1501] Resource ModuleVersionResource.rc.inl
+[191/1501] Resource ModuleVersionResource.rc.inl
+[192/1501] Resource PCLaunch.rc
+[193/1501] Resource ModuleVersionResource.rc.inl
+[194/1501] Resource ModuleVersionResource.rc.inl
+Engine.generated.3.cpp
+Engine.generated.1.cpp
+Engine.generated.5.cpp
+Engine.generated.2.cpp
+Engine.generated.4.cpp
+Module.Engine.18_of_34.cpp
+Module.Engine.15_of_34.cpp
+Module.Engine.17_of_34.cpp
+Module.Engine.6_of_34.cpp
+Module.Engine.13_of_34.cpp
+Module.Engine.29_of_34.cpp
+Module.Engine.5_of_34.cpp
+Module.Engine.27_of_34.cpp
+Module.Engine.20_of_34.cpp
+Module.Engine.2_of_34.cpp
+Module.Engine.33_of_34.cpp
+Module.Engine.30_of_34.cpp
+Module.Engine.1_of_34.cpp
+Module.Engine.34_of_34.cpp
+Module.Engine.16_of_34.cpp
+Module.Engine.9_of_34.cpp
+Module.Engine.26_of_34.cpp
+Module.Engine.11_of_34.cpp
+Module.Engine.32_of_34.cpp
+Module.Engine.22_of_34.cpp
+Module.Engine.14_of_34.cpp
+Module.Engine.12_of_34.cpp
+Module.Engine.23_of_34.cpp
+Module.Engine.4_of_34.cpp
+Module.Engine.19_of_34.cpp
+Module.Engine.24_of_34.cpp
+Module.Engine.21_of_34.cpp
+Module.Engine.10_of_34.cpp
+Module.Engine.28_of_34.cpp
+Module.Engine.3_of_34.cpp
+Module.Engine.8_of_34.cpp
+Module.Engine.25_of_34.cpp
+Module.Engine.7_of_34.cpp
+Module.Engine.31_of_34.cpp
+[234/1501] Link UE4Editor-Kismet.lib
+   Creating library C:\Users\Jack\Documents\GitHub\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Kismet.lib and object C:\Users\Jack\Documents\GitHub\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Kismet.exp
+[235/1501] Link UE4Editor-AIModule.lib
+   Creating library C:\Users\Jack\Documents\GitHub\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-AIModule.lib and object C:\Users\Jack\Documents\GitHub\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-AIModule.exp
+[236/1501] Link UE4Editor-Landscape.lib
+   Creating library C:\Users\Jack\Documents\GitHub\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Landscape.lib and object C:\Users\Jack\Documents\GitHub\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Landscape.exp
+[237/1501] Link UE4Editor-MaterialShaderQualitySettings.lib
+   Creating library C:\Users\Jack\Documents\GitHub\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-MaterialShaderQualitySettings.lib and object C:\Users\Jack\Documents\GitHub\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-MaterialShaderQualitySettings.exp
+[238/1501] Link UE4Editor-LogVisualizer.lib
+   Creating library C:\Users\Jack\Documents\GitHub\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-LogVisualizer.lib and object C:\Users\Jack\Documents\GitHub\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-LogVisualizer.exp
+[239/1501] Link UE4Editor-Niagara.lib
+   Creating library C:\Users\Jack\Documents\GitHub\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Niagara.lib and object C:\Users\Jack\Documents\GitHub\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Niagara.exp
+[240/1501] Link UE4Editor-UMG.lib
+   Creating library C:\Users\Jack\Documents\GitHub\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UMG.lib and object C:\Users\Jack\Documents\GitHub\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-UMG.exp
+[241/1501] Resource PCLaunch.rc
+[242/1501] Resource ModuleVersionResource.rc.inl
+[243/1501] Link UE4Editor-CollisionAnalyzer.lib
+   Creating library C:\Users\Jack\Documents\GitHub\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-CollisionAnalyzer.lib and object C:\Users\Jack\Documents\GitHub\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-CollisionAnalyzer.exp
+Module.DesktopPlatform.cpp
+[245/1501] Resource PCLaunch.rc
+[246/1501] Resource ModuleVersionResource.rc.inl
+Module.EditorStyle.cpp
+EditorStyle.generated.cpp
+[249/1501] Resource PCLaunch.rc
+[250/1501] Resource ModuleVersionResource.rc.inl
+Module.PropertyEditor.2_of_2.cpp
+Module.PropertyEditor.1_of_2.cpp
+Module.SourceControl.cpp
+[254/1501] Resource PCLaunch.rc
+[255/1501] Resource ModuleVersionResource.rc.inl
+[256/1501] Resource ModuleVersionResource.rc.inl
+[257/1501] Resource PCLaunch.rc
+[258/1501] Link UE4Editor-SourceControl.lib
+   Creating library C:\Users\Jack\Documents\GitHub\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-SourceControl.lib and object C:\Users\Jack\Documents\GitHub\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-SourceControl.exp
+Module.ImageWrapper.cpp
+[260/1501] Link UE4Editor-PropertyEditor.lib
+   Creating library C:\Users\Jack\Documents\GitHub\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PropertyEditor.lib and object C:\Users\Jack\Documents\GitHub\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-PropertyEditor.exp
+[262/1501] Resource ModuleVersionResource.rc.inl
+Module.TargetPlatform.cpp
+[263/1501] Resource PCLaunch.rc
+[264/1501] Resource ModuleVersionResource.rc.inl
+[265/1501] Resource PCLaunch.rc
+Module.BlueprintGraph.3_of_4.cpp
+Module.BlueprintGraph.2_of_4.cpp
+Module.BlueprintGraph.4_of_4.cpp
+Module.BlueprintGraph.1_of_4.cpp
+BlueprintGraph.generated.cpp
+[271/1501] Resource ModuleVersionResource.rc.inl
+[272/1501] Resource PCLaunch.rc
+Module.Foliage.cpp
+Foliage.generated.cpp
+[275/1501] Resource ModuleVersionResource.rc.inl
+[276/1501] Resource PCLaunch.rc
+Module.DirectoryWatcher.cpp
+[278/1501] Link UE4Editor-BlueprintGraph.lib
+   Creating library C:\Users\Jack\Documents\GitHub\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BlueprintGraph.lib and object C:\Users\Jack\Documents\GitHub\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BlueprintGraph.exp
+[279/1501] Resource PCLaunch.rc
+[280/1501] Resource ModuleVersionResource.rc.inl
+Module.GraphEditor.cpp
+GraphEditor.generated.cpp
+Module.TextureEditor.cpp
+TextureEditor.generated.cpp
+Module.CurveAssetEditor.cpp
+Module.EditorWidgets.cpp
+Module.PakFile.cpp
+[288/1501] Resource ModuleVersionResource.rc.inl
+[289/1501] Resource PCLaunch.rc
+[290/1501] Resource PCLaunch.rc
+[291/1501] Resource PCLaunch.rc
+[292/1501] Resource PCLaunch.rc
+[293/1501] Resource ModuleVersionResource.rc.inl
+[294/1501] Resource PCLaunch.rc
+[295/1501] Resource ModuleVersionResource.rc.inl
+[296/1501] Resource ModuleVersionResource.rc.inl
+[297/1501] Resource ModuleVersionResource.rc.inl
+Module.AssetTools.cpp
+[299/1501] Link UE4Editor-GraphEditor.lib
+   Creating library C:\Users\Jack\Documents\GitHub\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-GraphEditor.lib and object C:\Users\Jack\Documents\GitHub\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-GraphEditor.exp
+[300/1501] Resource PCLaunch.rc
+[301/1501] Resource ModuleVersionResource.rc.inl
+Module.WidgetCarousel.cpp
+Module.WorkspaceMenuStructure.cpp
+WidgetCarousel.generated.cpp
+Module.Analytics.cpp
+[306/1501] Resource ModuleVersionResource.rc.inl
+[307/1501] Resource ModuleVersionResource.rc.inl
+[308/1501] Resource PCLaunch.rc
+[309/1501] Resource PCLaunch.rc
+[310/1501] Resource PCLaunch.rc
+[311/1501] Resource ModuleVersionResource.rc.inl
+Module.AddContentDialog.cpp
+AddContentDialog.generated.cpp
+[314/1501] Resource PCLaunch.rc
+[315/1501] Resource ModuleVersionResource.rc.inl
+Module.SourceControlWindows.cpp
+[317/1501] Resource PCLaunch.rc
+[318/1501] Resource ModuleVersionResource.rc.inl
+Module.ContentBrowser.1_of_3.cpp
+Module.ContentBrowser.2_of_3.cpp
+ContentBrowser.generated.cpp
+Module.ContentBrowser.3_of_3.cpp
+Module.MessageLog.cpp
+Module.JsonUtilities.cpp
+JsonUtilities.generated.cpp
+[326/1501] Resource PCLaunch.rc
+[327/1501] Resource ModuleVersionResource.rc.inl
+[328/1501] Resource ModuleVersionResource.rc.inl
+[329/1501] Resource PCLaunch.rc
+[330/1501] Resource PCLaunch.rc
+[331/1501] Resource ModuleVersionResource.rc.inl
+Module.MovieScene.cpp
+MovieScene.generated.cpp
+[334/1501] Resource ModuleVersionResource.rc.inl
+[335/1501] Resource PCLaunch.rc
+Module.KismetWidgets.cpp
+Module.AnimGraphRuntime.cpp
+AnimGraphRuntime.generated.cpp
+[339/1501] Resource PCLaunch.rc
+[340/1501] Resource ModuleVersionResource.rc.inl
+[341/1501] Resource PCLaunch.rc
+[342/1501] Resource ModuleVersionResource.rc.inl
+Module.AnimGraph.cpp
+AnimGraph.generated.cpp
+Module.SessionServices.cpp
+Module.SessionMessages.cpp
+SessionMessages.generated.cpp
+[348/1501] Resource ModuleVersionResource.rc.inl
+[349/1501] Resource ModuleVersionResource.rc.inl
+[350/1501] Resource PCLaunch.rc
+[351/1501] Resource PCLaunch.rc
+[352/1501] Resource ModuleVersionResource.rc.inl
+[353/1501] Resource PCLaunch.rc
+Module.LevelSequence.cpp
+LevelSequence.generated.cpp
+Module.OnlineSubsystem.cpp
+OnlineSubsystem.generated.cpp
+[358/1501] Resource PCLaunch.rc
+[359/1501] Resource ModuleVersionResource.rc.inl
+[360/1501] Resource PCLaunch.rc
+[361/1501] Resource ModuleVersionResource.rc.inl
+Module.MovieSceneTools.cpp
+Module.SequencerWidgets.cpp
+Module.MovieSceneTracks.cpp
+MovieSceneTracks.generated.cpp
+Module.MovieSceneCapture.cpp
+MovieSceneCapture.generated.cpp
+Module.Serialization.cpp
+Serialization.generated.cpp
+[370/1501] Resource PCLaunch.rc
+[371/1501] Resource ModuleVersionResource.rc.inl
+[372/1501] Resource PCLaunch.rc
+[373/1501] Resource PCLaunch.rc
+[374/1501] Resource ModuleVersionResource.rc.inl
+[375/1501] Resource PCLaunch.rc
+[376/1501] Resource PCLaunch.rc
+[377/1501] Resource ModuleVersionResource.rc.inl
+[378/1501] Resource ModuleVersionResource.rc.inl
+[379/1501] Resource ModuleVersionResource.rc.inl
+Module.MovieSceneCaptureDialog.cpp
+Module.HierarchicalLODUtilities.cpp
+[382/1501] Resource PCLaunch.rc
+[383/1501] Resource PCLaunch.rc
+[384/1501] Resource ModuleVersionResource.rc.inl
+[385/1501] Resource ModuleVersionResource.rc.inl
+[386/1501] Link UE4Editor-MovieSceneTools.lib
+   Creating library C:\Users\Jack\Documents\GitHub\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-MovieSceneTools.lib and object C:\Users\Jack\Documents\GitHub\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-MovieSceneTools.exp
+Module.Sequencer.cpp
+Sequencer.generated.cpp
+Module.ActorPickerMode.cpp
+[390/1501] Resource ModuleVersionResource.rc.inl
+[391/1501] Resource PCLaunch.rc
+[392/1501] Resource PCLaunch.rc
+[393/1501] Resource ModuleVersionResource.rc.inl
+Module.SceneOutliner.cpp
+SceneOutliner.generated.cpp
+Module.Settings.cpp
+Module.CEF3Utils.cpp
+[398/1501] Resource ModuleVersionResource.rc.inl
+[399/1501] Resource PCLaunch.rc
+[400/1501] Resource PCLaunch.rc
+[401/1501] Resource ModuleVersionResource.rc.inl
+[402/1501] Resource ModuleVersionResource.rc.inl
+[403/1501] Resource PCLaunch.rc
+Module.Persona.1_of_4.cpp
+Module.Persona.3_of_4.cpp
+Module.Persona.2_of_4.cpp
+Module.StatsViewer.cpp
+Module.Persona.4_of_4.cpp
+Module.HierarchicalLODOutliner.cpp
+Module.DeviceProfileServices.cpp
+StatsViewer.generated.cpp
+HierarchicalLODOutliner.generated.cpp
+Module.NewsFeed.cpp
+NewsFeed.generated.cpp
+Module.WebBrowser.cpp
+WebBrowser.generated.cpp
+[417/1501] Resource PCLaunch.rc
+[418/1501] Resource ModuleVersionResource.rc.inl
+[419/1501] Resource PCLaunch.rc
+[420/1501] Resource ModuleVersionResource.rc.inl
+[421/1501] Resource ModuleVersionResource.rc.inl
+[422/1501] Resource PCLaunch.rc
+[423/1501] Resource PCLaunch.rc
+[424/1501] Resource ModuleVersionResource.rc.inl
+[425/1501] Resource ModuleVersionResource.rc.inl
+[426/1501] Resource PCLaunch.rc
+[427/1501] Resource PCLaunch.rc
+[428/1501] Resource ModuleVersionResource.rc.inl
+Module.LevelEditor.1_of_3.cpp
+Module.LevelEditor.2_of_3.cpp
+Module.LevelEditor.3_of_3.cpp
+[432/1501] Resource PCLaunch.rc
+[433/1501] Resource ModuleVersionResource.rc.inl
+Module.ClassViewer.cpp
+Module.UtilityShaders.cpp
+[436/1501] Resource ModuleVersionResource.rc.inl
+[437/1501] Resource PCLaunch.rc
+[438/1501] Resource PCLaunch.rc
+[439/1501] Resource ModuleVersionResource.rc.inl
+Module.ExternalImagePicker.cpp
+[441/1501] Resource PCLaunch.rc
+[442/1501] Resource ModuleVersionResource.rc.inl
+Module.SharedSettingsWidgets.cpp
+Module.SourceCodeAccess.cpp
+SourceCodeAccess.generated.cpp
+[446/1501] Resource ModuleVersionResource.rc.inl
+[447/1501] Resource PCLaunch.rc
+[448/1501] Resource PCLaunch.rc
+[449/1501] Resource ModuleVersionResource.rc.inl
+Module.KismetCompiler.cpp
+Module.MainFrame.cpp
+[452/1501] Resource ModuleVersionResource.rc.inl
+[453/1501] Resource PCLaunch.rc
+[454/1501] Resource ModuleVersionResource.rc.inl
+[455/1501] Resource PCLaunch.rc
+Module.Renderer.4_of_9.cpp
+Module.Renderer.5_of_9.cpp
+Module.Renderer.1_of_9.cpp
+Module.Renderer.6_of_9.cpp
+Module.Renderer.3_of_9.cpp
+Module.Renderer.7_of_9.cpp
+Module.Renderer.8_of_9.cpp
+Module.Renderer.2_of_9.cpp
+Module.Renderer.9_of_9.cpp
+[465/1501] Resource PCLaunch.rc
+[466/1501] Resource ModuleVersionResource.rc.inl
+Module.AndroidDeviceDetection.cpp
+[468/1501] Resource PCLaunch.rc
+[469/1501] Resource ModuleVersionResource.rc.inl
+[470/1501] Link UE4Editor-KismetCompiler.lib
+   Creating library C:\Users\Jack\Documents\GitHub\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-KismetCompiler.lib and object C:\Users\Jack\Documents\GitHub\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-KismetCompiler.exp
+[471/1501] Link UE4Editor-MainFrame.lib
+   Creating library C:\Users\Jack\Documents\GitHub\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-MainFrame.lib and object C:\Users\Jack\Documents\GitHub\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-MainFrame.exp
+Module.MaterialUtilities.cpp
+[473/1501] Resource PCLaunch.rc
+[474/1501] Resource ModuleVersionResource.rc.inl
+Module.Localization.cpp
+Module.HardwareTargeting.cpp
+Localization.generated.cpp
+Module.MoviePlayer.cpp
+Module.HeadMountedDisplay.cpp
+HeadMountedDisplay.generated.cpp
+HardwareTargeting.generated.cpp
+MoviePlayer.generated.cpp
+AutomationMessages.generated.cpp
+Module.AutomationMessages.cpp
+[485/1501] Resource ModuleVersionResource.rc.inl
+[486/1501] Resource PCLaunch.rc
+[487/1501] Resource PCLaunch.rc
+[488/1501] Resource ModuleVersionResource.rc.inl
+[489/1501] Resource PCLaunch.rc
+[490/1501] Resource ModuleVersionResource.rc.inl
+[491/1501] Resource PCLaunch.rc
+[492/1501] Resource ModuleVersionResource.rc.inl
+[493/1501] Resource PCLaunch.rc
+[494/1501] Resource ModuleVersionResource.rc.inl
+Module.Documentation.cpp
+Module.GameplayTasks.cpp
+Module.GameplayTags.cpp
+GameplayTasks.generated.cpp
+GameplayTags.generated.cpp
+Module.DesktopWidgets.cpp
+UnrealEdMessages.generated.cpp
+Module.UnrealEdMessages.cpp
+Module.Media.cpp
+[504/1501] Resource PCLaunch.rc
+[505/1501] Resource ModuleVersionResource.rc.inl
+[506/1501] Resource PCLaunch.rc
+[507/1501] Resource ModuleVersionResource.rc.inl
+[508/1501] Resource PCLaunch.rc
+[509/1501] Resource ModuleVersionResource.rc.inl
+[510/1501] Resource PCLaunch.rc
+[511/1501] Resource ModuleVersionResource.rc.inl
+[512/1501] Resource ModuleVersionResource.rc.inl
+[513/1501] Resource PCLaunch.rc
+[514/1501] Resource PCLaunch.rc
+[515/1501] Resource ModuleVersionResource.rc.inl
+[516/1501] Link UE4Editor-MaterialUtilities.lib
+   Creating library C:\Users\Jack\Documents\GitHub\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-MaterialUtilities.lib and object C:\Users\Jack\Documents\GitHub\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-MaterialUtilities.exp
+Module.MediaAssets.cpp
+MediaAssets.generated.cpp
+[519/1501] Resource ModuleVersionResource.rc.inl
+[520/1501] Resource PCLaunch.rc
+Module.InternationalizationSettings.cpp
+InternationalizationSettings.generated.cpp
+Module.MeshSimplifier.cpp
+Module.MeshBoneReduction.cpp
+Module.XmlParser.cpp
+Module.Voice.cpp
+[527/1501] Resource PCLaunch.rc
+[528/1501] Resource PCLaunch.rc
+[529/1501] Resource ModuleVersionResource.rc.inl
+[530/1501] Resource PCLaunch.rc
+[531/1501] Resource ModuleVersionResource.rc.inl
+[532/1501] Resource PCLaunch.rc
+[533/1501] Resource ModuleVersionResource.rc.inl
+[534/1501] Resource ModuleVersionResource.rc.inl
+[535/1501] Resource ModuleVersionResource.rc.inl
+[536/1501] Resource PCLaunch.rc
+Module.GameplayTagsEditor.cpp
+GameplayTagsEditor.generated.cpp
+Module.GameProjectGeneration.cpp
+Module.MeshPaint.cpp
+Module.BspMode.cpp
+Module.MeshUtilities.cpp
+GameProjectGeneration.generated.cpp
+Module.LocalizationService.cpp
+Module.OnlineSubsystemUtils.cpp
+OnlineSubsystemUtils.generated.cpp
+Module.LightPropagationVolumeRuntime.cpp
+PCH.Learning.h.cpp
+Module.ConfigEditor.cpp
+ConfigEditor.generated.cpp
+ProfilerMessages.generated.cpp
+Module.ProfilerMessages.cpp
+LightPropagationVolumeRuntime.generated.cpp
+Module.CollectionManager.cpp
+[555/1501] Resource ModuleVersionResource.rc.inl
+[556/1501] Resource ModuleVersionResource.rc.inl
+[557/1501] Resource ModuleVersionResource.rc.inl
+[558/1501] Resource PCLaunch.rc
+[559/1501] Resource PCLaunch.rc
+[560/1501] Resource PCLaunch.rc
+[561/1501] Resource PCLaunch.rc
+[562/1501] Resource PCLaunch.rc
+[563/1501] Resource PCLaunch.rc
+[564/1501] Resource ModuleVersionResource.rc.inl
+[565/1501] Resource ModuleVersionResource.rc.inl
+[566/1501] Resource PCLaunch.rc
+[567/1501] Resource PCLaunch.rc
+[568/1501] Resource ModuleVersionResource.rc.inl
+[569/1501] Resource ModuleVersionResource.rc.inl
+[570/1501] Resource PCLaunch.rc
+[571/1501] Resource ModuleVersionResource.rc.inl
+[572/1501] Resource ModuleVersionResource.rc.inl
+[573/1501] Resource ModuleVersionResource.rc.inl
+[574/1501] Resource PCLaunch.rc
+[575/1501] Resource ModuleVersionResource.rc.inl
+[576/1501] Resource PCLaunch.rc
+Module.GameplayAbilities.cpp
+Module.BlueprintCompilerCppBackend.cpp
+GameplayAbilities.generated.cpp
+Module.Paper2D.cpp
+Module.TranslationEditor.cpp
+TranslationEditor.generated.cpp
+Paper2D.generated.cpp
+Module.D3D11RHI.cpp
+Module.VectorVM.cpp
+Module.NetworkFile.cpp
+LaunchDaemonMessages.generated.cpp
+VectorVM.generated.cpp
+Module.LaunchDaemonMessages.cpp
+Module.AnalyticsET.cpp
+Module.ShaderCompilerCommon.cpp
+Module.ShaderPreprocessor.cpp
+[593/1501] Resource PCLaunch.rc
+[594/1501] Resource ModuleVersionResource.rc.inl
+[595/1501] Resource ModuleVersionResource.rc.inl
+[596/1501] Resource PCLaunch.rc
+[597/1501] Resource ModuleVersionResource.rc.inl
+[598/1501] Resource PCLaunch.rc
+[599/1501] Resource PCLaunch.rc
+[600/1501] Resource ModuleVersionResource.rc.inl
+[601/1501] Resource PCLaunch.rc
+[602/1501] Resource ModuleVersionResource.rc.inl
+[603/1501] Resource ModuleVersionResource.rc.inl
+[604/1501] Resource PCLaunch.rc
+[605/1501] Resource PCLaunch.rc
+[606/1501] Resource ModuleVersionResource.rc.inl
+[607/1501] Resource PCLaunch.rc
+[608/1501] Resource PCLaunch.rc
+[609/1501] Resource PCLaunch.rc
+[610/1501] Resource ModuleVersionResource.rc.inl
+[611/1501] Resource ModuleVersionResource.rc.inl
+[612/1501] Resource ModuleVersionResource.rc.inl
+[613/1501] Resource PCLaunch.rc
+[614/1501] Resource ModuleVersionResource.rc.inl
+Module.DetailCustomizations.2_of_3.cpp
+Module.DetailCustomizations.1_of_3.cpp
+Module.Paper2DEditor.cpp
+Module.DetailCustomizations.3_of_3.cpp
+Module.BlueprintNativeCodeGen.cpp
+Module.AIGraph.cpp
+Module.Launch.cpp
+Module.PlacementMode.cpp
+Module.FunctionalTesting.cpp
+Module.HotReload.cpp
+Paper2DEditor.generated.cpp
+Module.DistCurveEditor.cpp
+AIGraph.generated.cpp
+Module.AITestSuite.cpp
+AITestSuite.generated.cpp
+Module.SettingsEditor.cpp
+Module.AutomationWorker.cpp
+Module.Android_MultiTargetPlatform.cpp
+FunctionalTesting.generated.cpp
+BlueprintNativeCodeGen.generated.cpp
+Module.ScreenShotComparisonTools.cpp
+Module.InputBindingEditor.cpp
+Module.TreeMap.cpp
+Module.AutomationController.cpp
+Module.UnrealAudio.cpp
+Module.ProfilerClient.cpp
+Module.StreamingFile.cpp
+Module.NetworkReplayStreaming.cpp
+[643/1501] Resource PCLaunch.rc
+[644/1501] Resource ModuleVersionResource.rc.inl
+[645/1501] Resource ModuleVersionResource.rc.inl
+[646/1501] Resource PCLaunch.rc
+[647/1501] Resource PCLaunch.rc
+[648/1501] Resource ModuleVersionResource.rc.inl
+[649/1501] Resource ModuleVersionResource.rc.inl
+[650/1501] Resource ModuleVersionResource.rc.inl
+[651/1501] Resource PCLaunch.rc
+[652/1501] Resource PCLaunch.rc
+[653/1501] Resource PCLaunch.rc
+[654/1501] Resource PCLaunch.rc
+[655/1501] Resource ModuleVersionResource.rc.inl
+[656/1501] Resource PCLaunch.rc
+[657/1501] Resource ModuleVersionResource.rc.inl
+[658/1501] Resource PCLaunch.rc
+[659/1501] Resource ModuleVersionResource.rc.inl
+[660/1501] Resource PCLaunch.rc
+[661/1501] Resource ModuleVersionResource.rc.inl
+[662/1501] Resource ModuleVersionResource.rc.inl
+[663/1501] Resource ModuleVersionResource.rc.inl
+[664/1501] Resource ModuleVersionResource.rc.inl
+[665/1501] Resource PCLaunch.rc
+[666/1501] Resource ModuleVersionResource.rc.inl
+[667/1501] Resource PCLaunch.rc
+[668/1501] Resource PCLaunch.rc
+[669/1501] Resource ModuleVersionResource.rc.inl
+[670/1501] Resource PCLaunch.rc
+[671/1501] Resource PCLaunch.rc
+[672/1501] Resource ModuleVersionResource.rc.inl
+[673/1501] Resource PCLaunch.rc
+[674/1501] Resource ModuleVersionResource.rc.inl
+[675/1501] Resource PCLaunch.rc
+[676/1501] Resource PCLaunch.rc
+[677/1501] Resource PCLaunch.rc
+[678/1501] Resource ModuleVersionResource.rc.inl
+[679/1501] Resource ModuleVersionResource.rc.inl
+[680/1501] Resource PCLaunch.rc
+[681/1501] Resource ModuleVersionResource.rc.inl
+[682/1501] Resource ModuleVersionResource.rc.inl
+[683/1501] Resource PCLaunch.rc
+[684/1501] Link UE4Editor-LocalizationService.lib
+Module.MaterialEditor.cpp
+   Creating library C:\Users\Jack\Documents\GitHub\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-LocalizationService.lib and object C:\Users\Jack\Documents\GitHub\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-LocalizationService.exp
+Module.LandscapeEditor.cpp
+Module.GameplayDebugger.cpp
+Module.IntroTutorials.cpp
+Module.GameplayTasksEditor.cpp
+GameplayTasksEditor.generated.cpp
+Module.DeviceProfileEditor.cpp
+Module.Merge.cpp
+Module.SteamVR.cpp
+Module.SoundCueEditor.cpp
+Module.SoundClassEditor.cpp
+IntroTutorials.generated.cpp
+GameplayDebugger.generated.cpp
+Module.GeometryCache.cpp
+LandscapeEditor.generated.cpp
+Module.ProjectTargetPlatformEditor.cpp
+Module.PluginWarden.cpp
+Module.UndoHistory.cpp
+Module.ViewportSnapping.cpp
+Module.OnlineBlueprintSupport.cpp
+OnlineBlueprintSupport.generated.cpp
+Module.Profiler.cpp
+Module.OpenGLDrv.cpp
+Module.IOSTargetPlatform.cpp
+Module.XAudio2.cpp
+Module.HTML5TargetPlatform.cpp
+Module.TaskGraph.cpp
+GeometryCache.generated.cpp
+SteamVR.generated.cpp
+Module.CrashTracker.cpp
+Module.InputDevice.cpp
+Module.AutomationWindow.cpp
+Module.ScreenShotComparison.cpp
+Module.LauncherServices.cpp
+Module.NetworkFileSystem.cpp
+Module.TargetDeviceServices.cpp
+TargetDeviceServices.generated.cpp
+Module.AndroidRuntimeSettings.cpp
+PortalMessages.generated.cpp
+Module.UnrealAudioXAudio2.cpp
+Module.SwarmInterface.cpp
+Module.IOSRuntimeSettings.cpp
+IOSRuntimeSettings.generated.cpp
+SwarmInterface.generated.cpp
+AndroidRuntimeSettings.generated.cpp
+Module.PortalMessages.cpp
+Module.DerivedDataCache.cpp
+[732/1501] Resource ModuleVersionResource.rc.inl
+[733/1501] Resource PCLaunch.rc
+[734/1501] Resource PCLaunch.rc
+[735/1501] Resource PCLaunch.rc
+[736/1501] Resource PCLaunch.rc
+[737/1501] Resource ModuleVersionResource.rc.inl
+[738/1501] Resource ModuleVersionResource.rc.inl
+[739/1501] Resource ModuleVersionResource.rc.inl
+[740/1501] Resource PCLaunch.rc
+[741/1501] Resource PCLaunch.rc
+[742/1501] Resource PCLaunch.rc
+[743/1501] Resource PCLaunch.rc
+[744/1501] Resource ModuleVersionResource.rc.inl
+[745/1501] Resource ModuleVersionResource.rc.inl
+[746/1501] Resource PCLaunch.rc
+[747/1501] Resource PCLaunch.rc
+[748/1501] Resource ModuleVersionResource.rc.inl
+[749/1501] Resource PCLaunch.rc
+[750/1501] Resource PCLaunch.rc
+[751/1501] Resource PCLaunch.rc
+[752/1501] Resource ModuleVersionResource.rc.inl
+[753/1501] Resource ModuleVersionResource.rc.inl
+[754/1501] Resource ModuleVersionResource.rc.inl
+[755/1501] Resource ModuleVersionResource.rc.inl
+[756/1501] Resource ModuleVersionResource.rc.inl
+[757/1501] Resource PCLaunch.rc
+[758/1501] Resource ModuleVersionResource.rc.inl
+[759/1501] Resource ModuleVersionResource.rc.inl
+[760/1501] Resource ModuleVersionResource.rc.inl
+[761/1501] Resource PCLaunch.rc
+[762/1501] Resource ModuleVersionResource.rc.inl
+[763/1501] Resource ModuleVersionResource.rc.inl
+[764/1501] Resource PCLaunch.rc
+[765/1501] Resource ModuleVersionResource.rc.inl
+[766/1501] Resource PCLaunch.rc
+[767/1501] Resource PCLaunch.rc
+[768/1501] Resource PCLaunch.rc
+[769/1501] Resource ModuleVersionResource.rc.inl
+[770/1501] Resource PCLaunch.rc
+[771/1501] Resource PCLaunch.rc
+[772/1501] Resource PCLaunch.rc
+[773/1501] Resource ModuleVersionResource.rc.inl
+[774/1501] Resource ModuleVersionResource.rc.inl
+[775/1501] Resource PCLaunch.rc
+[776/1501] Resource ModuleVersionResource.rc.inl
+[777/1501] Resource PCLaunch.rc
+[778/1501] Resource PCLaunch.rc
+[779/1501] Resource PCLaunch.rc
+[780/1501] Resource ModuleVersionResource.rc.inl
+[781/1501] Resource ModuleVersionResource.rc.inl
+[782/1501] Resource PCLaunch.rc
+[783/1501] Resource ModuleVersionResource.rc.inl
+[784/1501] Resource PCLaunch.rc
+[785/1501] Resource PCLaunch.rc
+[786/1501] Resource ModuleVersionResource.rc.inl
+[787/1501] Resource PCLaunch.rc
+[788/1501] Link UE4Editor-TranslationEditor.lib
+   Creating library C:\Users\Jack\Documents\GitHub\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-TranslationEditor.lib and object C:\Users\Jack\Documents\GitHub\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-TranslationEditor.exp
+[789/1501] Resource ModuleVersionResource.rc.inl
+[790/1501] Resource PCLaunch.rc
+[791/1501] Resource ModuleVersionResource.rc.inl
+[792/1501] Resource ModuleVersionResource.rc.inl
+[793/1501] Resource ModuleVersionResource.rc.inl
+[794/1501] Resource ModuleVersionResource.rc.inl
+[795/1501] Resource PCLaunch.rc
+[796/1501] Resource ModuleVersionResource.rc.inl
+[797/1501] Resource PCLaunch.rc
+[798/1501] Resource ModuleVersionResource.rc.inl
+[799/1501] Resource ModuleVersionResource.rc.inl
+[800/1501] Resource PCLaunch.rc
+[801/1501] Resource PCLaunch.rc
+[802/1501] Resource ModuleVersionResource.rc.inl
+Module.UMGEditor.cpp
+Module.BehaviorTreeEditor.cpp
+Module.GameplayAbilitiesEditor.cpp
+Module.EnvironmentQueryEditor.cpp
+BehaviorTreeEditor.generated.cpp
+Module.Matinee.cpp
+EnvironmentQueryEditor.generated.cpp
+Module.WorldBrowser.cpp
+Module.FoliageEdit.cpp
+Module.NiagaraEditor.cpp
+GameplayAbilitiesEditor.generated.cpp
+Module.OculusRift.cpp
+Module.StaticMeshEditor.cpp
+Module.Cascade.cpp
+NiagaraEditor.generated.cpp
+Module.MediaPlayerEditor.cpp
+Module.PhAT.cpp
+Module.Blutility.cpp
+Module.PluginBrowser.cpp
+Module.SpeedTreeImporter.cpp
+Module.GeometryMode.cpp
+Module.LocalizationDashboard.cpp
+MediaPlayerEditor.generated.cpp
+Module.ComponentVisualizers.cpp
+Module.PaperSpriteSheetImporter.cpp
+Module.EpicSurvey.cpp
+Module.DestructibleMeshEditor.cpp
+Module.MergeActors.cpp
+Module.GeometryCacheEd.cpp
+GeometryMode.generated.cpp
+Module.ReferenceViewer.cpp
+Matinee.generated.cpp
+Module.HTML5PlatformEditor.cpp
+Module.Layers.cpp
+Module.FontEditor.cpp
+HTML5PlatformEditor.generated.cpp
+Module.DataTableEditor.cpp
+Module.ProjectSettingsViewer.cpp
+Module.LightPropagationVolumeEditor.cpp
+DestructibleMeshEditor.generated.cpp
+Module.CurveTableEditor.cpp
+Module.SmartSnapping.cpp
+Module.PaperTiledImporter.cpp
+Cascade.generated.cpp
+PhAT.generated.cpp
+Module.SuperSearch.cpp
+Module.PListEditor.cpp
+Module.EditorSettingsViewer.cpp
+Module.GitSourceControl.cpp
+Module.SizeMap.cpp
+Module.OutputLog.cpp
+ReferenceViewer.generated.cpp
+PluginBrowser.generated.cpp
+PaperTiledImporter.generated.cpp
+Module.OculusLibrary.cpp
+WorldBrowser.generated.cpp
+Module.EditorLiveStreaming.cpp
+Module.TextureAlignMode.cpp
+Module.PackagesDialog.cpp
+FoliageEdit.generated.cpp
+Blutility.generated.cpp
+PaperSpriteSheetImporter.generated.cpp
+SpeedTreeImporter.generated.cpp
+Module.BlueprintProfiler.cpp
+GeometryCacheEd.generated.cpp
+EditorLiveStreaming.generated.cpp
+Module.UserFeedback.cpp
+LightPropagationVolumeEditor.generated.cpp
+Module.CharacterAI.cpp
+Module.NewLevelDialog.cpp
+UMGEditor.generated.cpp
+Module.IOSPlatformEditor.cpp
+Module.AndroidPlatformEditor.cpp
+Module.AllDesktopTargetPlatform.cpp
+Module.D3D12RHI.cpp
+Module.TVOSTargetPlatform.cpp
+Module.SlateRHIRenderer.cpp
+Module.ProfilerService.cpp
+Module.LeapMotionController.cpp
+Module.Android_PVRTCTargetPlatform.cpp
+Module.AndroidTargetPlatform.cpp
+Module.Android_ASTCTargetPlatform.cpp
+Module.Android_ATCTargetPlatform.cpp
+Module.Android_ETC2TargetPlatform.cpp
+Module.Android_DXTTargetPlatform.cpp
+Module.Android_ETC1TargetPlatform.cpp
+Module.WindowsTargetPlatform.cpp
+WindowsTargetPlatform.generated.cpp
+Module.WindowsClientTargetPlatform.cpp
+Module.ProceduralMeshComponent.cpp
+Module.WindowsServerTargetPlatform.cpp
+Module.WindowsNoEditorTargetPlatform.cpp
+Module.OculusInput.cpp
+Module.AudioFormatOpus.cpp
+Module.PhysXFormats.cpp
+ProceduralMeshComponent.generated.cpp
+Module.HTML5Networking.cpp
+Module.RealtimeProfiler.cpp
+Module.HttpNetworkReplayStreaming.cpp
+Module.SteamVRController.cpp
+LeapMotionController.generated.cpp
+Module.AudioFormatOgg.cpp
+Module.GameLiveStreaming.cpp
+Module.TextureCompressor.cpp
+Module.AudioFormatADPCM.cpp
+Module.GammaUI.cpp
+AndroidPlatformEditor.generated.cpp
+HTML5Networking.generated.cpp
+Module.ModuleUI.cpp
+Module.CableComponent.cpp
+Module.WindowsMoviePlayer.cpp
+GameLiveStreaming.generated.cpp
+Module.ArchVisCharacter.cpp
+OculusLibrary.generated.cpp
+Module.CustomMeshComponent.cpp
+Learning.generated.cpp
+CableComponent.generated.cpp
+ArchVisCharacter.generated.cpp
+Module.StreamingPauseRendering.cpp
+Module.SlateNullRenderer.cpp
+Module.ExampleDeviceProfileSelector.cpp
+Module.NullNetworkReplayStreaming.cpp
+CustomMeshComponent.generated.cpp
+FloatingActor.cpp
+LearningGameMode.cpp
+Learning.cpp
+Module.ProjectLauncher.cpp
+Module.SessionFrontend.cpp
+Module.DeviceManager.cpp
+Module.SlateReflector.cpp
+Module.SubversionSourceControl.cpp
+Module.PerforceSourceControl.cpp
+Module.SlateRemote.cpp
+SlateRemote.generated.cpp
+Module.Toolbox.cpp
+SlateReflector.generated.cpp
+Module.UdpMessaging.cpp
+UdpMessaging.generated.cpp
+Module.PortalProxies.cpp
+Module.VisualStudioSourceCodeAccess.cpp
+Module.UObjectPlugin.cpp
+UObjectPlugin.generated.cpp
+Module.PackageDependencyInfo.cpp
+Module.ShaderFormatOpenGL.cpp
+Module.MetalShaderFormat.cpp
+Module.ShaderFormatD3D.cpp
+Module.WmfMedia.cpp
+Module.TextureFormatASTC.cpp
+Module.NullDrv.cpp
+Module.TextureFormatIntelISPCTexComp.cpp
+Module.TextureFormatDXT.cpp
+Module.TextureFormatUncompressed.cpp
+Module.TextureFormatPVR.cpp
+Module.Advertising.cpp
+Module.BlankModule.cpp
+[958/1501] Resource ModuleVersionResource.rc.inl
+[959/1501] Resource ModuleVersionResource.rc.inl
+[960/1501] Resource ModuleVersionResource.rc.inl
+[961/1501] Resource PCLaunch.rc
+[962/1501] Resource PCLaunch.rc
+[963/1501] Resource ModuleVersionResource.rc.inl
+[964/1501] Resource PCLaunch.rc
+[965/1501] Resource ModuleVersionResource.rc.inl
+[966/1501] Resource PCLaunch.rc
+[967/1501] Resource PCLaunch.rc
+[968/1501] Resource ModuleVersionResource.rc.inl
+[969/1501] Resource PCLaunch.rc
+[970/1501] Resource PCLaunch.rc
+[971/1501] Resource ModuleVersionResource.rc.inl
+[972/1501] Resource PCLaunch.rc
+[973/1501] Resource ModuleVersionResource.rc.inl
+[974/1501] Resource PCLaunch.rc
+[975/1501] Resource ModuleVersionResource.rc.inl
+[976/1501] Resource PCLaunch.rc
+[977/1501] Resource PCLaunch.rc
+[978/1501] Resource ModuleVersionResource.rc.inl
+[979/1501] Resource PCLaunch.rc
+[980/1501] Resource ModuleVersionResource.rc.inl
+[981/1501] Resource ModuleVersionResource.rc.inl
+[982/1501] Resource ModuleVersionResource.rc.inl
+[983/1501] Resource ModuleVersionResource.rc.inl
+[984/1501] Resource PCLaunch.rc
+[985/1501] Resource ModuleVersionResource.rc.inl
+[986/1501] Resource ModuleVersionResource.rc.inl
+[987/1501] Resource PCLaunch.rc
+[988/1501] Resource PCLaunch.rc
+[989/1501] Resource PCLaunch.rc
+[990/1501] Resource ModuleVersionResource.rc.inl
+[991/1501] Resource PCLaunch.rc
+[992/1501] Resource ModuleVersionResource.rc.inl
+[993/1501] Resource PCLaunch.rc
+[994/1501] Resource ModuleVersionResource.rc.inl
+[995/1501] Resource ModuleVersionResource.rc.inl
+[996/1501] Resource PCLaunch.rc
+[997/1501] Resource PCLaunch.rc
+[998/1501] Resource ModuleVersionResource.rc.inl
+[999/1501] Resource PCLaunch.rc
+[1000/1501] Resource ModuleVersionResource.rc.inl
+[1001/1501] Resource ModuleVersionResource.rc.inl
+[1002/1501] Resource PCLaunch.rc
+[1003/1501] Resource PCLaunch.rc
+[1004/1501] Resource ModuleVersionResource.rc.inl
+[1005/1501] Resource PCLaunch.rc
+[1006/1501] Resource ModuleVersionResource.rc.inl
+[1007/1501] Resource ModuleVersionResource.rc.inl
+[1008/1501] Resource PCLaunch.rc
+[1009/1501] Resource ModuleVersionResource.rc.inl
+[1010/1501] Resource PCLaunch.rc
+[1011/1501] Resource PCLaunch.rc
+[1012/1501] Resource ModuleVersionResource.rc.inl
+[1013/1501] Resource ModuleVersionResource.rc.inl
+[1014/1501] Resource PCLaunch.rc
+[1015/1501] Resource ModuleVersionResource.rc.inl
+[1016/1501] Resource PCLaunch.rc
+[1017/1501] Resource PCLaunch.rc
+[1018/1501] Resource ModuleVersionResource.rc.inl
+[1019/1501] Resource ModuleVersionResource.rc.inl
+[1020/1501] Resource PCLaunch.rc
+[1021/1501] Resource ModuleVersionResource.rc.inl
+[1022/1501] Resource PCLaunch.rc
+[1023/1501] Resource PCLaunch.rc
+[1024/1501] Resource ModuleVersionResource.rc.inl
+[1025/1501] Resource ModuleVersionResource.rc.inl
+[1026/1501] Resource PCLaunch.rc
+[1027/1501] Resource ModuleVersionResource.rc.inl
+[1028/1501] Resource PCLaunch.rc
+[1029/1501] Resource ModuleVersionResource.rc.inl
+[1030/1501] Resource PCLaunch.rc
+[1031/1501] Resource ModuleVersionResource.rc.inl
+[1032/1501] Resource PCLaunch.rc
+[1033/1501] Resource PCLaunch.rc
+[1034/1501] Resource ModuleVersionResource.rc.inl
+[1035/1501] Resource PCLaunch.rc
+[1036/1501] Resource ModuleVersionResource.rc.inl
+[1037/1501] Resource PCLaunch.rc
+[1038/1501] Resource ModuleVersionResource.rc.inl
+[1039/1501] Resource PCLaunch.rc
+[1040/1501] Resource ModuleVersionResource.rc.inl
+[1041/1501] Resource PCLaunch.rc
+[1042/1501] Resource ModuleVersionResource.rc.inl
+[1043/1501] Resource PCLaunch.rc
+[1044/1501] Resource ModuleVersionResource.rc.inl
+[1045/1501] Resource PCLaunch.rc
+[1046/1501] Resource ModuleVersionResource.rc.inl
+[1047/1501] Resource PCLaunch.rc
+[1048/1501] Resource ModuleVersionResource.rc.inl
+[1049/1501] Resource ModuleVersionResource.rc.inl
+[1050/1501] Resource PCLaunch.rc
+[1051/1501] Resource PCLaunch.rc
+[1052/1501] Resource ModuleVersionResource.rc.inl
+[1053/1501] Resource PCLaunch.rc
+[1054/1501] Resource ModuleVersionResource.rc.inl
+[1055/1501] Resource PCLaunch.rc
+[1056/1501] Link UE4Editor-AITestSuite.lib
+   Creating library C:\Users\Jack\Documents\GitHub\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-AITestSuite.lib and object C:\Users\Jack\Documents\GitHub\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-AITestSuite.exp
+[1057/1501] Resource ModuleVersionResource.rc.inl
+[1058/1501] Resource PCLaunch.rc
+[1059/1501] Resource PCLaunch.rc
+[1060/1501] Resource ModuleVersionResource.rc.inl
+[1061/1501] Resource ModuleVersionResource.rc.inl
+[1062/1501] Resource PCLaunch.rc
+[1063/1501] Resource PCLaunch.rc
+[1064/1501] Resource PCLaunch.rc
+[1065/1501] Resource ModuleVersionResource.rc.inl
+[1066/1501] Resource ModuleVersionResource.rc.inl
+[1067/1501] Resource ModuleVersionResource.rc.inl
+[1068/1501] Resource PCLaunch.rc
+[1069/1501] Resource ModuleVersionResource.rc.inl
+[1070/1501] Resource PCLaunch.rc
+[1071/1501] Resource ModuleVersionResource.rc.inl
+[1072/1501] Resource PCLaunch.rc
+[1073/1501] Resource ModuleVersionResource.rc.inl
+[1074/1501] Resource PCLaunch.rc
+[1075/1501] Resource ModuleVersionResource.rc.inl
+[1076/1501] Resource PCLaunch.rc
+[1077/1501] Resource ModuleVersionResource.rc.inl
+[1078/1501] Resource PCLaunch.rc
+[1079/1501] Resource PCLaunch.rc
+[1080/1501] Resource ModuleVersionResource.rc.inl
+[1081/1501] Resource PCLaunch.rc
+[1082/1501] Resource ModuleVersionResource.rc.inl
+[1083/1501] Resource ModuleVersionResource.rc.inl
+[1084/1501] Resource PCLaunch.rc
+[1085/1501] Resource ModuleVersionResource.rc.inl
+[1086/1501] Resource ModuleVersionResource.rc.inl
+[1087/1501] Resource PCLaunch.rc
+[1088/1501] Resource PCLaunch.rc
+[1089/1501] Resource PCLaunch.rc
+[1090/1501] Resource ModuleVersionResource.rc.inl
+[1091/1501] Resource ModuleVersionResource.rc.inl
+[1092/1501] Resource PCLaunch.rc
+[1093/1501] Resource ModuleVersionResource.rc.inl
+[1094/1501] Resource ModuleVersionResource.rc.inl
+[1095/1501] Resource PCLaunch.rc
+[1096/1501] Resource PCLaunch.rc
+[1097/1501] Resource ModuleVersionResource.rc.inl
+[1098/1501] Resource PCLaunch.rc
+[1099/1501] Resource ModuleVersionResource.rc.inl
+[1100/1501] Resource ModuleVersionResource.rc.inl
+[1101/1501] Resource PCLaunch.rc
+[1102/1501] Resource PCLaunch.rc
+[1103/1501] Resource PCLaunch.rc
+[1104/1501] Resource PCLaunch.rc
+[1105/1501] Resource PCLaunch.rc
+[1106/1501] Resource ModuleVersionResource.rc.inl
+[1107/1501] Resource ModuleVersionResource.rc.inl
+[1108/1501] Resource PCLaunch.rc
+[1109/1501] Resource ModuleVersionResource.rc.inl
+[1110/1501] Resource ModuleVersionResource.rc.inl
+[1111/1501] Resource PCLaunch.rc
+[1112/1501] Resource ModuleVersionResource.rc.inl
+[1113/1501] Resource ModuleVersionResource.rc.inl
+[1114/1501] Resource PCLaunch.rc
+[1115/1501] Resource ModuleVersionResource.rc.inl
+[1116/1501] Resource PCLaunch.rc
+[1117/1501] Resource PCLaunch.rc
+[1118/1501] Resource PCLaunch.rc
+[1119/1501] Resource PCLaunch.rc
+[1120/1501] Resource ModuleVersionResource.rc.inl
+[1121/1501] Resource ModuleVersionResource.rc.inl
+[1122/1501] Resource ModuleVersionResource.rc.inl
+[1123/1501] Resource PCLaunch.rc
+[1124/1501] Resource ModuleVersionResource.rc.inl
+[1125/1501] Resource PCLaunch.rc
+[1126/1501] Resource ModuleVersionResource.rc.inl
+[1127/1501] Resource ModuleVersionResource.rc.inl
+[1128/1501] Resource ModuleVersionResource.rc.inl
+[1129/1501] Resource ModuleVersionResource.rc.inl
+[1130/1501] Resource PCLaunch.rc
+[1131/1501] Resource PCLaunch.rc
+[1132/1501] Resource ModuleVersionResource.rc.inl
+[1133/1501] Resource ModuleVersionResource.rc.inl
+[1134/1501] Resource ModuleVersionResource.rc.inl
+[1135/1501] Resource ModuleVersionResource.rc.inl
+[1136/1501] Resource ModuleVersionResource.rc.inl
+[1137/1501] Resource ModuleVersionResource.rc.inl
+[1138/1501] Resource PCLaunch.rc
+[1139/1501] Resource PCLaunch.rc
+[1140/1501] Resource PCLaunch.rc
+[1141/1501] Resource ModuleVersionResource.rc.inl
+[1142/1501] Resource ModuleVersionResource.rc.inl
+[1143/1501] Resource PCLaunch.rc
+[1144/1501] Resource PCLaunch.rc
+[1145/1501] Resource PCLaunch.rc
+[1146/1501] Resource PCLaunch.rc
+[1147/1501] Resource PCLaunch.rc
+[1148/1501] Resource PCLaunch.rc
+[1149/1501] Resource ModuleVersionResource.rc.inl
+[1150/1501] Resource ModuleVersionResource.rc.inl
+[1151/1501] Resource ModuleVersionResource.rc.inl
+[1152/1501] Resource PCLaunch.rc
+[1153/1501] Resource ModuleVersionResource.rc.inl
+[1154/1501] Resource PCLaunch.rc
+[1155/1501] Resource PCLaunch.rc
+[1156/1501] Resource ModuleVersionResource.rc.inl
+[1157/1501] Resource ModuleVersionResource.rc.inl
+[1158/1501] Resource PCLaunch.rc
+[1159/1501] Resource PCLaunch.rc
+[1160/1501] Resource ModuleVersionResource.rc.inl
+[1161/1501] Resource PCLaunch.rc
+[1162/1501] Resource ModuleVersionResource.rc.inl
+[1163/1501] Resource PCLaunch.rc
+[1164/1501] Resource PCLaunch.rc
+[1165/1501] Resource ModuleVersionResource.rc.inl
+[1166/1501] Resource ModuleVersionResource.rc.inl
+[1167/1501] Resource PCLaunch.rc
+[1168/1501] Resource PCLaunch.rc
+[1169/1501] Resource PCLaunch.rc
+[1170/1501] Resource ModuleVersionResource.rc.inl
+[1171/1501] Resource PCLaunch.rc
+[1172/1501] Resource PCLaunch.rc
+[1173/1501] Resource ModuleVersionResource.rc.inl
+[1174/1501] Resource ModuleVersionResource.rc.inl
+[1175/1501] Resource PCLaunch.rc
+[1176/1501] Resource ModuleVersionResource.rc.inl
+[1177/1501] Resource PCLaunch.rc
+[1178/1501] Resource ModuleVersionResource.rc.inl
+[1179/1501] Resource PCLaunch.rc
+[1180/1501] Resource PCLaunch.rc
+[1181/1501] Resource ModuleVersionResource.rc.inl
+[1182/1501] Resource PCLaunch.rc
+[1183/1501] Resource ModuleVersionResource.rc.inl
+[1184/1501] Resource ModuleVersionResource.rc.inl
+[1185/1501] Resource ModuleVersionResource.rc.inl
+[1186/1501] Resource ModuleVersionResource.rc.inl
+[1187/1501] Resource PCLaunch.rc
+[1188/1501] Resource PCLaunch.rc
+[1189/1501] Link UE4Editor.lib
+   Creating library C:\Users\Jack\Documents\GitHub\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor.lib and object C:\Users\Jack\Documents\GitHub\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor.exp
+-------- End Detailed Actions Stats -----------------------------------------------------------
+ERROR: UBT ERROR: Failed to produce item: C:\Users\Jack\Documents\GitHub\UnrealEngine\Engine\Binaries\Win64\UE4Editor-Core.pdb
+Total build time: 2497.26 seconds
+LogInit:Warning: Still incompatible or missing module: UE4Editor-Learning.dll
+LogExit: Preparing to exit.
+LogDerivedDataCache:Display: Max Cache Size: 512 MB
+LogDerivedDataCache: Loaded boot cache 0.17s 47MB ../../../../UE4/Learning/DerivedDataCache/Boot.ddc.
+LogDerivedDataCache:Display: Loaded Boot cache: ../../../../UE4/Learning/DerivedDataCache/Boot.ddc
+LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../UE4/Learning/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+LogDerivedDataCache: FDerivedDataBackendGraph:  EnginePak pak cache file ../../../Engine/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+LogDerivedDataCache: Unable to find inner node EnginePak for hierarchical cache Hierarchy.
+LogDerivedDataCache: Using Local data cache path ../../../Engine/DerivedDataCache: Writable
+LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+LogDerivedDataCache: Shutdown
+LogModuleManager: Shutting down and abandoning module CookingStats (17)
+LogModuleManager: Shutting down and abandoning module DerivedDataCache (16)
+LogDerivedDataCache: Shutdown
+LogModuleManager: Shutting down and abandoning module DesktopPlatform (15)
+LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+LogModuleManager: Shutting down and abandoning module Landscape (12)
+LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+LogModuleManager: Shutting down and abandoning module Renderer (7)
+LogModuleManager: Shutting down and abandoning module Engine (6)
+LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+LogModuleManager: Shutting down and abandoning module PakFile (1)
+LogExit: Exiting.
+Log file closed, 03/14/16 18:19:10
