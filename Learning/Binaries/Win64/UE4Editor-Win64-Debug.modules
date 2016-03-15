@@ -3,6 +3,6 @@
 	"BuildId" : "522db101-c336-4385-9103-ce87a654d5e1",
 	"Modules" : 
 	{
-		"Learning" : "UE4Editor-Learning-225-Win64-Debug.dll"
+		"Learning" : "UE4Editor-Learning-Win64-Debug.dll"
 	}
 }

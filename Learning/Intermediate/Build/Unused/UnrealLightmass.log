@@ -1,0 +1,138 @@
+﻿  Cleaning UnrealLightmass Binaries...
+  Creating makefile for UnrealLightmass (no existing makefile)
+  Performing full C++ include scan (no include cache file)
+  Building UnrealHeaderTool...
+  Creating makefile for UnrealHeaderTool (no existing makefile)
+  Performing full C++ include scan (no include cache file)
+  Performing 32 actions (2 in parallel)
+  PCH.CorePrivatePCH.h.cpp
+  PCH.Core.h.cpp
+  [3/32] Resource ModuleVersionResource.rc.inl
+  [4/32] Resource PCLaunch.rc
+  Module.Json.cpp
+  Module.Core.8_of_8.cpp
+  Module.Core.1_of_8.cpp
+  Module.Core.2_of_8.cpp
+  Module.Core.3_of_8.cpp
+  Module.Core.4_of_8.cpp
+  Module.Core.5_of_8.cpp
+  Module.Core.6_of_8.cpp
+  Module.Core.7_of_8.cpp
+  [14/32] Resource PCLaunch.rc
+  [15/32] Resource ModuleVersionResource.rc.inl
+  Module.Projects.cpp
+  [17/32] Resource PCLaunch.rc
+  [18/32] Resource ModuleVersionResource.rc.inl
+  Module.CoreUObject.3_of_4.cpp
+  [20/32] Link UnrealHeaderTool-Core.dll
+     Creating library C:\Users\Jack\Documents\GitHub\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealHeaderTool\Development\UnrealHeaderTool-Core.lib and object C:\Users\Jack\Documents\GitHub\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealHeaderTool\Development\UnrealHeaderTool-Core.exp
+  [21/32] Link UnrealHeaderTool-Json.dll
+     Creating library C:\Users\Jack\Documents\GitHub\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealHeaderTool\Development\UnrealHeaderTool-Json.lib and object C:\Users\Jack\Documents\GitHub\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealHeaderTool\Development\UnrealHeaderTool-Json.exp
+  [22/32] Link UnrealHeaderTool-Projects.dll
+     Creating library C:\Users\Jack\Documents\GitHub\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealHeaderTool\Development\UnrealHeaderTool-Projects.lib and object C:\Users\Jack\Documents\GitHub\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealHeaderTool\Development\UnrealHeaderTool-Projects.exp
+  Module.CoreUObject.4_of_4.cpp
+  Module.CoreUObject.2_of_4.cpp
+  [25/32] Resource PCLaunch.rc
+  PCH.CoreUObject.h.cpp
+  [27/32] Resource ModuleVersionResource.rc.inl
+  Module.CoreUObject.1_of_4.cpp
+  Module.UnrealHeaderTool.cpp
+  [30/32] Link UnrealHeaderTool-CoreUObject.dll
+     Creating library C:\Users\Jack\Documents\GitHub\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealHeaderTool\Development\UnrealHeaderTool-CoreUObject.lib and object C:\Users\Jack\Documents\GitHub\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealHeaderTool\Development\UnrealHeaderTool-CoreUObject.exp
+  [31/32] Resource PCLaunch.rc
+  [32/32] Link UnrealHeaderTool.exe
+  -------- End Detailed Actions Stats -----------------------------------------------------------
+  Total build time: 112.15 seconds
+  Parsing headers for UnrealLightmass
+    Running UnrealHeaderTool UnrealLightmass "C:\Users\Jack\Documents\GitHub\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealLightmass\Development\UnrealHeaderTool.manifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -NoEnginePlugins
+  Reflection code generated for UnrealLightmass in 0.4374182 seconds
+  Performing 74 actions (2 in parallel)
+  PCH.Core.h.cpp
+  PCH.CorePrivatePCH.h.cpp
+  PCH.CoreUObject.h.cpp
+  Module.Core.8_of_8.cpp
+  Module.Core.7_of_8.cpp
+  Module.Core.6_of_8.cpp
+  Module.Core.5_of_8.cpp
+  Module.Core.4_of_8.cpp
+  Module.Core.3_of_8.cpp
+  Module.Core.1_of_8.cpp
+  Module.Core.2_of_8.cpp
+  [12/74] Resource ModuleVersionResource.rc.inl
+  [13/74] Resource PCLaunch.rc
+  Module.Json.cpp
+  [15/74] Link UnrealLightmass-Core.dll
+     Creating library C:\Users\Jack\Documents\GitHub\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealLightmass\Development\UnrealLightmass-Core.lib and object C:\Users\Jack\Documents\GitHub\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealLightmass\Development\UnrealLightmass-Core.exp
+  [16/74] Resource PCLaunch.rc
+  [17/74] Resource ModuleVersionResource.rc.inl
+  Module.Projects.cpp
+  [19/74] Link UnrealLightmass-Json.dll
+     Creating library C:\Users\Jack\Documents\GitHub\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealLightmass\Development\UnrealLightmass-Json.lib and object C:\Users\Jack\Documents\GitHub\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealLightmass\Development\UnrealLightmass-Json.exp
+  [20/74] Resource PCLaunch.rc
+  [21/74] Resource ModuleVersionResource.rc.inl
+  Module.CoreUObject.3_of_4.cpp
+  [23/74] Link UnrealLightmass-Projects.dll
+     Creating library C:\Users\Jack\Documents\GitHub\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealLightmass\Development\UnrealLightmass-Projects.lib and object C:\Users\Jack\Documents\GitHub\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealLightmass\Development\UnrealLightmass-Projects.exp
+  Module.CoreUObject.2_of_4.cpp
+  Module.CoreUObject.1_of_4.cpp
+  [26/74] Resource ModuleVersionResource.rc.inl
+  Module.CoreUObject.4_of_4.cpp
+  [28/74] Resource PCLaunch.rc
+  CoreUObject.generated.cpp
+  Module.SandboxFile.cpp
+  [31/74] Resource ModuleVersionResource.rc.inl
+  [32/74] Resource PCLaunch.rc
+  [33/74] Link UnrealLightmass-SandboxFile.dll
+     Creating library C:\Users\Jack\Documents\GitHub\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealLightmass\Development\UnrealLightmass-SandboxFile.lib and object C:\Users\Jack\Documents\GitHub\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealLightmass\Development\UnrealLightmass-SandboxFile.exp
+  Module.Sockets.cpp
+  [35/74] Resource PCLaunch.rc
+  [36/74] Resource ModuleVersionResource.rc.inl
+  [37/74] Link UnrealLightmass-Sockets.dll
+     Creating library C:\Users\Jack\Documents\GitHub\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealLightmass\Development\UnrealLightmass-Sockets.lib and object C:\Users\Jack\Documents\GitHub\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealLightmass\Development\UnrealLightmass-Sockets.exp
+  Module.Messaging.cpp
+  [39/74] Link UnrealLightmass-CoreUObject.dll
+     Creating library C:\Users\Jack\Documents\GitHub\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealLightmass\Development\UnrealLightmass-CoreUObject.lib and object C:\Users\Jack\Documents\GitHub\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealLightmass\Development\UnrealLightmass-CoreUObject.exp
+  Module.CookingStats.cpp
+  SwarmInterface.generated.cpp
+  Module.Networking.cpp
+  Module.Serialization.cpp
+  Serialization.generated.cpp
+  Module.SwarmInterface.cpp
+  [46/74] Resource ModuleVersionResource.rc.inl
+  [47/74] Resource PCLaunch.rc
+  [48/74] Resource ModuleVersionResource.rc.inl
+  [49/74] Resource PCLaunch.rc
+  [50/74] Resource PCLaunch.rc
+  [51/74] Resource ModuleVersionResource.rc.inl
+  [52/74] Resource ModuleVersionResource.rc.inl
+  [53/74] Resource ModuleVersionResource.rc.inl
+  [54/74] Resource PCLaunch.rc
+  [55/74] Resource PCLaunch.rc
+  [56/74] Link UnrealLightmass-Serialization.dll
+     Creating library C:\Users\Jack\Documents\GitHub\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealLightmass\Development\UnrealLightmass-Serialization.lib and object C:\Users\Jack\Documents\GitHub\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealLightmass\Development\UnrealLightmass-Serialization.exp
+  [57/74] Link UnrealLightmass-SwarmInterface.dll
+     Creating library C:\Users\Jack\Documents\GitHub\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealLightmass\Development\UnrealLightmass-SwarmInterface.lib and object C:\Users\Jack\Documents\GitHub\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealLightmass\Development\UnrealLightmass-SwarmInterface.exp
+  [58/74] Link UnrealLightmass-Networking.dll
+     Creating library C:\Users\Jack\Documents\GitHub\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealLightmass\Development\UnrealLightmass-Networking.lib and object C:\Users\Jack\Documents\GitHub\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealLightmass\Development\UnrealLightmass-Networking.exp
+  [59/74] Link UnrealLightmass-Messaging.dll
+     Creating library C:\Users\Jack\Documents\GitHub\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealLightmass\Development\UnrealLightmass-Messaging.lib and object C:\Users\Jack\Documents\GitHub\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealLightmass\Development\UnrealLightmass-Messaging.exp
+  [60/74] Link UnrealLightmass-CookingStats.dll
+     Creating library C:\Users\Jack\Documents\GitHub\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealLightmass\Development\UnrealLightmass-CookingStats.lib and object C:\Users\Jack\Documents\GitHub\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealLightmass\Development\UnrealLightmass-CookingStats.exp
+  UdpMessaging.generated.cpp
+  Module.UdpMessaging.cpp
+  Module.UnrealLightmass.3_of_3.cpp
+  Module.UnrealLightmass.2_of_3.cpp
+  Module.DerivedDataCache.cpp
+  Module.UnrealLightmass.1_of_3.cpp
+  [67/74] Resource Resource.rc
+  [68/74] Resource ModuleVersionResource.rc.inl
+  [69/74] Resource PCLaunch.rc
+  [70/74] Resource PCLaunch.rc
+  [71/74] Resource ModuleVersionResource.rc.inl
+  [72/74] Link UnrealLightmass-UdpMessaging.dll
+     Creating library C:\Users\Jack\Documents\GitHub\UnrealEngine\Engine\Plugins\Messaging\UdpMessaging\Intermediate\Build\Win64\UnrealLightmass\Development\UnrealLightmass-UdpMessaging.lib and object C:\Users\Jack\Documents\GitHub\UnrealEngine\Engine\Plugins\Messaging\UdpMessaging\Intermediate\Build\Win64\UnrealLightmass\Development\UnrealLightmass-UdpMessaging.exp
+  [73/74] Link UnrealLightmass-DerivedDataCache.dll
+     Creating library C:\Users\Jack\Documents\GitHub\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealLightmass\Development\UnrealLightmass-DerivedDataCache.lib and object C:\Users\Jack\Documents\GitHub\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealLightmass\Development\UnrealLightmass-DerivedDataCache.exp
+  [74/74] Link UnrealLightmass.exe
+  -------- End Detailed Actions Stats -----------------------------------------------------------
+  Total build time: 224.63 seconds

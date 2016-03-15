@@ -1,52 +1,61 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-
 <Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-	<ItemGroup>
-		<None Include="..\..\Learning.uproject" />
-		<Filter Include="Source">
-			<UniqueIdentifier>{AD205A07-0C21-4F4E-BC8A-9184734530C1}</UniqueIdentifier>
-		</Filter>
-		<None Include="..\..\Source\Learning.Target.cs">
-			<Filter>Source</Filter>
-		</None >
-		<None Include="..\..\Source\LearningEditor.Target.cs">
-			<Filter>Source</Filter>
-		</None >
-		<Filter Include="Config">
-			<UniqueIdentifier>{8FCF38CB-0B71-4D10-874F-3AD8128E97A9}</UniqueIdentifier>
-		</Filter>
-		<None Include="..\..\Config\DefaultEditor.ini">
-			<Filter>Config</Filter>
-		</None >
-		<None Include="..\..\Config\DefaultEngine.ini">
-			<Filter>Config</Filter>
-		</None >
-		<None Include="..\..\Config\DefaultGame.ini">
-			<Filter>Config</Filter>
-		</None >
-		<Filter Include="Source\Learning">
-			<UniqueIdentifier>{FB446949-DA5F-4456-8A1C-F0FECE30921C}</UniqueIdentifier>
-		</Filter>
-		<ClCompile Include="..\..\Source\Learning\FloatingActor.cpp">
-			<Filter>Source\Learning</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\Learning\FloatingActor.h">
-			<Filter>Source\Learning</Filter>
-		</ClInclude >
-		<None Include="..\..\Source\Learning\Learning.Build.cs">
-			<Filter>Source\Learning</Filter>
-		</None >
-		<ClCompile Include="..\..\Source\Learning\Learning.cpp">
-			<Filter>Source\Learning</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\Learning\Learning.h">
-			<Filter>Source\Learning</Filter>
-		</ClInclude >
-		<ClCompile Include="..\..\Source\Learning\LearningGameMode.cpp">
-			<Filter>Source\Learning</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\Learning\LearningGameMode.h">
-			<Filter>Source\Learning</Filter>
-		</ClInclude >
-	</ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\Learning.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{AD205A07-0C21-4F4E-BC8A-9184734530C1}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Learning.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\LearningEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{8FCF38CB-0B71-4D10-874F-3AD8128E97A9}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\Learning">
+      <UniqueIdentifier>{FB446949-DA5F-4456-8A1C-F0FECE30921C}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Learning\FloatingActor.cpp">
+      <Filter>Source\Learning</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Learning\FloatingActor.h">
+      <Filter>Source\Learning</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\Learning\Learning.Build.cs">
+      <Filter>Source\Learning</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\Learning\Learning.cpp">
+      <Filter>Source\Learning</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Learning\Learning.h">
+      <Filter>Source\Learning</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Learning\LearningGameMode.cpp">
+      <Filter>Source\Learning</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Learning\LearningGameMode.h">
+      <Filter>Source\Learning</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\Learning\MyActor.h">
+      <Filter>Source\Learning</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\Learning\MyActor.cpp">
+      <Filter>Source\Learning</Filter>
+    </ClCompile>
+  </ItemGroup>
 </Project>

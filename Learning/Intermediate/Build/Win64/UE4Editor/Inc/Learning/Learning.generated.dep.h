@@ -11,3 +11,6 @@
 #ifndef LEARNING_LearningGameMode_generated_h
 	#include "LearningGameMode.h"
 #endif
+#ifndef LEARNING_MyActor_generated_h
+	#include "MyActor.h"
+#endif

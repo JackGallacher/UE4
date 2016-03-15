@@ -1,13 +1,19 @@
-﻿  Creating makefile for LearningEditor (working set of source files changed)
+﻿  Creating makefile for LearningEditor (UnrealBuildTool.exe is newer)
   Building UnrealHeaderTool...
   Target is up to date
   Parsing headers for LearningEditor
     Running UnrealHeaderTool "C:\Users\Jack\Documents\GitHub\UE4\Learning\Learning.uproject" "C:\Users\Jack\Documents\GitHub\UE4\Learning\Intermediate\Build\Win64\LearningEditor\Debug\UnrealHeaderTool.manifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors
-  Reflection code generated for LearningEditor in 5.9124881 seconds
-  Performing 3 actions (2 in parallel)
-  FloatingActor.cpp
-  Learning.generated.cpp
-  [3/3] Link UE4Editor-Learning-Win64-Debug.dll
+  Reflection code generated for LearningEditor in 9.5327695 seconds
+  Deleting old hot reload file: "C:\Users\Jack\Documents\GitHub\UE4\Learning\Binaries\Win64\UE4Editor-Learning-4346-Win64-Debug.dll".
+  Deleting old hot reload file: "C:\Users\Jack\Documents\GitHub\UE4\Learning\Binaries\Win64\UE4Editor-Learning-4346-Win64-Debug.pdb".
+  Deleting old hot reload file: "C:\Users\Jack\Documents\GitHub\UE4\Learning\Binaries\Win64\UE4Editor-Learning-7048-Win64-Debug.dll".
+  Deleting old hot reload file: "C:\Users\Jack\Documents\GitHub\UE4\Learning\Binaries\Win64\UE4Editor-Learning-7048-Win64-Debug.pdb".
+  Deleting old hot reload file: "C:\Users\Jack\Documents\GitHub\UE4\Learning\Binaries\Win64\UE4Editor-Learning-7575-Win64-Debug.dll".
+  Deleting old hot reload file: "C:\Users\Jack\Documents\GitHub\UE4\Learning\Binaries\Win64\UE4Editor-Learning-7575-Win64-Debug.pdb".
+  Deleting old hot reload file: "C:\Users\Jack\Documents\GitHub\UE4\Learning\Binaries\Win64\UE4Editor-Learning-9288-Win64-Debug.dll".
+  Deleting old hot reload file: "C:\Users\Jack\Documents\GitHub\UE4\Learning\Binaries\Win64\UE4Editor-Learning-9288-Win64-Debug.pdb".
+  Performing 1 actions (2 in parallel)
+  [1/1] Link UE4Editor-Learning-Win64-Debug.dll
      Creating library C:\Users\Jack\Documents\GitHub\UE4\Learning\Intermediate\Build\Win64\UE4Editor\Debug\UE4Editor-Learning-Win64-Debug.lib and object C:\Users\Jack\Documents\GitHub\UE4\Learning\Intermediate\Build\Win64\UE4Editor\Debug\UE4Editor-Learning-Win64-Debug.exp
   -------- End Detailed Actions Stats -----------------------------------------------------------
-  Total build time: 18.54 seconds
+  Total build time: 30.81 seconds

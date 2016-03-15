@@ -1,0 +1,643 @@
+﻿Log file open, 03/15/16 12:55:19
+LogInit:Display: Running engine for game: Learning
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(305667247) SRandInit(305667250).
+LogInit: Using version manifest at CL 0 with build ID '522db101-c336-4385-9103-ce87a654d5e1'
+LogTaskGraph: Started task graph with 4 named threads and 5 total threads.
+LogStats: Stats thread started at 0.146645
+OCULUS: Info: 03/15/16 12:55:19: [CAPI] LibOVR module is located at C:\Windows\SYSTEM32\LibOVRRT64_0_8.dll
+
+OCULUS: Info: 03/15/16 12:55:19: [IPC] Call Stats for SetInitialState : x1: C2S=13.7964, S2C=3.32136, Runtime=55.9521 (microseconds) C2Ssize=80, S2Csize=81 (bytes)
+
+OCULUS: Info: 03/15/16 12:55:19: [IPC] Call Stats for IsLatencyTesterAvailable : x1: C2S=4.85429, S2C=2.55489, Runtime=1.02196 (microseconds) C2Ssize=33, S2Csize=18 (bytes)
+
+LogInit: Version: 4.11.0-0+UE4
+LogInit: API Version: 0
+LogInit: Compiled (64-bit): Mar 14 2016 17:29:30
+LogInit: Compiled with Visual C++: 19.00.23506.00
+LogInit: Build Configuration: Debug
+LogInit: Branch Name: UE4
+LogInit: Command line:  -debug
+LogInit: Base directory: C:/Users/Jack/Documents/GitHub/UnrealEngine/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 0
+LogInit: Using libcurl 7.41.0
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with WinSSL
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2016.03.15-12.55.19:842][  0]LogInit: Selected Device Profile: [Windows]
+[2016.03.15-12.55.19:842][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.03.15-12.55.19:861][  0]LogInit: Computer: JACK
+[2016.03.15-12.55.19:861][  0]LogInit: User: Jack
+[2016.03.15-12.55.19:861][  0]LogInit: CPU Page size=65536, Cores=2
+[2016.03.15-12.55.19:861][  0]LogInit: High frequency timer resolution =3.914062 MHz
+[2016.03.15-12.55.19:861][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2016.03.15-12.55.19:862][  0]LogMemory: Platform Memory Stats for Windows
+[2016.03.15-12.55.19:862][  0]LogMemory: Process Physical Memory: 322.41 MB used, 322.41 MB peak
+[2016.03.15-12.55.19:862][  0]LogMemory: Process Virtual Memory: 313.55 MB used, 313.55 MB peak
+[2016.03.15-12.55.19:862][  0]LogMemory: Physical Memory: 6716.06 MB used, 16304.48 MB total
+[2016.03.15-12.55.19:863][  0]LogMemory: Virtual Memory: 772.43 MB used, 134217728.00 MB total
+[2016.03.15-12.55.19:980][  0]LogPhysics:Warning: PHYSX: ..\..\module\clothing\src\ModuleClothing.cpp (386) 2 : physx::apex::clothing::ModuleClothing::ModuleClothing: Failed to load the GPU dll 'APEX_ClothingGPUPROFILE_x64.dll'
+[2016.03.15-12.55.19:984][  0]LogTextLocalizationManager: No specific translations for ('en-GB') exist, so ('en') translations will be used.
+[2016.03.15-12.55.20:641][  0]LogD3D11RHI: D3D11 adapters:
+[2016.03.15-12.55.20:706][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 980 Ti' (Feature Level 11_0)
+[2016.03.15-12.55.20:706][  0]LogD3D11RHI:       6047MB of dedicated video memory, 0MB of dedicated system memory, and 8152MB of shared system memory, 1 output[s]
+[2016.03.15-12.55.20:709][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2016.03.15-12.55.20:709][  0]LogD3D11RHI:       0MB of dedicated video memory, 0MB of dedicated system memory, and 8152MB of shared system memory, 0 output[s]
+[2016.03.15-12.55.20:710][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2016.03.15-12.55.20:714][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2016.03.15-12.55.20:714][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 980 Ti
+[2016.03.15-12.55.20:714][  0]LogD3D11RHI:   Driver Version: Unknown (internal Unknown)
+[2016.03.15-12.55.20:714][  0]LogD3D11RHI:      Driver Date: Unknown
+[2016.03.15-12.55.20:714][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.03.15-12.55.20:733][  0]LogD3D11RHI: Async texture creation enabled
+[2016.03.15-12.55.20:749][  0]LogShaderCompilers: Guid format shader working directory is 21 characters bigger than the processId version (../../../../UE4/Learning/Intermediate/Shaders/WorkingDirectory/1272/).
+[2016.03.15-12.55.20:749][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Jack/AppData/Local/Temp/UnrealShaderWorkingDir/3045A447429EDE1D07CF66A6517DE432/'.
+[2016.03.15-12.55.20:749][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.03.15-12.55.21:749][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.03.15-12.55.21:763][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.03.15-12.55.21:777][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.03.15-12.55.21:794][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.03.15-12.55.21:809][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.03.15-12.55.21:823][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.03.15-12.55.21:836][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.03.15-12.55.21:847][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.03.15-12.55.21:859][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.03.15-12.55.21:875][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.03.15-12.55.21:888][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.03.15-12.55.21:902][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.03.15-12.55.21:913][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.03.15-12.55.21:919][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.03.15-12.55.21:958][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.03.15-12.55.21:969][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2016.03.15-12.55.21:969][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.03.15-12.55.22:192][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.03.15-12.55.22:230][  0]LogDerivedDataCache: Loaded boot cache 0.04s 47MB ../../../../UE4/Learning/DerivedDataCache/Boot.ddc.
+[2016.03.15-12.55.22:230][  0]LogDerivedDataCache:Display: Loaded Boot cache: ../../../../UE4/Learning/DerivedDataCache/Boot.ddc
+[2016.03.15-12.55.22:230][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../UE4/Learning/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.03.15-12.55.22:230][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.03.15-12.55.22:230][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnginePak pak cache file ../../../Engine/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.03.15-12.55.22:230][  0]LogDerivedDataCache: Unable to find inner node EnginePak for hierarchical cache Hierarchy.
+[2016.03.15-12.55.22:244][  0]LogDerivedDataCache: Using Local data cache path ../../../Engine/DerivedDataCache: Writable
+[2016.03.15-12.55.22:244][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2016.03.15-12.55.22:244][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2016.03.15-12.55.22:656][  0]LogInit: Selected Device Profile: [Windows]
+[2016.03.15-12.55.22:657][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2016.03.15-12.55.22:733][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2016.03.15-12.55.23:043][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.03.15-12.55.23:043][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.03.15-12.55.23:043][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2016.03.15-12.55.23:446][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.03.15-12.55.23:810][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.03.15-12.55.23:810][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.03.15-12.55.23:890][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2016.03.15-12.55.23:890][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2016.03.15-12.55.23:890][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2016.03.15-12.55.23:890][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2016.03.15-12.55.23:890][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2016.03.15-12.55.23:890][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2016.03.15-12.55.24:450][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.03.15-12.55.24:622][  0]LogAssetRegistry: FAssetRegistry took 0.0259 seconds to start up
+[2016.03.15-12.55.25:045][  0]SourceControl: Info Source control is disabled
+[2016.03.15-12.55.25:046][  0]SourceControl: Info Source control is disabled
+[2016.03.15-12.55.25:068][  0]SourceControl: Info Source control is disabled
+[2016.03.15-12.55.25:095][  0]SourceControl: Info Source control is disabled
+[2016.03.15-12.55.25:539][  0]LogUObjectArray: 30025 objects as part of root set at end of initial load.
+[2016.03.15-12.55.25:539][  0]LogUObjectAllocator: 6413608 out of 0 bytes used by permanent object pool.
+[2016.03.15-12.55.25:540][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2016.03.15-12.55.25:668][  0]LogEngine: Initializing Engine...
+[2016.03.15-12.55.26:436][  0]LogHMD: SteamVR failed to initialize.  Err: 108
+[2016.03.15-12.55.26:798][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.03.15-12.55.26:815][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.03.15-12.55.26:897][  0]LogInit: FAudioDevice initialized.
+[2016.03.15-12.55.26:916][  0]LogDerivedDataCache: Saved boot cache 0.02s 47MB ../../../../UE4/Learning/DerivedDataCache/Boot.ddc.
+[2016.03.15-12.55.26:919][  0]LogInit: Texture streaming: Enabled
+[2016.03.15-12.55.26:981][  0]LogInit: Transaction tracking system initialized
+[2016.03.15-12.55.27:057][  0]BlueprintLog: New page: Editor Load
+[2016.03.15-12.55.27:324][  0]LocalizationService: Info Localization service is disabled
+[2016.03.15-12.55.27:511][  0]LogConsoleResponse:Display: 
+[2016.03.15-12.55.27:727][  0]LogCook:Display: Max memory allowance for cook 8192mb
+[2016.03.15-12.55.27:727][  0]LogCook:Display: Mobile HDR setting 1
+[2016.03.15-12.55.27:727][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.03.15-12.55.27:878][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Jack/Documents/GitHub/UE4/Learning/Content/' took 0.02s
+[2016.03.15-12.55.27:878][  0]SourceControl: Info Source control is disabled
+[2016.03.15-12.55.27:878][  0]Cmd: MAP LOAD FILE="../../../../UE4/Learning/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.03.15-12.55.27:879][  0]LightingResults: New page: Lighting Build
+[2016.03.15-12.55.27:884][  0]MapCheck: New page: Map Check
+[2016.03.15-12.55.27:884][  0]LightingResults: New page: Lighting Build
+[2016.03.15-12.55.28:746][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2016.03.15-12.55.28:761][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.03.15-12.55.28:762][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.03.15-12.55.28:808][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 45.342ms to complete.
+[2016.03.15-12.55.28:809][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.930
+[2016.03.15-12.55.28:994][  0]LogCollectionManager: Loaded 0 collections in 0.004023 seconds
+[2016.03.15-12.55.29:043][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Jack/Documents/GitHub/UE4/Learning/Saved/Collections/' took 0.01s
+[2016.03.15-12.55.29:043][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Jack/Documents/GitHub/UE4/Learning/Content/Developers/Jack/Collections/' took 0.01s
+[2016.03.15-12.55.29:043][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Jack/Documents/GitHub/UE4/Learning/Content/Collections/' took 0.01s
+[2016.03.15-12.55.29:043][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2016.03.15-12.55.29:064][  0]LogContentBrowser: Native class hierarchy populated in 0.0209 seconds. Added 1987 classes and 346 folders.
+[2016.03.15-12.55.29:071][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2016.03.15-12.55.29:072][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2016.03.15-12.55.29:073][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0014 seconds. Added 12 classes and 0 folders.
+[2016.03.15-12.55.29:082][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0013 seconds. Added 0 classes and 0 folders.
+[2016.03.15-12.55.29:139][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0019 seconds. Added 0 classes and 0 folders.
+[2016.03.15-12.55.29:158][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0020 seconds. Added 1 classes and 2 folders.
+[2016.03.15-12.55.29:201][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.03.15-12.55.29:276][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0018 seconds. Added 1 classes and 2 folders.
+[2016.03.15-12.55.29:276][  0]LogLoad: Full Startup: 11.34 seconds (BP compile: 0.12 seconds)
+[2016.03.15-12.55.29:276][  0]LogExternalProfiler:Warning: No registered external profiler was matched with a command-line switch (or the DLL could not be loaded).  External profiling features will not be available.
+[2016.03.15-12.55.29:287][  0]LogOcInput: OculusInput is initialized. Init status 0. Runtime version: 0.8.0.0
+[2016.03.15-12.55.29:345][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.03.15-12.55.29:611][  0]LogRenderer: Reallocating scene render targets to support 1616x808 (Frame:2).
+[2016.03.15-12.55.29:975][  3]LogAssetRegistry: Asset discovery search completed in 5.3784 seconds
+[2016.03.15-12.55.29:975][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.03.15-12.55.29:975][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000089 seconds (updated 0 objects)
+[2016.03.15-12.55.44:605][901]LogEditor: Attempting to add actor of class 'MyActor' to level at 90.00,290.00,-60.00
+[2016.03.15-12.55.45:444][962]LogEditor: Attempting to add actor of class 'MyActor' to level at -40.00,180.00,30.00
+[2016.03.15-12.55.50:032][215]LogActorFactory: Actor Factory created Cube
+[2016.03.15-12.56.00:999][772]LogEditorViewport: Clicking on Actor (LMB): FloatingActor (FloatingActor)
+[2016.03.15-12.56.06:269][ 46]LogEditorViewport: Clicking on Actor (LMB): MyActor (MyActor1)
+[2016.03.15-12.56.08:433][164]LogEditorViewport: Clicking on Actor (LMB): FloatingActor (FloatingActor)
+[2016.03.15-12.56.10:108][259]LogEditorViewport: Clicking on Actor (LMB): MyActor (MyActor1)
+[2016.03.15-12.56.10:779][297]LogEditorViewport: Clicking on Actor (LMB): FloatingActor (FloatingActor)
+[2016.03.15-12.56.12:688][394]LogEditorViewport: Clicking on Actor (LMB): MyActor (MyActor1)
+[2016.03.15-12.56.13:592][446]LogEditorViewport: Clicking on Actor (LMB): FloatingActor (FloatingActor)
+[2016.03.15-12.56.18:028][657]LogEditorViewport: Clicking on Actor (LMB): MyActor (MyActor1)
+[2016.03.15-12.56.42:054][903]LogEditorViewport: Clicking on Actor (LMB): FloatingActor (FloatingActor)
+[2016.03.15-12.56.55:737][598]LogEditorViewport: Clicking on Actor (LMB): MyActor (MyActor1)
+[2016.03.15-12.57.17:073][693]LogEditorViewport: Clicking on Component (LMB): SceneComponent (DefaultSceneRoot)
+[2016.03.15-12.57.20:223][896]LogEditorViewport: Clicking on Component (LMB): SceneComponent (DefaultSceneRoot)
+[2016.03.15-12.57.42:132][108]LogEditorActor: Deleted Actor: MyActor
+[2016.03.15-12.57.42:217][108]LogEditorActor: Deleted 1 Actors (0.089 secs)
+[2016.03.15-12.57.44:152][248]LogEditor: Attempting to add actor of class 'MyActor' to level at 120.00,40.00,-230.00
+[2016.03.15-12.57.44:894][301]LogEditor: Attempting to add actor of class 'MyActor' to level at -120.00,-120.00,30.00
+[2016.03.15-12.57.56:963][950]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (Cube)
+[2016.03.15-12.58.02:455][235]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (Cube)
+[2016.03.15-12.58.05:955][407]LogEditorViewport: Clicking on Actor (LMB): FloatingActor (FloatingActor)
+[2016.03.15-12.58.09:724][608]LogEditorViewport: Clicking on Actor (LMB): MyActor (MyActor)
+[2016.03.15-12.58.38:250][131]LogTexture:Display: Building textures: T_Tech_Hex_Tile_N (BC5)
+[2016.03.15-12.58.38:500][131]LogTexture:Display: Building textures: T_Tech_Hex_Tile_M (AutoDXT)
+[2016.03.15-12.58.39:051][131]LogMaterial: Missing cached shader map for material M_Tech_Hex_Tile, compiling. 
+[2016.03.15-12.58.47:209][454]LogMaterial: Missing cached shader map for material M_Tech_Hex_Tile_Pulse, compiling. 
+[2016.03.15-12.58.55:178][800]Recompiling Learning...
+[2016.03.15-12.58.55:178][800]Building UnrealBuildTool...
+[2016.03.15-12.58.55:178][800]Building UnrealBuildTool in C:/Users/Jack/Documents/GitHub/UnrealEngine/...
+[2016.03.15-12.58.55:179][800]Running: C:\Windows\system32\cmd.exe /c "C:\Users\Jack\Documents\GitHub\UnrealEngine\Engine\Intermediate\Build\UnrealBuildTool\BuildUBT.bat"
+[2016.03.15-12.58.56:841][800]Launching UnrealBuildTool... [C:/Users/Jack/Documents/GitHub/UnrealEngine/Engine/Binaries/DotNET/UnrealBuildTool.exe Learning -ModuleWithSuffix Learning 9948 Win64 Debug -editorrecompile -canskiplink "C:/Users/Jack/Documents/GitHub/UE4/Learning/Learning.uproject"  -2015]
+[2016.03.15-12.58.56:856][800]Warning: Starting HotReload took  1.7s.
+[2016.03.15-12.58.58:221][850]CompilerResultsLog: New page: Compilation - 15 Mar 2016 12:58:58
+[2016.03.15-12.58.58:222][850]CompilerResultsLog: Info Compiling game modules for hot reload
+[2016.03.15-12.58.58:222][850]CompilerResultsLog: Info Target is up to date
+[2016.03.15-12.58.58:222][850]LogMainFrame: MainFrame: Module compiling took 3.049 seconds
+[2016.03.15-12.59.00:207][933]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.03.15-12.59.00:207][933]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.15-12.59.00:207][933]PIE: New page: PIE session: Minimal_Default (15 Mar 2016 12:59:00)
+[2016.03.15-12.59.00:207][933]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2016.03.15-12.59.00:219][933]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011623s)
+[2016.03.15-12.59.00:220][933]LogAIModule: Creating AISystem for world Minimal_Default
+[2016.03.15-12.59.00:220][933]LogPlayLevel: PIE: World Init took: (0.001067s)
+[2016.03.15-12.59.00:221][933]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.013793s)
+[2016.03.15-12.59.00:302][933]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.03.15-12.59.00:336][933]LogInit: FAudioDevice initialized.
+[2016.03.15-12.59.00:398][933]LogWorld: Game class is 'LearningGameMode'
+[2016.03.15-12.59.00:404][933]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2016.03.15-12.59.00
+[2016.03.15-12.59.00:405][933]LogWorld: Bringing up level for play took: 0.005239
+[2016.03.15-12.59.00:430][933]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0015 seconds. Added 9 classes and 0 folders.
+[2016.03.15-12.59.00:432][933]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 1.118
+[2016.03.15-12.59.00:433][933]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.03.15-12.59.05:801][273]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.03.15-12.59.05:861][273]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.03.15-13.05.35:702][780]LogSavePackage: Save=291.11ms
+[2016.03.15-13.05.35:702][780]LogSavePackage: Moving '../../../../UE4/Learning/Saved/Minimal_Default_Auto1FF5C04224F13179478AB3F9CB3D753E6.tmp' to '../../../../UE4/Learning/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto1.umap'
+[2016.03.15-13.05.35:706][780]LogSavePackage: Total save time: 299.40ms
+[2016.03.15-13.05.35:707][780]LogSavePackage:Display: Finished SavePackage ../../../../UE4/Learning/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto1.umap
+[2016.03.15-13.05.35:711][780]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.413
+[2016.03.15-13.05.35:711][780]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.413
+[2016.03.15-13.11.12:269][852]Recompiling Learning...
+[2016.03.15-13.11.12:269][852]Launching UnrealBuildTool... [C:/Users/Jack/Documents/GitHub/UnrealEngine/Engine/Binaries/DotNET/UnrealBuildTool.exe Learning -ModuleWithSuffix Learning 9288 Win64 Debug -editorrecompile -canskiplink "C:/Users/Jack/Documents/GitHub/UE4/Learning/Learning.uproject"  -2015]
+[2016.03.15-13.11.12:283][852]Warning: Starting HotReload took  0.0s.
+[2016.03.15-13.11.20:167][175]CompilerResultsLog: New page: Compilation - 15 Mar 2016 13:11:20
+[2016.03.15-13.11.20:168][175]CompilerResultsLog: Info Compiling game modules for hot reload
+[2016.03.15-13.11.20:168][175]CompilerResultsLog: Info Parsing headers for LearningEditor
+[2016.03.15-13.11.20:168][175]CompilerResultsLog: Info   Running UnrealHeaderTool "C:\Users\Jack\Documents\GitHub\UE4\Learning\Learning.uproject" "C:\Users\Jack\Documents\GitHub\UE4\Learning\Intermediate\Build\Win64\LearningEditor\Debug\UnrealHeaderTool.manifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors
+[2016.03.15-13.11.20:168][175]CompilerResultsLog: Info Reflection code generated for LearningEditor in 3.9154814 seconds
+[2016.03.15-13.11.20:168][175]CompilerResultsLog: Info Performing 3 actions (2 in parallel)
+[2016.03.15-13.11.20:169][175]CompilerResultsLog: Info MyActor.cpp
+[2016.03.15-13.11.20:169][175]CompilerResultsLog: Info Learning.generated.cpp
+[2016.03.15-13.11.20:169][175]CompilerResultsLog: Info [3/3] Link UE4Editor-Learning-9288-Win64-Debug.dll
+[2016.03.15-13.11.20:169][175]CompilerResultsLog: Info    Creating library C:\Users\Jack\Documents\GitHub\UE4\Learning\Intermediate\Build\Win64\UE4Editor\Debug\UE4Editor-Learning-9288-Win64-Debug.lib and object C:\Users\Jack\Documents\GitHub\UE4\Learning\Intermediate\Build\Win64\UE4Editor\Debug\UE4Editor-Learning-9288-Win64-Debug.exp
+[2016.03.15-13.11.20:169][175]CompilerResultsLog: Info -------- End Detailed Actions Stats -----------------------------------------------------------
+[2016.03.15-13.11.20:169][175]CompilerResultsLog: Info Total build time: 7.51 seconds
+[2016.03.15-13.11.20:169][175]LogMainFrame: MainFrame: Module compiling took 7.905 seconds
+[2016.03.15-13.11.20:294][175]LogClass: Could not find existing class MyActor in package /Script/Learning for HotReload, assuming new class
+[2016.03.15-13.11.20:301][175]LogHotReload: Re-instancing MyActor after hot-reload.
+[2016.03.15-13.11.20:303][175]LogContentBrowser: Native class hierarchy updated for 'Learning' in 0.0016 seconds. Added 3 classes and 2 folders.
+[2016.03.15-13.11.20:308][175]Warning: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2016.03.15-13.11.20:527][175]LogContentBrowser: Native class hierarchy populated in 0.0243 seconds. Added 1989 classes and 350 folders.
+[2016.03.15-13.11.20:527][175]Warning: HotReload took  8.3s.
+[2016.03.15-13.30.40:104][891]Recompiling Learning...
+[2016.03.15-13.30.40:104][891]Launching UnrealBuildTool... [C:/Users/Jack/Documents/GitHub/UnrealEngine/Engine/Binaries/DotNET/UnrealBuildTool.exe Learning -ModuleWithSuffix Learning 7928 Win64 Debug -editorrecompile -canskiplink "C:/Users/Jack/Documents/GitHub/UE4/Learning/Learning.uproject"  -2015]
+[2016.03.15-13.30.40:116][891]Warning: Starting HotReload took  0.0s.
+[2016.03.15-13.30.41:140][931]CompilerResultsLog: New page: Compilation - 15 Mar 2016 13:30:41
+[2016.03.15-13.30.41:141][931]CompilerResultsLog: Info Compiling game modules for hot reload
+[2016.03.15-13.30.41:141][931]CompilerResultsLog: Info Target is up to date
+[2016.03.15-13.30.41:141][931]LogMainFrame: MainFrame: Module compiling took 1.042 seconds
+[2016.03.15-13.30.57:247][769]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.03.15-13.30.57:247][769]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.15-13.30.57:247][769]PIE: New page: PIE session: Minimal_Default (15 Mar 2016 13:30:57)
+[2016.03.15-13.30.57:248][769]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2016.03.15-13.30.57:261][769]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013326s)
+[2016.03.15-13.30.57:262][769]LogAIModule: Creating AISystem for world Minimal_Default
+[2016.03.15-13.30.57:262][769]LogPlayLevel: PIE: World Init took: (0.001336s)
+[2016.03.15-13.30.57:263][769]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.015370s)
+[2016.03.15-13.30.57:362][769]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.03.15-13.30.57:397][769]LogInit: FAudioDevice initialized.
+[2016.03.15-13.30.57:453][769]LogWorld: Game class is 'LearningGameMode'
+[2016.03.15-13.30.57:458][769]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2016.03.15-13.30.57:458][769]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2016.03.15-13.30.57:458][769]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2016.03.15-13.30.57
+[2016.03.15-13.30.57:459][769]LogWorld: Bringing up level for play took: 0.005123
+[2016.03.15-13.30.57:463][769]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.149
+[2016.03.15-13.30.57:463][769]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.03.15-13.31.09:364][563]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.03.15-13.31.09:420][563]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.03.15-13.31.14:410][847]LogEditorViewport: Clicking on Actor (LMB): HOTRELOADED_MyActor_0 (MyActor)
+[2016.03.15-13.31.22:195][305]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.03.15-13.31.22:195][305]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.15-13.31.22:195][305]PIE: New page: PIE session: Minimal_Default (15 Mar 2016 13:31:22)
+[2016.03.15-13.31.22:196][305]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2016.03.15-13.31.22:205][305]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009027s)
+[2016.03.15-13.31.22:206][305]LogAIModule: Creating AISystem for world Minimal_Default
+[2016.03.15-13.31.22:206][305]LogPlayLevel: PIE: World Init took: (0.001027s)
+[2016.03.15-13.31.22:207][305]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.011226s)
+[2016.03.15-13.31.22:295][305]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.03.15-13.31.22:330][305]LogInit: FAudioDevice initialized.
+[2016.03.15-13.31.22:384][305]LogWorld: Game class is 'LearningGameMode'
+[2016.03.15-13.31.22:388][305]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2016.03.15-13.31.22:388][305]LogActorComponent: RegisterComponentWithWorld: Owner belongs to a DEADCLASS
+[2016.03.15-13.31.22:388][305]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2016.03.15-13.31.22
+[2016.03.15-13.31.22:389][305]LogWorld: Bringing up level for play took: 0.003981
+[2016.03.15-13.31.22:393][305]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 1.079
+[2016.03.15-13.31.22:393][305]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.03.15-13.31.23:456][372]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.03.15-13.31.23:510][372]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.03.15-14.14.18:736][765]Recompiling Learning...
+[2016.03.15-14.14.18:736][765]Launching UnrealBuildTool... [C:/Users/Jack/Documents/GitHub/UnrealEngine/Engine/Binaries/DotNET/UnrealBuildTool.exe Learning -ModuleWithSuffix Learning 4346 Win64 Debug -editorrecompile -canskiplink "C:/Users/Jack/Documents/GitHub/UE4/Learning/Learning.uproject"  -2015]
+[2016.03.15-14.14.18:822][765]Warning: Starting HotReload took  0.1s.
+[2016.03.15-14.14.29:853][254]CompilerResultsLog: New page: Compilation - 15 Mar 2016 14:14:29
+[2016.03.15-14.14.29:855][254]CompilerResultsLog: Info Compiling game modules for hot reload
+[2016.03.15-14.14.29:855][254]CompilerResultsLog: Info Parsing headers for LearningEditor
+[2016.03.15-14.14.29:855][254]CompilerResultsLog: Info   Running UnrealHeaderTool "C:\Users\Jack\Documents\GitHub\UE4\Learning\Learning.uproject" "C:\Users\Jack\Documents\GitHub\UE4\Learning\Intermediate\Build\Win64\LearningEditor\Debug\UnrealHeaderTool.manifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors
+[2016.03.15-14.14.29:855][254]CompilerResultsLog: Info Reflection code generated for LearningEditor in 6.8664952 seconds
+[2016.03.15-14.14.29:856][254]CompilerResultsLog: Info Performing 3 actions (2 in parallel)
+[2016.03.15-14.14.29:856][254]CompilerResultsLog: Info Learning.generated.cpp
+[2016.03.15-14.14.29:856][254]CompilerResultsLog: Info MyActor.cpp
+[2016.03.15-14.14.29:856][254]CompilerResultsLog: Info [3/3] Link UE4Editor-Learning-4346-Win64-Debug.dll
+[2016.03.15-14.14.29:856][254]CompilerResultsLog: Info    Creating library C:\Users\Jack\Documents\GitHub\UE4\Learning\Intermediate\Build\Win64\UE4Editor\Debug\UE4Editor-Learning-4346-Win64-Debug.lib and object C:\Users\Jack\Documents\GitHub\UE4\Learning\Intermediate\Build\Win64\UE4Editor\Debug\UE4Editor-Learning-4346-Win64-Debug.exp
+[2016.03.15-14.14.29:856][254]CompilerResultsLog: Info -------- End Detailed Actions Stats -----------------------------------------------------------
+[2016.03.15-14.14.29:856][254]CompilerResultsLog: Info Total build time: 10.94 seconds
+[2016.03.15-14.14.29:857][254]LogMainFrame: MainFrame: Module compiling took 11.126 seconds
+[2016.03.15-14.14.29:977][254]LogContentBrowser: Native class hierarchy updated for 'Learning' in 0.0015 seconds. Added 3 classes and 2 folders.
+[2016.03.15-14.14.29:980][254]Warning: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2016.03.15-14.14.30:177][254]LogContentBrowser: Native class hierarchy populated in 0.0239 seconds. Added 1989 classes and 350 folders.
+[2016.03.15-14.14.30:177][254]Warning: HotReload took 11.5s.
+[2016.03.15-14.14.38:559][621]LogEditorActor: Deleted Actor: HOTRELOADED_MyActor_0
+[2016.03.15-14.14.38:640][621]LogEditorActor: Deleted 1 Actors (0.081 secs)
+[2016.03.15-14.14.42:885][883]LogEditor: Attempting to add actor of class 'MyActor' to level at -320.00,190.00,-230.00
+[2016.03.15-14.14.43:277][908]LogEditor: Attempting to add actor of class 'MyActor' to level at -370.00,-100.00,30.00
+[2016.03.15-14.15.19:896][837]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.03.15-14.15.19:896][837]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.15-14.15.19:896][837]PIE: New page: PIE session: Minimal_Default (15 Mar 2016 14:15:19)
+[2016.03.15-14.15.19:897][837]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2016.03.15-14.15.19:911][837]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013771s)
+[2016.03.15-14.15.19:912][837]LogAIModule: Creating AISystem for world Minimal_Default
+[2016.03.15-14.15.19:912][837]LogPlayLevel: PIE: World Init took: (0.001765s)
+[2016.03.15-14.15.19:913][837]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.016197s)
+[2016.03.15-14.15.19:997][837]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.03.15-14.15.20:028][837]LogInit: FAudioDevice initialized.
+[2016.03.15-14.15.20:077][837]LogWorld: Game class is 'LearningGameMode'
+[2016.03.15-14.15.20:081][837]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2016.03.15-14.15.20
+[2016.03.15-14.15.20:083][837]LogWorld: Bringing up level for play took: 0.004982
+[2016.03.15-14.15.20:086][837]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.772
+[2016.03.15-14.15.20:086][837]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.03.15-14.15.21:779][945]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.03.15-14.15.21:833][945]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.03.15-14.15.30:633][379]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Maps/Minimal_Default" FILE="../../../../UE4/Learning/Content/StarterContent/Maps/Minimal_Default.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.03.15-14.15.30:924][379]LogSavePackage: Save=219.17ms
+[2016.03.15-14.15.30:924][379]LogSavePackage: Moving '../../../../UE4/Learning/Saved/Minimal_DefaultC1A8933D47BA9AC8D178A5A061385BAE.tmp' to '../../../../UE4/Learning/Content/StarterContent/Maps/Minimal_Default.umap'
+[2016.03.15-14.15.30:926][379]LogSavePackage: Total save time: 224.63ms
+[2016.03.15-14.15.30:927][379]LogSavePackage:Display: Finished SavePackage ../../../../UE4/Learning/Content/StarterContent/Maps/Minimal_Default.umap
+[2016.03.15-14.15.46:020][ 25]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.03.15-14.15.46:020][ 25]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.15-14.15.46:020][ 25]PIE: New page: PIE session: Minimal_Default (15 Mar 2016 14:15:46)
+[2016.03.15-14.15.46:021][ 25]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2016.03.15-14.15.46:031][ 25]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010317s)
+[2016.03.15-14.15.46:032][ 25]LogAIModule: Creating AISystem for world Minimal_Default
+[2016.03.15-14.15.46:032][ 25]LogPlayLevel: PIE: World Init took: (0.001030s)
+[2016.03.15-14.15.46:033][ 25]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.012119s)
+[2016.03.15-14.15.46:117][ 25]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.03.15-14.15.46:149][ 25]LogInit: FAudioDevice initialized.
+[2016.03.15-14.15.46:195][ 25]LogWorld: Game class is 'LearningGameMode'
+[2016.03.15-14.15.46:199][ 25]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2016.03.15-14.15.46
+[2016.03.15-14.15.46:200][ 25]LogWorld: Bringing up level for play took: 0.004152
+[2016.03.15-14.15.46:204][ 25]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.89
+[2016.03.15-14.15.46:205][ 25]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.03.15-14.15.48:278][159]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.03.15-14.15.48:329][159]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.03.15-14.15.50:127][241]Recompiling Learning...
+[2016.03.15-14.15.50:127][241]Launching UnrealBuildTool... [C:/Users/Jack/Documents/GitHub/UnrealEngine/Engine/Binaries/DotNET/UnrealBuildTool.exe Learning -ModuleWithSuffix Learning 7940 Win64 Debug -editorrecompile -canskiplink "C:/Users/Jack/Documents/GitHub/UE4/Learning/Learning.uproject"  -2015]
+[2016.03.15-14.15.50:146][241]Warning: Starting HotReload took  0.0s.
+[2016.03.15-14.15.51:179][285]CompilerResultsLog: New page: Compilation - 15 Mar 2016 14:15:51
+[2016.03.15-14.15.51:179][285]CompilerResultsLog: Info Compiling game modules for hot reload
+[2016.03.15-14.15.51:179][285]CompilerResultsLog: Info Target is up to date
+[2016.03.15-14.15.51:179][285]LogMainFrame: MainFrame: Module compiling took 1.057 seconds
+[2016.03.15-14.18.01:238][ 59]Recompiling Learning...
+[2016.03.15-14.18.01:238][ 59]Launching UnrealBuildTool... [C:/Users/Jack/Documents/GitHub/UnrealEngine/Engine/Binaries/DotNET/UnrealBuildTool.exe Learning -ModuleWithSuffix Learning 7575 Win64 Debug -editorrecompile -canskiplink "C:/Users/Jack/Documents/GitHub/UE4/Learning/Learning.uproject"  -2015]
+[2016.03.15-14.18.01:251][ 59]Warning: Starting HotReload took  0.0s.
+[2016.03.15-14.18.15:905][720]CompilerResultsLog: New page: Compilation - 15 Mar 2016 14:18:15
+[2016.03.15-14.18.15:907][720]CompilerResultsLog: Info Creating makefile for hot reloading Learning (working set of source files changed)
+[2016.03.15-14.18.15:907][720]CompilerResultsLog: Info Compiling game modules for hot reload
+[2016.03.15-14.18.15:907][720]CompilerResultsLog: Info Building UnrealHeaderTool...
+[2016.03.15-14.18.15:907][720]CompilerResultsLog: Info Target is up to date
+[2016.03.15-14.18.15:907][720]CompilerResultsLog: Info Parsing headers for LearningEditor
+[2016.03.15-14.18.15:908][720]CompilerResultsLog: Info   Running UnrealHeaderTool "C:\Users\Jack\Documents\GitHub\UE4\Learning\Learning.uproject" "C:\Users\Jack\Documents\GitHub\UE4\Learning\Intermediate\Build\Win64\LearningEditor\Debug\UnrealHeaderTool.manifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors
+[2016.03.15-14.18.15:909][720]CompilerResultsLog: Info Reflection code generated for LearningEditor in 3.5662135 seconds
+[2016.03.15-14.18.15:909][720]CompilerResultsLog: Info Performing 4 actions (2 in parallel)
+[2016.03.15-14.18.15:909][720]CompilerResultsLog: Info FloatingActor.cpp
+[2016.03.15-14.18.15:909][720]CompilerResultsLog: Info MyActor.cpp
+[2016.03.15-14.18.15:909][720]CompilerResultsLog: Info Learning.generated.cpp
+[2016.03.15-14.18.15:909][720]CompilerResultsLog: Info [4/4] Link UE4Editor-Learning-7575-Win64-Debug.dll
+[2016.03.15-14.18.15:909][720]CompilerResultsLog: Info    Creating library C:\Users\Jack\Documents\GitHub\UE4\Learning\Intermediate\Build\Win64\UE4Editor\Debug\UE4Editor-Learning-7575-Win64-Debug.lib and object C:\Users\Jack\Documents\GitHub\UE4\Learning\Intermediate\Build\Win64\UE4Editor\Debug\UE4Editor-Learning-7575-Win64-Debug.exp
+[2016.03.15-14.18.15:909][720]CompilerResultsLog: Info -------- End Detailed Actions Stats -----------------------------------------------------------
+[2016.03.15-14.18.15:909][720]CompilerResultsLog: Info Total build time: 14.58 seconds
+[2016.03.15-14.18.15:909][720]LogMainFrame: MainFrame: Module compiling took 14.678 seconds
+[2016.03.15-14.18.16:026][720]LogHotReload: Re-instancing MyActor after hot-reload.
+[2016.03.15-14.18.16:031][720]LogContentBrowser: Native class hierarchy updated for 'Learning' in 0.0020 seconds. Added 3 classes and 2 folders.
+[2016.03.15-14.18.16:034][720]Warning: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2016.03.15-14.18.16:273][720]LogContentBrowser: Native class hierarchy populated in 0.0280 seconds. Added 1989 classes and 350 folders.
+[2016.03.15-14.18.16:273][720]Warning: HotReload took 15.0s.
+[2016.03.15-14.18.18:609][838]LogEditorViewport: Clicking on Actor (LMB): FloatingActor (FloatingActor)
+[2016.03.15-14.18.19:736][888]LogEditorViewport: Clicking on Actor (LMB): MyActor (MyActor)
+[2016.03.15-14.25.33:976][238]LogSavePackage: Save=255.28ms
+[2016.03.15-14.25.33:976][238]LogSavePackage: Moving '../../../../UE4/Learning/Saved/Minimal_Default_Auto2D01EBF764D009F4722EC1BB727DB854B.tmp' to '../../../../UE4/Learning/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto2.umap'
+[2016.03.15-14.25.33:982][238]LogSavePackage: Total save time: 264.27ms
+[2016.03.15-14.25.33:982][238]LogSavePackage:Display: Finished SavePackage ../../../../UE4/Learning/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto2.umap
+[2016.03.15-14.25.33:985][238]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.362
+[2016.03.15-14.25.33:985][238]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.362
+[2016.03.15-17.49.00:549][ 80]Recompiling Learning...
+[2016.03.15-17.49.00:549][ 80]Launching UnrealBuildTool... [C:/Users/Jack/Documents/GitHub/UnrealEngine/Engine/Binaries/DotNET/UnrealBuildTool.exe Learning -ModuleWithSuffix Learning 7048 Win64 Debug -editorrecompile -canskiplink "C:/Users/Jack/Documents/GitHub/UE4/Learning/Learning.uproject"  -2015]
+[2016.03.15-17.49.00:619][ 80]Warning: Starting HotReload took  0.1s.
+[2016.03.15-17.49.17:302][828]CompilerResultsLog: New page: Compilation - 15 Mar 2016 17:49:17
+[2016.03.15-17.49.17:303][828]CompilerResultsLog: Info Creating makefile for hot reloading Learning (working set of source files changed)
+[2016.03.15-17.49.17:304][828]CompilerResultsLog: Info Compiling game modules for hot reload
+[2016.03.15-17.49.17:304][828]CompilerResultsLog: Info Building UnrealHeaderTool...
+[2016.03.15-17.49.17:305][828]CompilerResultsLog: Info Target is up to date
+[2016.03.15-17.49.17:305][828]CompilerResultsLog: Info Parsing headers for LearningEditor
+[2016.03.15-17.49.17:305][828]CompilerResultsLog: Info   Running UnrealHeaderTool "C:\Users\Jack\Documents\GitHub\UE4\Learning\Learning.uproject" "C:\Users\Jack\Documents\GitHub\UE4\Learning\Intermediate\Build\Win64\LearningEditor\Debug\UnrealHeaderTool.manifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors
+[2016.03.15-17.49.17:308][828]CompilerResultsLog: Info Reflection code generated for LearningEditor in 4.6957007 seconds
+[2016.03.15-17.49.17:309][828]CompilerResultsLog: Info Performing 4 actions (2 in parallel)
+[2016.03.15-17.49.17:310][828]CompilerResultsLog: Info FloatingActor.cpp
+[2016.03.15-17.49.17:310][828]CompilerResultsLog: Info MyActor.cpp
+[2016.03.15-17.49.17:310][828]CompilerResultsLog: Info Learning.generated.cpp
+[2016.03.15-17.49.17:310][828]CompilerResultsLog: Info [4/4] Link UE4Editor-Learning-7048-Win64-Debug.dll
+[2016.03.15-17.49.17:310][828]CompilerResultsLog: Info    Creating library C:\Users\Jack\Documents\GitHub\UE4\Learning\Intermediate\Build\Win64\UE4Editor\Debug\UE4Editor-Learning-7048-Win64-Debug.lib and object C:\Users\Jack\Documents\GitHub\UE4\Learning\Intermediate\Build\Win64\UE4Editor\Debug\UE4Editor-Learning-7048-Win64-Debug.exp
+[2016.03.15-17.49.17:311][828]CompilerResultsLog: Info -------- End Detailed Actions Stats -----------------------------------------------------------
+[2016.03.15-17.49.17:311][828]CompilerResultsLog: Info Total build time: 16.60 seconds
+[2016.03.15-17.49.17:311][828]LogMainFrame: MainFrame: Module compiling took 16.767 seconds
+[2016.03.15-17.49.17:425][828]LogHotReload: Re-instancing MyActor after hot-reload.
+[2016.03.15-17.49.17:429][828]LogContentBrowser: Native class hierarchy updated for 'Learning' in 0.0015 seconds. Added 3 classes and 2 folders.
+[2016.03.15-17.49.17:432][828]Warning: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2016.03.15-17.49.17:633][828]LogContentBrowser: Native class hierarchy populated in 0.0280 seconds. Added 1989 classes and 350 folders.
+[2016.03.15-17.49.17:633][828]Warning: HotReload took 17.1s.
+[2016.03.15-17.49.37:786][ 87]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.03.15-17.49.37:786][ 87]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.15-17.49.37:787][ 87]PIE: New page: PIE session: Minimal_Default (15 Mar 2016 17:49:37)
+[2016.03.15-17.49.37:787][ 87]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2016.03.15-17.49.37:801][ 87]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014601s)
+[2016.03.15-17.49.37:803][ 87]LogAIModule: Creating AISystem for world Minimal_Default
+[2016.03.15-17.49.37:803][ 87]LogPlayLevel: PIE: World Init took: (0.001229s)
+[2016.03.15-17.49.37:804][ 87]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.016956s)
+[2016.03.15-17.49.37:892][ 87]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.03.15-17.49.37:926][ 87]LogInit: FAudioDevice initialized.
+[2016.03.15-17.49.37:975][ 87]LogWorld: Game class is 'LearningGameMode'
+[2016.03.15-17.49.37:980][ 87]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2016.03.15-17.49.37
+[2016.03.15-17.49.37:981][ 87]LogWorld: Bringing up level for play took: 0.005032
+[2016.03.15-17.49.37:984][ 87]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.67
+[2016.03.15-17.49.37:984][ 87]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.03.15-17.49.42:734][389]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.03.15-17.49.42:790][389]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.03.15-17.49.51:963][838]LogVSAccessor:Warning: Couldn't goto line number '0' in 'C:/Users/Jack/Documents/GitHub/UE4/Learning/Source/Learning/MyActor.h'
+[2016.03.15-17.49.52:006][838]LogVSAccessor:Warning: Couldn't goto line number '0' in 'C:/Users/Jack/Documents/GitHub/UE4/Learning/Source/Learning/MyActor.cpp'
+[2016.03.15-17.59.46:861][243]Cmd: DELETE
+[2016.03.15-17.59.46:861][243]Cmd: ACTOR DELETE
+[2016.03.15-17.59.46:862][243]LogEditorActor: Deleted Actor: Character
+[2016.03.15-17.59.46:862][243]LogActorComponent: UnregisterComponent: (/Engine/Transient.MovementComponent0) Not registered. Aborting.
+[2016.03.15-17.59.46:934][243]LogEditorActor: Deleted 1 Actors (0.073 secs)
+[2016.03.15-18.00.04:224][434]LogTexture:Display: Building textures: WhiteSquareTexture (AutoDXT)
+[2016.03.15-18.00.04:228][434]LogMaterial: Missing cached shader map for material LayerVisMaterial, compiling. 
+[2016.03.15-18.00.04:261][434]LogMaterial: Missing cached shader map for material SelectBrushMaterial, compiling. 
+[2016.03.15-18.00.04:292][434]LogMaterial: Missing cached shader map for material SelectBrushMaterial, compiling. 
+[2016.03.15-18.00.04:325][434]LogMaterial: Missing cached shader map for material MaskBrushMaterial, compiling. 
+[2016.03.15-18.00.04:346][434]LogMaterial: Missing cached shader map for material MaskBrushMaterial, compiling. 
+[2016.03.15-18.00.04:388][434]LogMaterial: Missing cached shader map for material LandscapeLayerUsageMaterial, compiling. 
+[2016.03.15-18.00.04:433][434]LogStaticMesh: Building static mesh FlattenPlaneMesh...
+[2016.03.15-18.00.04:447][434]LogMeshUtilities:Warning: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2016.03.15-18.00.04:452][434]LogStaticMesh: Built static mesh [0.02s] /Engine/EditorLandscapeResources/FlattenPlaneMesh.FlattenPlaneMesh
+[2016.03.15-18.00.04:469][434]LogMaterial: Missing cached shader map for material FlattenHeightMat, compiling. 
+[2016.03.15-18.00.04:499][434]LogMaterial: Missing cached shader map for material MirrorPlaneMaterial, compiling. 
+[2016.03.15-18.00.04:529][434]LogMaterial: Missing cached shader map for material CircleBrushMaterial, compiling. 
+[2016.03.15-18.00.04:551][434]LogMaterial: Missing cached shader map for material CircleBrushMaterial, compiling. 
+[2016.03.15-18.00.04:580][434]LogMaterial: Missing cached shader map for material CircleBrushMaterial, compiling. 
+[2016.03.15-18.00.04:605][434]LogMaterial: Missing cached shader map for material CircleBrushMaterial, compiling. 
+[2016.03.15-18.00.04:644][434]LogMaterial: Missing cached shader map for material AlphaBrushMaterial, compiling. 
+[2016.03.15-18.00.04:671][434]LogMaterial: Missing cached shader map for material CircleBrushMaterial, compiling. 
+[2016.03.15-18.00.04:697][434]LogMaterial: Missing cached shader map for material MaskBrushMaterial, compiling. 
+[2016.03.15-18.00.04:726][434]LogTexture:Display: Building textures: Texture2D_2 (G8)
+[2016.03.15-18.00.04:735][434]LogTexture:Display: Building textures: LandscapeThumbnailWeightmap (BGRA8)
+[2016.03.15-18.00.04:741][434]LogTexture:Display: Building textures: LandscapeThumbnailHeightmap (BGRA8)
+[2016.03.15-18.00.05:023][439]LogMaterial: Missing cached shader map for material FoliageBrushSphereMaterial, compiling. 
+[2016.03.15-18.00.05:570][462]LogActorComponent: UnregisterComponent: (/Engine/Transient.SphereBrushComponent) Not registered. Aborting.
+[2016.03.15-18.00.28:035][301]MapCheck: New page: Map Check
+[2016.03.15-18.00.28:077][301]LightingResults: New page: Lighting Build - 15 Mar 2016 18:00:28
+[2016.03.15-18.00.28:207][301]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2016.03.15-18.00.28:308][301]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2016.03.15-18.00.28:328][301]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2016.03.15-18.00.28:920][301]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2016.03.15-18.00.28:920][301]LogSwarmInterface: [TryOpenConnection] Local Process ID is 1272
+[2016.03.15-18.00.31:478][301]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2016.03.15-18.00.31:480][301]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2016.03.15-18.00.31:481][301]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2016.03.15-18.00.31:481][301]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2016.03.15-18.00.31:481][301]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2016.03.15-18.00.31:481][301]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2016.03.15-18.00.31:645][301]LogEditorBuildUtils: Build time 0:00:03
+[2016.03.15-18.00.31:711][301]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Metal_Brushed_Nickel, compiling. 
+[2016.03.15-18.00.31:728][301]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Metal_Brushed_Nickel, compiling. 
+[2016.03.15-18.00.54:063][304]LogActorComponent: UnregisterComponent: (/Engine/Transient.MovementComponent0) Not registered. Aborting.
+[2016.03.15-18.00.54:433][304]LogSavePackage: Save=261.57ms
+[2016.03.15-18.00.54:433][304]LogSavePackage: Moving '../../../../UE4/Learning/Saved/Minimal_Default_Auto3DC8E88EB448E5D451704E48D1C8C498E.tmp' to '../../../../UE4/Learning/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto3.umap'
+[2016.03.15-18.00.54:435][304]LogSavePackage: Total save time: 266.55ms
+[2016.03.15-18.00.54:435][304]LogSavePackage:Display: Finished SavePackage ../../../../UE4/Learning/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto3.umap
+[2016.03.15-18.00.54:437][304]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.374
+[2016.03.15-18.00.54:437][304]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.374
+[2016.03.15-18.00.54:925][306]Error, fatal in BeginJobSpecification
+[2016.03.15-18.00.54:925][306]Error, fatal in EndJobSpecification
+[2016.03.15-18.01.58:890][678]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.03.15-18.02.08:639][ 71]MapCheck: New page: Map Check
+[2016.03.15-18.02.08:675][ 71]LightingResults: New page: Lighting Build - 15 Mar 2016 18:02:08
+[2016.03.15-18.02.08:694][ 71]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2016.03.15-18.02.08:696][ 71]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2016.03.15-18.02.08:696][ 71]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2016.03.15-18.02.08:697][ 71]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2016.03.15-18.02.08:698][ 71]LogSwarmInterface: [TryOpenConnection] Local Process ID is 1272
+[2016.03.15-18.02.13:220][ 71]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2016.03.15-18.02.13:220][ 71]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2016.03.15-18.02.13:220][ 71]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2016.03.15-18.02.13:220][ 71]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2016.03.15-18.02.13:220][ 71]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2016.03.15-18.02.13:220][ 71]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2016.03.15-18.02.13:306][ 71]LogEditorBuildUtils: Build time 0:00:04
+[2016.03.15-18.02.13:409][ 72]Error, fatal in BeginJobSpecification
+[2016.03.15-18.02.13:409][ 72]Error, fatal in EndJobSpecification
+[2016.03.15-18.02.57:289][431]MapCheck: New page: Map Check
+[2016.03.15-18.02.57:326][431]LightingResults: New page: Lighting Build - 15 Mar 2016 18:02:57
+[2016.03.15-18.02.57:353][431]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2016.03.15-18.02.57:357][431]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2016.03.15-18.02.57:361][431]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2016.03.15-18.02.57:369][431]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2016.03.15-18.02.57:369][431]LogSwarmInterface: [TryOpenConnection] Local Process ID is 1272
+[2016.03.15-18.03.01:878][431]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2016.03.15-18.03.01:878][431]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2016.03.15-18.03.01:878][431]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2016.03.15-18.03.01:879][431]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2016.03.15-18.03.01:879][431]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2016.03.15-18.03.01:879][431]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2016.03.15-18.03.01:973][431]LogEditorBuildUtils: Build time 0:00:04
+[2016.03.15-18.03.02:097][432]Error, fatal in BeginJobSpecification
+[2016.03.15-18.03.02:097][432]Error, fatal in EndJobSpecification
+[2016.03.15-18.03.16:019][709]MapCheck: New page: Map Check
+[2016.03.15-18.03.16:057][709]LightingResults: New page: Lighting Build - 15 Mar 2016 18:03:16
+[2016.03.15-18.03.16:075][709]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2016.03.15-18.03.16:077][709]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2016.03.15-18.03.16:078][709]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2016.03.15-18.03.16:078][709]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2016.03.15-18.03.16:078][709]LogSwarmInterface: [TryOpenConnection] Local Process ID is 1272
+[2016.03.15-18.03.20:645][709]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2016.03.15-18.03.20:645][709]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2016.03.15-18.03.20:645][709]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2016.03.15-18.03.20:645][709]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2016.03.15-18.03.20:645][709]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2016.03.15-18.03.20:646][709]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2016.03.15-18.03.20:737][709]LogEditorBuildUtils: Build time 0:00:04
+[2016.03.15-18.03.20:835][710]Error, fatal in BeginJobSpecification
+[2016.03.15-18.03.20:835][710]Error, fatal in EndJobSpecification
+[2016.03.15-18.03.38:131][973]MapCheck: New page: Map Check
+[2016.03.15-18.03.38:168][973]LightingResults: New page: Lighting Build - 15 Mar 2016 18:03:38
+[2016.03.15-18.03.38:186][973]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2016.03.15-18.03.38:188][973]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2016.03.15-18.03.38:188][973]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2016.03.15-18.03.38:189][973]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2016.03.15-18.03.38:189][973]LogSwarmInterface: [TryOpenConnection] Local Process ID is 1272
+[2016.03.15-18.03.38:190][973]LogStaticLightingSystem:Warning: Failed to connect to Swarm.
+[2016.03.15-18.03.40:475][973]LogEditorBuildUtils: Build time 0:00:02
+[2016.03.15-18.03.42:818][ 65]MapCheck: New page: Map Check
+[2016.03.15-18.03.42:855][ 65]LightingResults: New page: Lighting Build - 15 Mar 2016 18:03:42
+[2016.03.15-18.03.42:874][ 65]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2016.03.15-18.03.42:899][ 65]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2016.03.15-18.03.42:899][ 65]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2016.03.15-18.03.43:406][ 65]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2016.03.15-18.03.43:407][ 65]LogSwarmInterface: [TryOpenConnection] Local Process ID is 1272
+[2016.03.15-18.03.45:899][ 65]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2016.03.15-18.03.45:900][ 65]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2016.03.15-18.03.45:900][ 65]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2016.03.15-18.03.45:900][ 65]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2016.03.15-18.03.45:900][ 65]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2016.03.15-18.03.45:900][ 65]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2016.03.15-18.03.46:036][ 65]LogEditorBuildUtils: Build time 0:00:03
+[2016.03.15-18.03.46:177][ 66]Error, fatal in BeginJobSpecification
+[2016.03.15-18.03.46:177][ 66]Error, fatal in EndJobSpecification
+[2016.03.15-18.03.56:735][220]MapCheck: New page: Map Check
+[2016.03.15-18.03.56:773][220]LightingResults: New page: Lighting Build - 15 Mar 2016 18:03:56
+[2016.03.15-18.03.56:793][220]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2016.03.15-18.03.56:795][220]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2016.03.15-18.03.56:795][220]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2016.03.15-18.03.56:795][220]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2016.03.15-18.03.56:795][220]LogSwarmInterface: [TryOpenConnection] Local Process ID is 1272
+[2016.03.15-18.03.56:796][220]LogStaticLightingSystem:Warning: Failed to connect to Swarm.
+[2016.03.15-18.03.58:452][220]LogEditorBuildUtils: Build time 0:00:01
+[2016.03.15-18.04.04:122][368]MapCheck: New page: Map Check
+[2016.03.15-18.04.04:159][368]LightingResults: New page: Lighting Build - 15 Mar 2016 18:04:04
+[2016.03.15-18.04.04:178][368]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2016.03.15-18.04.04:201][368]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2016.03.15-18.04.04:201][368]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2016.03.15-18.04.04:710][368]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2016.03.15-18.04.04:710][368]LogSwarmInterface: [TryOpenConnection] Local Process ID is 1272
+[2016.03.15-18.04.07:089][368]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2016.03.15-18.04.07:089][368]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2016.03.15-18.04.07:090][368]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2016.03.15-18.04.07:090][368]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2016.03.15-18.04.07:090][368]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2016.03.15-18.04.07:091][368]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2016.03.15-18.04.07:201][368]LogEditorBuildUtils: Build time 0:00:03
+[2016.03.15-18.04.07:314][369]Error, fatal in BeginJobSpecification
+[2016.03.15-18.04.07:314][369]Error, fatal in EndJobSpecification
+[2016.03.15-18.05.02:587][720]MapCheck: New page: Map Check
+[2016.03.15-18.05.02:624][720]LightingResults: New page: Lighting Build - 15 Mar 2016 18:05:02
+[2016.03.15-18.05.02:642][720]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2016.03.15-18.05.02:647][720]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2016.03.15-18.05.02:647][720]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2016.03.15-18.05.02:650][720]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2016.03.15-18.05.02:651][720]LogSwarmInterface: [TryOpenConnection] Local Process ID is 1272
+[2016.03.15-18.05.07:168][720]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2016.03.15-18.05.07:168][720]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2016.03.15-18.05.07:169][720]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2016.03.15-18.05.07:169][720]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2016.03.15-18.05.07:169][720]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2016.03.15-18.05.07:169][720]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2016.03.15-18.05.07:264][720]LogEditorBuildUtils: Build time 0:00:04
+[2016.03.15-18.05.07:394][721]Error, fatal in BeginJobSpecification
+[2016.03.15-18.05.07:394][721]Error, fatal in EndJobSpecification
+[2016.03.15-18.07.03:606][252]LogEditorViewport: Clicking on Actor (LMB): MyActor (MyActor)
+[2016.03.15-18.07.15:900][946]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.03.15-18.07.48:159][381]MapCheck: New page: Map Check
+[2016.03.15-18.07.48:196][381]LightingResults: New page: Lighting Build - 15 Mar 2016 18:07:48
+[2016.03.15-18.07.48:214][381]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2016.03.15-18.07.48:216][381]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2016.03.15-18.07.48:216][381]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2016.03.15-18.07.48:219][381]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2016.03.15-18.07.48:219][381]LogSwarmInterface: [TryOpenConnection] Local Process ID is 1272
+[2016.03.15-18.07.52:732][381]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2016.03.15-18.07.52:732][381]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2016.03.15-18.07.52:732][381]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2016.03.15-18.07.52:732][381]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2016.03.15-18.07.52:732][381]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2016.03.15-18.07.52:732][381]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2016.03.15-18.07.52:837][381]LogEditorBuildUtils: Build time 0:00:04
+[2016.03.15-18.07.53:222][389]Error, fatal in BeginJobSpecification
+[2016.03.15-18.07.53:222][389]Error, fatal in EndJobSpecification
+[2016.03.15-18.10.55:481][136]LogSavePackage: Save=270.54ms
+[2016.03.15-18.10.55:481][136]LogSavePackage: Moving '../../../../UE4/Learning/Saved/Minimal_Default_Auto44695AD4C40C609DADAAACBB9421F92C1.tmp' to '../../../../UE4/Learning/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto4.umap'
+[2016.03.15-18.10.55:482][136]LogSavePackage: Total save time: 275.36ms
+[2016.03.15-18.10.55:483][136]LogSavePackage:Display: Finished SavePackage ../../../../UE4/Learning/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto4.umap
+[2016.03.15-18.10.55:485][136]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.376
+[2016.03.15-18.10.55:485][136]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.376
+[2016.03.15-18.11.17:127][372]MapCheck: New page: Map Check
+[2016.03.15-18.11.17:166][372]LightingResults: New page: Lighting Build - 15 Mar 2016 18:11:17
+[2016.03.15-18.11.17:189][372]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2016.03.15-18.11.17:248][372]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2016.03.15-18.11.17:248][372]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2016.03.15-18.11.17:755][372]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2016.03.15-18.11.17:755][372]LogSwarmInterface: [TryOpenConnection] Local Process ID is 1272
+[2016.03.15-18.11.20:232][372]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2016

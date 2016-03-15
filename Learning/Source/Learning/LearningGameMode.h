@@ -11,9 +11,5 @@
 UCLASS()
 class LEARNING_API ALearningGameMode : public AGameMode
 {
-	GENERATED_BODY()
-	
-	
-	
-	
+	GENERATED_BODY()	
 };
