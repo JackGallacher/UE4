@@ -1,3 +1,0 @@
-C:\Users\Jack\Documents\GitHub\UE4\Learning\Source\Learning\Learning.Build.cs
-C:\Users\Jack\Documents\GitHub\UE4\Learning\Source\Learning.Target.cs
-C:\Users\Jack\Documents\GitHub\UE4\Learning\Source\LearningEditor.Target.cs
