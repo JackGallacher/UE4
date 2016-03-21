@@ -25,7 +25,8 @@ void AFloatingActor::Tick( float DeltaTime )
 	ObjectFloat(DeltaTime);//Calls the ObjectFloat funtion each second, passing the DeltaTime value from Tick.
 
 	//GEngine->AddOnScreenDebugMessage(-1, 5.0f, FColor::Yellow, "Hello");//Prints debug message to screen. -1 prints next message underneath previous. 
-	GEngine->AddOnScreenDebugMessage(-1, 5.0f, FColor::Yellow, FString::SanitizeFloat(RandomFloat));//Prints generated random float to screen.
+	//GEngine->AddOnScreenDebugMessage(-1, 5.0f, FColor::Yellow, FString::SanitizeFloat(RandomFloat));//Prints generated random float to screen.
+	//GEngine->AddOnScreenDebugMessage(-1, 5.0f, FColor::Yellow, "X: " + FString::SanitizeFloat(AActor::GetActorLocation().X) + " Y: " + FString::SanitizeFloat(AActor::GetActorLocation().Y) + " Z: " + FString::SanitizeFloat(AActor::GetActorLocation().Z));//Prints the XYZ location of FloatingActor.
 }
 void AFloatingActor::ObjectFloat(float DeltaTime)
 {

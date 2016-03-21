@@ -23,11 +23,23 @@ public:
 	//Called after this object contructor and properties have been initilized.
 	virtual void PostInitProperties() override;
 
+	//Used to update values when changed within the editor.
+	virtual void PostEditChangeProperty(FPropertyChangedEvent& PropertyChangedEvent) override;
+
+	UFUNCTION(BlueprintCallable, Category = "Damage")void CalculateValues();//Calculates the current DamagePerSecond.
+																			//"UFUNCTION" exposes functions to the reflection system. "BlueprintCallable" exposes its use to blueprints, meaing it can be called like any other Blueprint function, but this one has been decleared in .cpp. 
+
 	UPROPERTY(EditAnywhere, Category = "Damage", BlueprintReadWrite) int TotalDamage;//The "Category" element puts this variable in its own named category. We can then apply the same category to other variables.	
 																					 //"BlueprintReadWrite" allows this varialbe to be read and altered within blueprints.
 
 	UPROPERTY(EditAnywhere, Category = "Damage", BlueprintReadWrite) float DamageTimeInSeconds;
 	UPROPERTY(VisibleAnywhere, Category = "Damage", BlueprintReadOnly, Transient) float DamagePerSecond;//"VisibleAnywhere" marks this is viewable, but not editable outside the code. "Transient" means this value is filled at zero at runtime.
 																										//"BlueprintReadOnly" means this variable can be read and used by the blueprints but not modified. 
+
+
+	UFUNCTION(BlueprintImplementableEvent, Category = "Damage") void BPImplementable();//"BlueprintImplementableEvent" means that this function declared in .cpp but is overridden in Blueprints. If it is not implemented in blueprints, it is ignored.
+	
+	UFUNCTION(BlueprintNativeEvent, Category = "Damage") void BPNative();//"BlueprintNativeEvent" means that this function declared in .cpp is designed to be overridden by Blueprints. If it it not overriden, the default execution from the code will occucur using the fucntion name + "_Implementation" e.g. BPNative_Implementation();
+	void BPNative_Implementation();//You need to explicitly decalare the _Implementation of a BlueprintNativeEvent
 
 };
