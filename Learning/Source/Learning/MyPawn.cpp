@@ -17,24 +17,24 @@ AMyPawn::AMyPawn()
 	AActor::RootComponent = CreateDefaultSubobject<USceneComponent>(TEXT("RootComponent"));//"RootComponent" defines the transform (location, rotation, scale) of this actor.
 
 	//Create a camera and a visible object.
-	UCameraComponent* OurCamera = CreateDefaultSubobject<UCameraComponent>(TEXT("OurCamera"));//Creates a camera that focuses on this pawn due to it being attached to its RootComponent.
+	//UCameraComponent* OurCamera = CreateDefaultSubobject<UCameraComponent>(TEXT("OurCamera"));//Creates a camera that focuses on this pawn due to it being attached to its RootComponent.
 	OurVisibleComponent = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("OurVisibleComponent"));//Allows us to add a static mesh to this pawn. (An object to make it visible such as a cube/cylinder)
 
 	//Attach our camera and visible object to our root compontent. Offset and rotate the camera.
-	OurCamera->AttachTo(RootComponent);//Attaches the camera we created to our RootComponent.
-	OurCamera->SetRelativeLocation(FVector(-250.0f, 0.0f, 250.0f));//Sets the location of the camera.
-	OurCamera->SetRelativeRotation(FRotator(-40.0f, 0.0f, 0.0f));//Sets the rotation of our camera.
+	//OurCamera->AttachTo(RootComponent);//Attaches the camera we created to our RootComponent.
+	//OurCamera->SetRelativeLocation(FVector(-250.0f, 0.0f, 250.0f));//Sets the location of the camera.
+	//OurCamera->SetRelativeRotation(FRotator(-40.0f, 0.0f, 0.0f));//Sets the rotation of our camera.
 	OurVisibleComponent->AttachTo(RootComponent);//Attaches our SceneComponent "OurVisibleComponent" to the RootComponent. 
 }
 
-void AMyPawn::Move_XAxis(float AxisValue)//Move at 100 units per second forward or backwards.
+void AMyPawn::Move_XAxis(float AxisValue)//Move at the value of "DefaultAcceleration" per second forward or backwards.
 {
-	CurrentVelocity.X = FMath::Clamp(AxisValue, -1.0f, 1.0f) * 100;//FMath::Clamp makes sure that a value can only be between two values. In this case it is -1 and 1 or "Backwards" and "Forwards"
+	CurrentVelocity.X = FMath::Clamp(AxisValue, -1.0f, 1.0f) * DefaultAcceleration;//FMath::Clamp makes sure that a value can only be between two values. In this case it is -1 and 1 or "Backwards" and "Forwards"
 }
 
 void AMyPawn::Move_YAxis(float AxisValue)//Move at 100 units per second right or left.
 {
-	CurrentVelocity.Y = FMath::Clamp(AxisValue, -1.0f, 1.0f) * 100;
+	CurrentVelocity.Y = FMath::Clamp(AxisValue, -1.0f, 1.0f) * DefaultAcceleration;
 }
 
 void AMyPawn::StartGrowing()//Trigger the bool "bGrowing" to true.
@@ -75,6 +75,18 @@ void AMyPawn::Tick( float DeltaTime )
 	{
 		FVector NewLocation = GetActorLocation() + (CurrentVelocity * DeltaTime);//Sets the vector "NewLocation" to the current location of our pawn plus its current velocity multiplied by DeltaTime.
 		SetActorLocation(NewLocation);//Sets the location of our pawn to the "NewLocation" vector.
+		DefaultAcceleration = DefaultAcceleration + 5.0f;//Increases the Accleration over time based on how long the button has been held down. Explicit for clarity.
+	}
+	else
+	{
+		DefaultAcceleration = 100.0f;//Resets the DefaultAcceleration back to normal when a movement button has been released.
+	}
+	//GEngine->AddOnScreenDebugMessage(0,5.0f, FColor::Cyan, "Pawn Speed: " + FString::SanitizeFloat(DefaultAcceleration));//Prints current Pawn speed.
+
+	if (!CurrentVelocity.IsZero() && bGrowing)//This checks if the Pawn is moving and if the "StartGrowing" button is being pressed at the same time. If so, it increases the scale of the Pawn to 200%.
+	{
+		CurrentScale = 2.0f;
+		OurVisibleComponent->SetWorldScale3D(FVector(CurrentScale));
 	}
 }
 
@@ -90,6 +102,8 @@ void AMyPawn::SetupPlayerInputComponent(class UInputComponent* InputComponent)
 	//Respond every frame to the values of our two movment axis, "MoveX" and "MoveY" Binds these inputs to the Pawn axis so movement along them is enabled.
 	InputComponent->BindAxis("MoveX", this, &AMyPawn::Move_XAxis);//When the button linked to "MoveX" is pressed, call the function "Move_XAxis".
 	InputComponent->BindAxis("MoveY", this, &AMyPawn::Move_YAxis);//When the button linked to "MoveY" is pressed, call the function "Move_YAxis".
+
+	
 
 }
 

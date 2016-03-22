@@ -35,4 +35,6 @@ public:
 	FVector CurrentVelocity;
 	bool bGrowing;
 
+	UPROPERTY(EditAnywhere, Category = "Acceleration")float DefaultAcceleration = 100.0f;//Sets the normal Pawn acceleration, is visble and can be changed within the editor.
+
 };

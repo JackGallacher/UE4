@@ -37,7 +37,8 @@ public:
 																										//"BlueprintReadOnly" means this variable can be read and used by the blueprints but not modified. 
 
 
-	UFUNCTION(BlueprintImplementableEvent, Category = "Damage") void BPImplementable();//"BlueprintImplementableEvent" means that this function declared in .cpp but is overridden in Blueprints. If it is not implemented in blueprints, it is ignored.
+	UFUNCTION(BlueprintImplementableEvent, Category = "Damage") void BPImplementable(float MyNumber);//"BlueprintImplementableEvent" means that this function declared in .cpp but is overridden/has its behavior written in Blueprints. If it is not implemented in blueprints, it is ignored.
+																									//You can also send variable data to the blueprint (data from code which you use in your implementable event such as health ext.) which you can branch from in Blueprints.
 	
 	UFUNCTION(BlueprintNativeEvent, Category = "Damage") void BPNative();//"BlueprintNativeEvent" means that this function declared in .cpp is designed to be overridden by Blueprints. If it it not overriden, the default execution from the code will occucur using the fucntion name + "_Implementation" e.g. BPNative_Implementation();
 	void BPNative_Implementation();//You need to explicitly decalare the _Implementation of a BlueprintNativeEvent

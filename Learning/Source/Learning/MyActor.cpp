@@ -41,14 +41,16 @@ void AMyActor::PostEditChangeProperty(FPropertyChangedEvent& PropertyChangedEven
 
 void AMyActor::BPNative_Implementation()//This is called when the "BlueprintNativeEvent" BPNative has not been overridden in the actor Blueprint.
 {
-	//GEngine->AddOnScreenDebugMessage(0, 5.0f, FColor::Cyan, "BPNative has not been overridden in Blueprints, displaying this message from .cpp");
+	GEngine->AddOnScreenDebugMessage(0, 5.0f, FColor::Cyan, "BPNative has been called. As it has not been overridden in Blueprints, we are displaying this message from .cpp");
+	//A BlueprinNativeEvent can be called in child classes of this class. So if you had some base code here for each actor,  a child of this class could call "BPNative_Implementation()", add its own code but also execute any code that is in the parent version of the function.
+	//Just make sure to call Super::NativeFunction_Implementation in the child class to also execute the parent class code.	
 }
 
 // Called every frame
 void AMyActor::Tick( float DeltaTime )
 {
 	Super::Tick( DeltaTime );
-	BPNative();
-	BPImplementable();
+	//BPNative();//This executes the BluePrintNativeEvent, if it has been overriden in blueprints it runs that version. If not, it runs the _Implementation version You dont ever have to do this, you can just call the parent implementation from the event in blueprints to execute anything from the _Implementation/Parent.
+	BPImplementable(40);//Sends the value of 40 to our BlueprintImplementableEvent which it can use to do whatever with...
 }
 
