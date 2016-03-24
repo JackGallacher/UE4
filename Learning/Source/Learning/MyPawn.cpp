@@ -102,8 +102,5 @@ void AMyPawn::SetupPlayerInputComponent(class UInputComponent* InputComponent)
 	//Respond every frame to the values of our two movment axis, "MoveX" and "MoveY" Binds these inputs to the Pawn axis so movement along them is enabled.
 	InputComponent->BindAxis("MoveX", this, &AMyPawn::Move_XAxis);//When the button linked to "MoveX" is pressed, call the function "Move_XAxis".
 	InputComponent->BindAxis("MoveY", this, &AMyPawn::Move_YAxis);//When the button linked to "MoveY" is pressed, call the function "Move_YAxis".
-
-	
-
 }
 

@@ -25,4 +25,9 @@ public:
 	UPROPERTY(EditAnywhere)AActor* CameraTwo;//Edit anywhere means we can change these actors in the code or the editor.
 
 	float TimeToNextCameraChange;
+
+	void SetupInput();//This function sets up the input in order to switch camera within the scene.
+	void SwitchCamera();//This changes the camera based on the "ToggleCamera" bool value;
+
+	bool ToggleCamera = false;//Boolean to tell us which camera to display.
 };
