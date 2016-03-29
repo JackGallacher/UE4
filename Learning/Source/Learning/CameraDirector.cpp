@@ -17,7 +17,12 @@ ACameraDirector::ACameraDirector()
 void ACameraDirector::BeginPlay()
 {
 	Super::BeginPlay();
-	SetupInput();
+	SetupInput();//Calls the SetupInput function to bind keys to this actor when the game starts.
+
+	CameraList.Add(CameraOne);//This adds the camera that have been assgined to the CameraDirector actor to be added to the CameraList array when the game starts.
+	CameraList.Add(CameraTwo);
+	CameraList.Add(CameraThree);
+	CameraList.Add(CameraFour);
 }
 
 // Called every frame
@@ -25,36 +30,36 @@ void ACameraDirector::Tick( float DeltaTime )
 {
 	Super::Tick( DeltaTime );
 
-	const float TimeBetweenCameraChanges = 2.0f;
-	const float SmoothBlendTime = 0.75f;
-	TimeToNextCameraChange -= DeltaTime;
+	//const float TimeBetweenCameraChanges = 2.0f;
+	//const float SmoothBlendTime = 0.75f;
+	//TimeToNextCameraChange -= DeltaTime;
 
 	//if (TimeToNextCameraChange <= 0.0f)
 	//{
 		//TimeToNextCameraChange += TimeBetweenCameraChanges;
 
 		//Find the actor that handles control for the local player.
-		APlayerController* OurPlayerController = UGameplayStatics::GetPlayerController(this, 0);
-		if (OurPlayerController)
-		{
+		//APlayerController* OurPlayerController = UGameplayStatics::GetPlayerController(this, 0);
+		//if (OurPlayerController)
+		//{
 			//if ((OurPlayerController->GetViewTarget() != CameraOne) && (CameraOne != nullptr))
-			if (ToggleCamera == false)
-			{
+			//if (ToggleCamera == false)
+			//{
 				//Cut instantly to camera one.
 				//OurPlayerController->SetViewTarget(CameraOne);
 
 				//Blend smoothly to camera one.
-				OurPlayerController->SetViewTargetWithBlend(CameraOne, SmoothBlendTime);
-			}
+				//OurPlayerController->SetViewTargetWithBlend(CameraOne, SmoothBlendTime);
+			//}
 			//else if ((OurPlayerController->GetViewTarget() != CameraTwo) && (CameraTwo != nullptr))
-			if(ToggleCamera == true)
-			{
+			//if(ToggleCamera == true)
+			//{
 				//Blend smoothly to camera two.
-				OurPlayerController->SetViewTargetWithBlend(CameraTwo, SmoothBlendTime);
-			}
-		}
+				//OurPlayerController->SetViewTargetWithBlend(CameraTwo, SmoothBlendTime);
+			//}
+		//}
 	//}
-
+	//GEngine->AddOnScreenDebugMessage(0, 5.0f, FColor::Cyan, FString::FromInt(ToggleCount));
 }
 void ACameraDirector::SetupInput()//This function binds the "Switch Camera" input control to this Actors "SwitchCamera" function.
 {
@@ -63,14 +68,25 @@ void ACameraDirector::SetupInput()//This function binds the "Switch Camera" inpu
 
 void ACameraDirector::SwitchCamera()
 {
-	if (ToggleCamera == false)
+	if (ToggleCount != CameraList.Num())//If the ToggleCount is not the size of the array, increase it.
 	{
-		ToggleCamera = true;
+		ToggleCount += 1;
 	}
-	else
+
+	if (ToggleCount == CameraList.Num())//If the ToggleCount is the size of the array, reset it to zero. This loops the view around the implemented camera in the scene/array.
 	{
-		ToggleCamera = false;
+		ToggleCount = 0;
 	}
+	OurPlayerController = UGameplayStatics::GetPlayerController(this, 0);//Binds the PlayerController to player
+	OurPlayerController->SetViewTargetWithBlend(CameraList[ToggleCount], SmoothBlendTime);//Sets the current camera view to the camera in the array place of the ToggleCount number.
+	//if (ToggleCamera == false)
+	//{
+	//	ToggleCamera = true;
+	//}
+	//else
+	//{
+	//	ToggleCamera = false;
+	//}
 	//GEngine->AddOnScreenDebugMessage(-1, 5.0f, FColor::Cyan, "Switch Camera button pressed.");
 }
 
