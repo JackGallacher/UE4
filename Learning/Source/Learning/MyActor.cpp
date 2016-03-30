@@ -7,7 +7,7 @@
 // Sets default values
 AMyActor::AMyActor()
 {
- 	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
+	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
 	TotalDamage = 200.0;//Sets the inital value for the TotalDamage variable.
@@ -17,7 +17,7 @@ AMyActor::AMyActor()
 // Called when the game starts or when spawned
 void AMyActor::BeginPlay()
 {
-	Super::BeginPlay();	
+	Super::BeginPlay();
 }
 
 void AMyActor::PostInitProperties()//Is run when everything else is initialized.
@@ -47,9 +47,9 @@ void AMyActor::BPNative_Implementation()//This is called when the "BlueprintNati
 }
 
 // Called every frame
-void AMyActor::Tick( float DeltaTime )
+void AMyActor::Tick(float DeltaTime)
 {
-	Super::Tick( DeltaTime );
+	Super::Tick(DeltaTime);
 	//BPNative();//This executes the BluePrintNativeEvent, if it has been overriden in blueprints it runs that version. If not, it runs the _Implementation version You dont ever have to do this, you can just call the parent implementation from the event in blueprints to execute anything from the _Implementation/Parent.
 	BPImplementable(40);//Sends the value of 40 to our BlueprintImplementableEvent which it can use to do whatever with...
 }

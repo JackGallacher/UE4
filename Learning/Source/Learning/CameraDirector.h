@@ -5,20 +5,30 @@
 #include "GameFramework/Actor.h"
 #include "CameraDirector.generated.h"
 
+//USTRUCT()
+//struct FCameraStore
+//{
+//	GENERATED_USTRUCT_BODY()
+//
+//	UPROPERTY()float TimeToChangeCamera = 5.0f;
+//	UPROPERTY()float BlendTimeToNextCamera = 0.75f;
+//	UPROPERTY()AActor* CameraName;
+//};
+
 UCLASS()
 class LEARNING_API ACameraDirector : public AActor
 {
 	GENERATED_BODY()
-	
-public:	
+
+public:
 	// Sets default values for this actor's properties
 	ACameraDirector();
 
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
-	
+
 	// Called every frame
-	virtual void Tick( float DeltaSeconds ) override;
+	virtual void Tick(float DeltaSeconds) override;
 
 	APlayerController* OurPlayerController;//This is our player contrller that we will assign to "Player0"
 
@@ -27,11 +37,17 @@ public:
 	UPROPERTY(EditAnywhere)AActor* CameraThree;
 	UPROPERTY(EditAnywhere)AActor* CameraFour;
 
+	//UPROPERTY(EditAnywhere)CameraStore CameraOne;
+	//UPROPERTY(EditAnywhere)CameraStore CameraTwo;
+	//UPROPERTY(EditAnywhere)CameraStore CameraThree;
+	//UPROPERTY(EditAnywhere)CameraStore CameraFour;
+
+
 	float TimeToNextCameraChange;
 	UPROPERTY(EditAnywhere)float SmoothBlendTime = 0.75f;//Allows the Blend Time between camera to be set in the editor and not the code.
 
-	virtual void SetupInput();//This function sets up the input in order to switch camera within the scene.
-	virtual void SwitchCamera();//This changes the camera based on the "ToggleCamera" bool value;
+	void SetupInput();//This function sets up the input in order to switch camera within the scene.
+	void SwitchCamera();//This changes the camera based on the "ToggleCamera" bool value;
 
 	bool ToggleCamera = false;//Boolean to tell us which camera to display.
 	int32 ToggleCount = 0;

@@ -6,7 +6,7 @@
 // Sets default values
 AFloatingActor::AFloatingActor()
 {
- 	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
+	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 	FloatModify = 20.0f;//Sets the initial value of FloatModify
 }
@@ -19,14 +19,14 @@ void AFloatingActor::BeginPlay()
 }
 
 // Called every frame
-void AFloatingActor::Tick( float DeltaTime )
+void AFloatingActor::Tick(float DeltaTime)
 {
-	Super::Tick( DeltaTime );
+	Super::Tick(DeltaTime);
 	ObjectFloat(DeltaTime);//Calls the ObjectFloat funtion each second, passing the DeltaTime value from Tick.
 
-	//GEngine->AddOnScreenDebugMessage(-1, 5.0f, FColor::Yellow, "Hello");//Prints debug message to screen. -1 prints next message underneath previous. 
-	//GEngine->AddOnScreenDebugMessage(-1, 5.0f, FColor::Yellow, FString::SanitizeFloat(RandomFloat));//Prints generated random float to screen.
-	//GEngine->AddOnScreenDebugMessage(-1, 5.0f, FColor::Yellow, "X: " + FString::SanitizeFloat(AActor::GetActorLocation().X) + " Y: " + FString::SanitizeFloat(AActor::GetActorLocation().Y) + " Z: " + FString::SanitizeFloat(AActor::GetActorLocation().Z));//Prints the XYZ location of FloatingActor.
+						   //GEngine->AddOnScreenDebugMessage(-1, 5.0f, FColor::Yellow, "Hello");//Prints debug message to screen. -1 prints next message underneath previous. 
+						   //GEngine->AddOnScreenDebugMessage(-1, 5.0f, FColor::Yellow, FString::SanitizeFloat(RandomFloat));//Prints generated random float to screen.
+						   //GEngine->AddOnScreenDebugMessage(-1, 5.0f, FColor::Yellow, "X: " + FString::SanitizeFloat(AActor::GetActorLocation().X) + " Y: " + FString::SanitizeFloat(AActor::GetActorLocation().Y) + " Z: " + FString::SanitizeFloat(AActor::GetActorLocation().Z));//Prints the XYZ location of FloatingActor.
 }
 void AFloatingActor::ObjectFloat(float DeltaTime)
 {

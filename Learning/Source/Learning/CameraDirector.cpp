@@ -3,13 +3,13 @@
 #include "Learning.h"
 #include "CameraDirector.h"
 #include "Kismet/GameplayStatics.h"//This gives us access to some useful general purpose functions.
-#include "GameFramework/DefaultPawn.h"
+//#include "GameFramework/DefaultPawn.h"
 
 
 // Sets default values
 ACameraDirector::ACameraDirector()
 {
- 	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
+	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 }
 
@@ -26,9 +26,9 @@ void ACameraDirector::BeginPlay()
 }
 
 // Called every frame
-void ACameraDirector::Tick( float DeltaTime )
+void ACameraDirector::Tick(float DeltaTime)
 {
-	Super::Tick( DeltaTime );
+	Super::Tick(DeltaTime);
 
 	//const float TimeBetweenCameraChanges = 2.0f;
 	//const float SmoothBlendTime = 0.75f;
@@ -36,28 +36,28 @@ void ACameraDirector::Tick( float DeltaTime )
 
 	//if (TimeToNextCameraChange <= 0.0f)
 	//{
-		//TimeToNextCameraChange += TimeBetweenCameraChanges;
+	//TimeToNextCameraChange += TimeBetweenCameraChanges;
 
-		//Find the actor that handles control for the local player.
-		//APlayerController* OurPlayerController = UGameplayStatics::GetPlayerController(this, 0);
-		//if (OurPlayerController)
-		//{
-			//if ((OurPlayerController->GetViewTarget() != CameraOne) && (CameraOne != nullptr))
-			//if (ToggleCamera == false)
-			//{
-				//Cut instantly to camera one.
-				//OurPlayerController->SetViewTarget(CameraOne);
+	//Find the actor that handles control for the local player.
+	//APlayerController* OurPlayerController = UGameplayStatics::GetPlayerController(this, 0);
+	//if (OurPlayerController)
+	//{
+	//if ((OurPlayerController->GetViewTarget() != CameraOne) && (CameraOne != nullptr))
+	//if (ToggleCamera == false)
+	//{
+	//Cut instantly to camera one.
+	//OurPlayerController->SetViewTarget(CameraOne);
 
-				//Blend smoothly to camera one.
-				//OurPlayerController->SetViewTargetWithBlend(CameraOne, SmoothBlendTime);
-			//}
-			//else if ((OurPlayerController->GetViewTarget() != CameraTwo) && (CameraTwo != nullptr))
-			//if(ToggleCamera == true)
-			//{
-				//Blend smoothly to camera two.
-				//OurPlayerController->SetViewTargetWithBlend(CameraTwo, SmoothBlendTime);
-			//}
-		//}
+	//Blend smoothly to camera one.
+	//OurPlayerController->SetViewTargetWithBlend(CameraOne, SmoothBlendTime);
+	//}
+	//else if ((OurPlayerController->GetViewTarget() != CameraTwo) && (CameraTwo != nullptr))
+	//if(ToggleCamera == true)
+	//{
+	//Blend smoothly to camera two.
+	//OurPlayerController->SetViewTargetWithBlend(CameraTwo, SmoothBlendTime);
+	//}
+	//}
 	//}
 	//GEngine->AddOnScreenDebugMessage(0, 5.0f, FColor::Cyan, FString::FromInt(ToggleCount));
 }
