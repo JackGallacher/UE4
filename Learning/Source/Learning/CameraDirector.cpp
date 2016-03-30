@@ -19,10 +19,20 @@ void ACameraDirector::BeginPlay()
 	Super::BeginPlay();
 	SetupInput();//Calls the SetupInput function to bind keys to this actor when the game starts.
 
-	CameraList.Add(CameraOne);//This adds the camera that have been assgined to the CameraDirector actor to be added to the CameraList array when the game starts.
-	CameraList.Add(CameraTwo);
-	CameraList.Add(CameraThree);
-	CameraList.Add(CameraFour);
+	//CameraList.Add(CameraOne);//This adds the camera that have been assgined to the CameraDirector actor to be added to the CameraList array when the game starts.
+	//CameraList.Add(CameraTwo);
+	//CameraList.Add(CameraThree);
+	//CameraList.Add(CameraFour);
+
+	StructCameraOne.CameraName = CameraOne;//We assign the Actors to the structs ".CameraName" variable.
+	StructCameraTwo.CameraName = CameraTwo;
+	StructCameraThree.CameraName = CameraThree;
+	StructCameraFour.CameraName = CameraFour;
+
+	CameraList.Add(StructCameraOne);//We add the structs to the struct list so that they can be toggled by the director.
+	CameraList.Add(StructCameraTwo);
+	CameraList.Add(StructCameraThree);
+	CameraList.Add(StructCameraFour);
 }
 
 // Called every frame
@@ -78,7 +88,7 @@ void ACameraDirector::SwitchCamera()
 		ToggleCount = 0;
 	}
 	OurPlayerController = UGameplayStatics::GetPlayerController(this, 0);//Binds the PlayerController to player
-	OurPlayerController->SetViewTargetWithBlend(CameraList[ToggleCount], SmoothBlendTime);//Sets the current camera view to the camera in the array place of the ToggleCount number.
+	OurPlayerController->SetViewTargetWithBlend(CameraList[ToggleCount].CameraName, CameraList[ToggleCount].BlendTimeToNextCamera);//Sets the current camera view to the camera in the array place of the ToggleCount number. Also uses the individual Struct value to set the blend time.
 	//if (ToggleCamera == false)
 	//{
 	//	ToggleCamera = true;
